@@ -100,6 +100,7 @@
 
     <div class="category-tabs" aria-label="練習分類">
         <button class="category-tab active" data-category="全部" onclick="setCategory('全部')">全部</button>
+        <button class="category-tab" data-category="Puck新聲" onclick="setCategory('Puck新聲')">✨ Puck(前168句)</button>
         <button class="category-tab" data-category="生活" onclick="setCategory('生活')">生活</button>
         <button class="category-tab" data-category="旅遊" onclick="setCategory('旅遊')">旅遊</button>
     </div>
@@ -149,17 +150,17 @@
         </div>
     </div>
 
-    <script src="audio_parts/audio-part-01.js"></script>
-    <script src="audio_parts/audio-part-02.js"></script>
-    <script src="audio_parts/audio-part-03.js"></script>
-    <script src="audio_parts/audio-part-04.js"></script>
-    <script src="audio_parts/audio-part-05.js"></script>
-    <script src="audio_parts/audio-part-06.js"></script>
-    <script src="audio_parts/audio-part-07.js"></script>
-    <script src="audio_parts/audio-part-08.js"></script>
-    <script src="audio_parts/audio-part-09.js"></script>
-    <script src="audio_parts/audio-part-10.js"></script>
-    <script src="data.js"></script>
+    <script src="audio_parts/audio-part-01.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-02.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-03.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-04.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-05.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-06.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-07.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-08.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-09.js?v=20261012_puck"></script>
+    <script src="audio_parts/audio-part-10.js?v=20261012_puck"></script>
+    <script src="data.js?v=20261012_puck"></script>
 
     <script>
         let currentItem = null;
@@ -175,9 +176,17 @@
         };
 
         function nextQuestion() {
-            const filteredData = activeCategory === '全部'
-                ? rawData
-                : rawData.filter(d => Array.isArray(d.tags) && d.tags.includes(activeCategory));
+            let filteredData;
+            if (activeCategory === '全部') {
+                filteredData = rawData;
+            } else if (activeCategory === 'Puck新聲') {
+                filteredData = rawData.filter(d => {
+                    const num = parseInt((d.audioKey || '').replace('clip', ''), 10);
+                    return num >= 1 && num <= 168;
+                });
+            } else {
+                filteredData = rawData.filter(d => Array.isArray(d.tags) && d.tags.includes(activeCategory));
+            }
             let totalWeight = 0;
             const weightedPool = filteredData.map(d => {
                 const w = weights[d.kanji] || 10;
@@ -186,11 +195,18 @@
             });
 
             const r = Math.random() * totalWeight;
-            currentItem = weightedPool.find(d => r <= d.wThreshold);
+            currentItem = weightedPool.find(d => r <= d.wThreshold) || filteredData[0];
 
             document.getElementById('kanjiText').innerText = currentItem.kanji;
             document.getElementById('hiraganaText').innerText = currentItem.hiragana;
             document.getElementById('cnText').innerText = currentItem.cn;
+
+            const clipNum = parseInt((currentItem.audioKey || '').replace('clip', ''), 10);
+            const isPuck = clipNum >= 1 && clipNum <= 168;
+            const btnAudio = document.querySelector('.btn-audio');
+            if (btnAudio) {
+                btnAudio.innerText = isPuck ? `🔊 聽音檔 (Puck 男聲)` : `🔊 聽音檔 (Haruka 女聲)`;
+            }
 
             const fields = ['grammar', 'contraction', 'origin', 'context'];
             fields.forEach(field => {
@@ -221,7 +237,8 @@
             if (!currentItem) return;
             const clip = window.audioClips && window.audioClips[currentItem.audioKey];
             if (clip) {
-                new Audio(`data:${clip.mime};base64,${clip.data}`).play();
+                const mime = (clip.mime === 'audio/mp3') ? 'audio/mpeg' : (clip.mime || 'audio/mpeg');
+                new Audio(`data:${mime};base64,${clip.data}`).play();
             } else if (currentItem.audio && currentItem.audio.startsWith('data:')) {
                 new Audio(currentItem.audio).play();
             } else if (currentItem.audio) {
