@@ -1,1 +1,6749 @@
-const rawData = [{"kanji":"今行っているところです","hiragana":"今行っているところです","cn":"現在正要去 / 正往那裡去的路上","grammar":"動詞て形＋いるところだ","contraction":"","origin":"行く","context":"朋友問你在哪 → 回答正在路上✅自己","tags":["生活"],"audioKey":"clip0001"},{"kanji":"昨日は外で食べたほうがおいしかったです","hiragana":"昨日は外で食べたほうがおいしかったです","cn":"昨天在外面吃比較好吃","grammar":"動詞た形+ほうが～","contraction":"","origin":"食べる","context":"聊昨天的餐點 → 外食比較好吃✅自己經驗","tags":["生活"],"audioKey":"clip0002"},{"kanji":"予約しておくほうが安心です","hiragana":"予約しておくほうが安心です","cn":"先預約比較安心","grammar":"動詞て形＋おく＋ほうが〜","contraction":"","origin":"予約する、おく","context":"討論訂位/排行程 → 建議先訂位保險（對朋友建議）","tags":["旅遊"],"audioKey":"clip0003"},{"kanji":"あの店によく行く","hiragana":"あの店によく行く","cn":"經常去那家店","grammar":"動詞て形＋いる (習慣或狀態)","contraction":"","origin":"行く","context":"被問推薦店家 → 回答自己常去✅自己習慣","tags":["生活"],"audioKey":"clip0004"},{"kanji":"病院に行かないかも","hiragana":"病院に行かないかも","cn":"可能不會去看醫生","grammar":"動詞ない形+かも","contraction":"","origin":"行く","context":"朋友關心你不舒服卻不去看醫生✅自己","tags":["生活"],"audioKey":"clip0005"},{"kanji":"そろそろ行こう","hiragana":"そろそろ行こう","cn":"差不多該走吧 / 差不多該出發了","grammar":"動詞意向形","contraction":"","origin":"行く","context":"聚會尾聲、時間差不多 → 提議該走了（自己+邀對方）","tags":["生活"],"audioKey":"clip0006"},{"kanji":"ほかの店で食べました","hiragana":"ほかの店で食べました","cn":"在別家店吃了","grammar":"動詞た形","contraction":"","origin":"食べる","context":"被誤以為在某店用餐 → 澄清其實在別家✅自己經驗","tags":["旅遊"],"audioKey":"clip0007"},{"kanji":"歩いて行ってみる","hiragana":"歩いて行ってみる","cn":"試著走過去看看","grammar":"動詞て形＋行く＋て形＋みる","contraction":"","origin":"歩く、行く、みる","context":"被問怎麼過去 → 回答走路過去看看✅自己打算","tags":["生活"],"audioKey":"clip0008"},{"kanji":"行かなさそう","hiragana":"行かなさそう","cn":"他看起來不去 / 好像不去(當下外觀判斷)","grammar":"動詞未然形＋なそう（～なさそう）","contraction":"","origin":"行く","context":"聊到某人會不會去 → 推測他好像不去❗他人(第三人稱)","tags":["生活"],"audioKey":"clip0009"},{"kanji":"どこかに行きたい","hiragana":"どこかに行きたい","cn":"想去某個地方","grammar":"疑問詞＋か＋に＋動詞ます形＋たい","contraction":"","origin":"行く","context":"放假很閒 → 想去某個地方走走✅自己願望","tags":["生活"],"audioKey":"clip0010"},{"kanji":"ちょっと行かなきゃ","hiragana":"ちょっと行かなきゃ","cn":"得走一下 / 必須去一下","grammar":"動詞ない形（去掉ない）＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"行く","context":"快遲到了/有人在等 → 回答得先走一下✅自己義務","tags":["生活"],"audioKey":"clip0011"},{"kanji":"今日は行けそう","hiragana":"今日は行けそう","cn":"今天去得了 / 今天能去(當下直觀判斷即將發生)","grammar":"動詞可能形語幹＋そう","contraction":"","origin":"行く","context":"被問今天能不能到 → 回答應該去得了✅自己能力推測(例外)","tags":["生活"],"audioKey":"clip0012"},{"kanji":"明日先に行っておく","hiragana":"明日先に行っておく","cn":"我明天先去","grammar":"動詞て形＋おく","contraction":"","origin":"行く、おく","context":"討論明天行程 → 回答先去探路✅自己打算","tags":["生活"],"audioKey":"clip0013"},{"kanji":"スーパーに行きそうだね","hiragana":"スーパーに行きそうだね","cn":"他看起來要去超市呢(推測多用於他人)(當下外觀判斷)","grammar":"動詞ます形＋そう","contraction":"","origin":"行く","context":"看到某人往超市方向走 → 推測他要去超市❗他人(第三人稱)","tags":["旅遊"],"audioKey":"clip0014"},{"kanji":"スーパーに行くかも","hiragana":"スーパーに行くかも","cn":"我可能會去超市","grammar":"動詞普通形＋かも","contraction":"","origin":"行く","context":"被問等一下要幹嘛 → 回答可能會去超市✅自己不確定計畫","tags":["旅遊"],"audioKey":"clip0015"},{"kanji":"一緒に行ってくれませんか","hiragana":"一緒に行ってくれませんか","cn":"可以陪我一起去嗎？","grammar":"動詞て形＋くれる","contraction":"","origin":"行く、くれる","context":"邀請/拜託對方一起去（對聽話者請求）","tags":["生活"],"audioKey":"clip0016"},{"kanji":"コンビニに行きたい","hiragana":"コンビニに行きたい","cn":"想去便利商店","grammar":"動詞ます形＋たい","contraction":"","origin":"行く","context":"肚子有點餓 → 想去超商買點心✅自己願望","tags":["旅遊"],"audioKey":"clip0017"},{"kanji":"なんか今日は行きたくないかも","hiragana":"なんか今日は行きたくないかも","cn":"總覺得今天好像沒什麼動力出門","grammar":"動詞ます形＋たい／たくない+かも","contraction":"","origin":"行く","context":"被邀約聚餐/逛街 → 回答今天可能不想去✅自己意願","tags":["生活"],"audioKey":"clip0018"},{"kanji":"早く行かなきゃ","hiragana":"早く行かなきゃ","cn":"快點去吧 / 得快點去才行","grammar":"動詞ない形＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"行く","context":"快遲到了 → 回答得快點去✅自己義務","tags":["生活"],"audioKey":"clip0019"},{"kanji":"もう行っちゃった／もう行ってしまった","hiragana":"もう行っちゃった／もう行ってしまった","cn":"已經走了 / 已經出發了","grammar":"副詞＋動詞て形＋しまう","contraction":"てしまう ／ ちゃう","origin":"行く、しまう","context":"被問某人在哪 → 回答他已經走了（他人的動作(自己敘述)）","tags":["生活"],"audioKey":"clip0020"},{"kanji":"みんな行きそうだね","hiragana":"みんな行きそうだね","cn":"大家好像都會去喔(當下直觀判斷即將發生)","grammar":"動詞ます形＋そう（推量）","contraction":"","origin":"行く","context":"討論聚會誰會去 → 推測大家應該都會去❗他人/大家(第三人稱群體)","tags":["生活"],"audioKey":"clip0021"},{"kanji":"先に行きます","hiragana":"先に行きます","cn":"我先走／我先去","grammar":"動詞て形","contraction":"","origin":"行く","context":"要先離開時的宣告✅自己","tags":["生活"],"audioKey":"clip0022"},{"kanji":"一緒に行ってもいい","hiragana":"一緒に行ってもいい","cn":"也可以一起去喔 / 一起去也行喔","grammar":"動詞て形＋もいい","contraction":"","origin":"行く","context":"對方想跟你一起去時的回應（允許聽話者同行）","tags":["生活"],"audioKey":"clip0023"},{"kanji":"あの店に行ったことがありますか","hiragana":"あの店に行ったことがありますか","cn":"去過那家店嗎","grammar":"動詞た形＋ことがある","contraction":"","origin":"行く、ある","context":"被問是否去過某店✅自己","tags":["生活"],"audioKey":"clip0024"},{"kanji":"あの店に行ったことがある","hiragana":"あの店に行ったことがある","cn":"去過那家店","grammar":"動詞た形＋ことがある","contraction":"","origin":"行く、ある","context":"被問是否去過某店 → 回答有經驗✅自己經驗","tags":["生活"],"audioKey":"clip0025"},{"kanji":"先にあの店に行っておく","hiragana":"先にあの店に行っておく","cn":"先去那家店準備 / 先去那家店（做準備）","grammar":"動詞て形＋おく","contraction":"〜ておく／とく","origin":"行く、おく","context":"安排行程 → 先去那家店探路/準備✅自己打算","tags":["生活"],"audioKey":"clip0026"},{"kanji":"ちょっとトイレ行ってきます","hiragana":"ちょっとトイレ行ってきます","cn":"我先去洗手間一下 / 我去一下廁所","grammar":"名詞＋に＋動詞て形＋くる","contraction":"","origin":"行く、くる","context":"肚子痛/喝多水 → 回答先去廁所一下✅自己動作","tags":["旅遊"],"audioKey":"clip0027"},{"kanji":"歩いて行くには遠い","hiragana":"歩いて行くには遠い","cn":"走路去太遠了","grammar":"動詞て形＋行く＋には＋形容詞","contraction":"","origin":"歩く、行く","context":"討論走路能不能到 → 回答走路太遠（客觀評論）","tags":["生活"],"audioKey":"clip0028"},{"kanji":"ちょっと行ってみる","hiragana":"ちょっと行ってみる","cn":"試著去看看 / 去去看看","grammar":"動詞て形＋みる","contraction":"","origin":"行く、みる","context":"討論新開的店好不好玩 → 回答去看看✅自己打算","tags":["生活"],"audioKey":"clip0029"},{"kanji":"雨だから行かないかも／雨だから行かないかもしれない","hiragana":"雨だから行かないかも／雨だから行かないかもしれない","cn":"因為下雨，所以說不定不去 / 因為下雨，所以可能不去了","grammar":"名詞＋だから＋動詞・ない形＋かも","contraction":"","origin":"行く","context":"被約逛街/散步 → 因下雨可能不去(委婉拒絕)✅自己","tags":["生活"],"audioKey":"clip0030"},{"kanji":"あの店、よく行くよ","hiragana":"あの店、よく行くよ","cn":"經常去那家店","grammar":"よく＋動詞","contraction":"","origin":"行く","context":"被問常去的店 → 回答這家我常去✅自己習慣","tags":["生活"],"audioKey":"clip0031"},{"kanji":"スーパーに行ってから帰る","hiragana":"スーパーに行ってから帰る","cn":"去超市買好東西再回家","grammar":"動詞て形＋から","contraction":"","origin":"行く、帰る","context":"被問下班後幹嘛 → 先去超市再回家✅自己打算","tags":["旅遊"],"audioKey":"clip0032"},{"kanji":"あの店に行ったことがあります","hiragana":"あの店に行ったことがあります","cn":"去過那家店 / 曾去過那家店","grammar":"動詞た形＋ことがある","contraction":"","origin":"行く、ある","context":"被問去過那家店嗎 → 回答去過✅自己經驗","tags":["生活"],"audioKey":"clip0033"},{"kanji":"どこにも行かないで","hiragana":"どこにも行かないで","cn":"哪裡都不要去 / 哪裡也別去","grammar":"疑問詞＋も＋動詞ない形＋で","contraction":"","origin":"行く","context":"留住對方 → 哪裡都不要去❗對方　要求聽話者,不是自己","tags":["生活"],"audioKey":"clip0034"},{"kanji":"雪だから行けそうにない","hiragana":"雪だから行けそうにない","cn":"因為下雪，所以似乎無法去 / 因為下雪，看起來沒辦法去了(當下外觀判斷)","grammar":"動詞可能形＋そうにない","contraction":"","origin":"行く","context":"看起來還能再吃一點✅自己能力推測(そう例外)","tags":["生活"],"audioKey":"clip0035"},{"kanji":"掃除をするのが面倒です","hiragana":"掃除をするのが面倒です","cn":"打掃很麻煩","grammar":"名詞＋を＋する","contraction":"","origin":"掃除する","context":"房間很亂/被問怎麼不打掃 → 回答打掃很麻煩✅自己","tags":["生活"],"audioKey":"clip0036"},{"kanji":"洗濯をするのは大変です","hiragana":"洗濯をするのは大変です","cn":"洗衣服很辛苦","grammar":"名詞＋を＋する","contraction":"","origin":"洗濯する","context":"髒衣服堆積 → 回答洗衣服很辛苦✅自己","tags":["生活"],"audioKey":"clip0037"},{"kanji":"自分でするほうが簡単です","hiragana":"自分でするほうが簡単です","cn":"自己做比較簡單","grammar":"名詞＋で＋動詞普通形＋ほうが＋形容詞","contraction":"","origin":"する","context":"被問要不要找人幫忙 → 回答自己做比較簡單✅自己","tags":["生活"],"audioKey":"clip0038"},{"kanji":"料理をした","hiragana":"料理をした","cn":"做了料理 / 下廚了","grammar":"名詞＋を＋する","contraction":"","origin":"料理する","context":"被問晚餐吃什麼/放假幹嘛 → 回答自己下廚了✅自己","tags":["生活"],"audioKey":"clip0039"},{"kanji":"予約をしない","hiragana":"予約をしない","cn":"不預約 / 不訂位","grammar":"～しない","contraction":"","origin":"予約する","context":"被問要不要訂位 → 回答不預約✅自己","tags":["旅遊"],"audioKey":"clip0040"},{"kanji":"ほかの日に行きます","hiragana":"ほかの日に行きます","cn":"改天去 / 別天去","grammar":"動詞ます形","contraction":"","origin":"行く","context":"被邀約但沒空 → 回答改天再去✅自己","tags":["生活"],"audioKey":"clip0041"},{"kanji":"ほかの店も見てみます","hiragana":"ほかの店も見てみます","cn":"去別家店看看 / 也看看別家店","grammar":"動詞て形＋みる","contraction":"","origin":"見る、みる","context":"這家沒看到滿意的 → 提議去別家看看✅自己","tags":["旅遊"],"audioKey":"clip0042"},{"kanji":"これにする","hiragana":"これにする","cn":"就選這個 / 我決定要這個","grammar":"名詞＋に＋する","contraction":"","origin":"する","context":"點餐/購物決定 → 就選這個✅自己","tags":["生活"],"audioKey":"clip0043"},{"kanji":"洗濯をしておく","hiragana":"洗濯をしておく","cn":"先把衣服洗好","grammar":"動詞て形＋おく","contraction":"","origin":"洗濯する、おく","context":"出門/睡前 → 先把衣服洗好✅自己","tags":["生活"],"audioKey":"clip0044"},{"kanji":"ネットで注文してみる","hiragana":"ネットで注文してみる","cn":"試著在網路上訂購看看","grammar":"動詞て形＋みる","contraction":"","origin":"注文する、みる","context":"想買的東西實體店沒有 → 試著網路訂購看看✅自己","tags":["旅遊"],"audioKey":"clip0045"},{"kanji":"早く掃除しなきゃ","hiragana":"早く掃除しなきゃ","cn":"得快點打掃 / 必須快點打掃","grammar":"動詞ない形＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"掃除する","context":"房間很亂/客人要來 → 得快點打掃✅自己義務","tags":["生活"],"audioKey":"clip0046"},{"kanji":"予約しておこう／予約しておきましょう","hiragana":"予約しておこう／予約しておきましょう","cn":"先預訂吧 / 先預約吧","grammar":"動詞て形＋おく＋意向形／意志形","contraction":"","origin":"予約する、おく","context":"餐廳可能很多人 → 提議先預約吧（自己+邀對方）","tags":["旅遊"],"audioKey":"clip0047"},{"kanji":"あとで連絡してみる","hiragana":"あとで連絡してみる","cn":"等一下聯絡看看 / 待會聯絡看看","grammar":"副詞＋動詞て形＋みる","contraction":"","origin":"連絡する、みる","context":"要不要先確認看看 → 回答等一下聯絡看看","tags":["生活"],"audioKey":"clip0048"},{"kanji":"先に準備しておく","hiragana":"先に準備しておく","cn":"先準備好","grammar":"動詞て形＋おく＋て形＋みる","contraction":"","origin":"準備する、おく","context":"快輪到報告了 → 回答先準備好✅自己","tags":["生活"],"audioKey":"clip0049"},{"kanji":"これにします","hiragana":"これにします","cn":"我要選這個 / 我決定是這個了","grammar":"名詞＋にする","contraction":"","origin":"する","context":"點餐/購物決定(禮貌體) → 我要選這個✅自己","tags":["生活"],"audioKey":"clip0050"},{"kanji":"予約をしておく","hiragana":"予約をしておく","cn":"先預約好 / 先做好預約","grammar":"動詞て形＋おく","contraction":"","origin":"予約する、おく","context":"餐廳很熱門 → 先預約好✅自己","tags":["旅遊"],"audioKey":"clip0051"},{"kanji":"早く予約しなきゃ","hiragana":"早く予約しなきゃ","cn":"得趕快預約 / 必須早點預約","grammar":"動詞ない形＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"予約する","context":"門票快賣完/旅行將近 → 得趕快預約✅自己義務","tags":["旅遊"],"audioKey":"clip0052"},{"kanji":"準備をしておく","hiragana":"準備をしておく","cn":"先做好準備","grammar":"動詞て形＋おく","contraction":"","origin":"準備する、おく","context":"出發前要做什麼 → 先做好準備✅自己","tags":["生活"],"audioKey":"clip0053"},{"kanji":"早く準備しなきゃ／早く準備しなければならないんです","hiragana":"早く準備しなきゃ／早く準備しなければならないんです","cn":"快點準備 / 快點準備才行","grammar":"Vない形＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"準備する","context":"快遲到了 → 得快點準備✅自己義務","tags":["生活"],"audioKey":"clip0054"},{"kanji":"なんかいい匂いがしてきた","hiragana":"なんかいい匂いがしてきた","cn":"總覺得一陣好聞的香味傳了過來","grammar":"名詞＋が＋する＋てくる","contraction":"","origin":"する、くる","context":"走進麵包店/聞到廚房香味 → 香味飄了過來（外在現象）","tags":["生活"],"audioKey":"clip0055"},{"kanji":"心配しすぎた","hiragana":"心配しすぎた","cn":"太擔心了 / 擔心過頭了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"心配する、すぎる","context":"被說想太多 → 回答自己真的太擔心了✅自己","tags":["生活"],"audioKey":"clip0056"},{"kanji":"考えすぎた","hiragana":"考えすぎた","cn":"想太多了","grammar":"動詞ます形＋すぎます","contraction":"","origin":"考える、すぎる","context":"擔心對方討厭自己/被安慰別想太多 → 回答自己想太多了✅自己","tags":["生活"],"audioKey":"clip0057"},{"kanji":"準備しすぎた","hiragana":"準備しすぎた","cn":"準備得太多了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"準備する、すぎる","context":"行李帶太多 → 回答準備得太多了✅自己","tags":["生活"],"audioKey":"clip0058"},{"kanji":"確認しすぎた","hiragana":"確認しすぎた","cn":"確認次數太多 / 確認過頭了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"確認する、すぎる","context":"反覆檢查鎖門/文件 → 自言自語確認太多次了✅自己","tags":["生活"],"audioKey":"clip0059"},{"kanji":"話しすぎた","hiragana":"話しすぎた","cn":"話太多 / 說太多了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"話す、すぎる","context":"聚會聊完覺得 → 回答自己話說太多✅自己","tags":["生活"],"audioKey":"clip0060"},{"kanji":"そのままにしといて／そのままにしておいて","hiragana":"そのままにしといて／そのままにしておいて","cn":"就這樣放著不用動 / 就保持那樣吧","grammar":"名詞＋にする／〜ておく","contraction":"","origin":"する、おく","context":"這個要怎麼處理 → 回答先放著別動❗對方（要求聽話者,不是自己動作）","tags":["生活"],"audioKey":"clip0061"},{"kanji":"無理しないでね","hiragana":"無理しないでね","cn":"不要勉強喔 / 不要硬撐喔","grammar":"動詞ない形＋で＋ね","contraction":"","origin":"無理する","context":"對方加班硬撐 → 回答不要勉強喔❗對方（勸聽話者,不是自己）","tags":["生活"],"audioKey":"clip0062"},{"kanji":"コーヒーにします","hiragana":"コーヒーにします","cn":"我要咖啡。","grammar":"名詞＋に＋する","contraction":"","origin":"する","context":"被問要點什麼 → 回答我要咖啡✅自己","tags":["生活"],"audioKey":"clip0063"},{"kanji":"ちょっと確認してもらえますか？","hiragana":"ちょっと確認してもらえますか？","cn":"可以請您幫我確認一下嗎？","grammar":"動詞て形＋もらえる","contraction":"","origin":"確認する、もらう","context":"請對方幫忙看文件 → 可以幫我確認一下嗎❗對方(拜託對方做)","tags":["生活"],"audioKey":"clip0064"},{"kanji":"なんか、いい匂いがする","hiragana":"なんか、いい匂いがする","cn":"總覺得有股香味 / 感覺有香味","grammar":"名詞＋が＋する","contraction":"","origin":"する","context":"聞到麵包香/路過咖啡廳 → 總覺得有股香味（外在現象）","tags":["生活"],"audioKey":"clip0065"},{"kanji":"これ、どうしますか","hiragana":"これ、どうしますか","cn":"這個要怎麼辦呢？","grammar":"疑問詞＋動詞ます形＋か","contraction":"","origin":"する","context":"提出兩個方案時 → 問對方這個要怎麼辦❗對方(問對方怎麼處理)","tags":["生活"],"audioKey":"clip0066"},{"kanji":"少し休憩しよう","hiragana":"少し休憩しよう","cn":"我們休息一下吧","grammar":"動詞意向形","contraction":"","origin":"休憩する","context":"讀書/開會累了 → 提議休息一下（自己+邀對方）","tags":["生活"],"audioKey":"clip0067"},{"kanji":"確認した","hiragana":"確認した","cn":"確認過了","grammar":"動詞た形","contraction":"","origin":"確認する","context":"被問有沒有確認過 → 回答確認過✅自己","tags":["生活"],"audioKey":"clip0068"},{"kanji":"ほかに何かありますか","hiragana":"ほかに何かありますか","cn":"還有其他什麼嗎？ / 還有其他的嗎？","grammar":"疑問詞＋か＋ありますか","contraction":"","origin":"ある","context":"點餐/會議尾聲 → 問還有其他的嗎❗對方(詢問對方)","tags":["生活"],"audioKey":"clip0069"},{"kanji":"予約した","hiragana":"予約した","cn":"預約了 / 訂好了","grammar":"動詞た形","contraction":"","origin":"予約する","context":"被問位置訂好了嗎 → 回答預約了✅自己","tags":["旅遊"],"audioKey":"clip0070"},{"kanji":"予約しておいたから","hiragana":"予約しておいたから","cn":"因為有事先預約了 / 已經先預約好了","grammar":"動詞て形＋おく＋から","contraction":"","origin":"予約する、おく","context":"被問怎麼這麼快訂好 → 回答有先預約了✅自己","tags":["旅遊"],"audioKey":"clip0071"},{"kanji":"牛肉は食べられません","hiragana":"牛肉は食べられません","cn":"不能吃牛肉","grammar":"名詞＋は＋動詞可能形否定","contraction":"","origin":"食べる","context":"被問不吃什麼肉 → 回答不能吃牛肉✅自己","tags":["生活"],"audioKey":"clip0072"},{"kanji":"電車のほうが便利です","hiragana":"電車のほうが便利です。","cn":"搭電車比較方便","grammar":"名詞＋のほうが＋形容詞","contraction":"","origin":"","context":"討論交通方式 → 回答搭電車比較方便✅自己意見","tags":["旅遊"],"audioKey":"clip0073"},{"kanji":"野菜を食べた","hiragana":"野菜を食べた","cn":"吃了蔬菜","grammar":"名詞＋を＋動詞過去形（た形）","contraction":"","origin":"食べる","context":"被問昨天吃了什麼 → 回答吃了蔬菜✅自己","tags":["生活"],"audioKey":"clip0074"},{"kanji":"シーフードを食べられない","hiragana":"シーフードを食べられない","cn":"不能吃海鮮","grammar":"名詞＋を＋動詞可能形","contraction":"","origin":"食べる","context":"被問不能吃什麼 → 回答不能吃海鮮✅自己","tags":["生活"],"audioKey":"clip0075"},{"kanji":"デザートを食べるかも","hiragana":"デザートを食べるかも","cn":"可能會吃甜點","grammar":"名詞＋を＋動詞+かも","contraction":"","origin":"食べる","context":"正餐還沒吃完,不確定等一下吃不吃得下✅自己","tags":["生活"],"audioKey":"clip0076"},{"kanji":"うどんを食べる","hiragana":"うどんを食べる","cn":"吃烏龍麵","grammar":"名詞＋を＋動詞","contraction":"","origin":"食べる","context":"午餐吃什麼 → 回答吃烏龍麵✅自己","tags":["生活"],"audioKey":"clip0077"},{"kanji":"新しいのを食べてみる","hiragana":"新しいのを食べてみる","cn":"嚐鮮看看 / 買新口味來吃吃看","grammar":"動詞て形＋みる","contraction":"","origin":"食べる、みる","context":"聽說新口味好吃 → 回答買來吃吃看✅自己","tags":["生活"],"audioKey":"clip0078"},{"kanji":"パンを食べに行かない？","hiragana":"パンを食べに行かない？","cn":"要不要一起去吃麵包？","grammar":"動詞ます形＋に行く","contraction":"","origin":"食べる、行く","context":"肚子餓了 → 邀對方一起去吃麵包（邀約對方）","tags":["生活"],"audioKey":"clip0079"},{"kanji":"野菜を食べなきゃ","hiragana":"野菜を食べなきゃ","cn":"必須吃蔬菜","grammar":"動詞ない形＋なきゃ","contraction":"なければいけない／なきゃ必須","origin":"食べる","context":"好久沒吃青菜 → 回答得吃蔬菜✅自己義務","tags":["生活"],"audioKey":"clip0080"},{"kanji":"全部食べちゃった","hiragana":"全部食べちゃった","cn":"不小心全部吃光了","grammar":"動詞て形＋ちゃう（てしまう）","contraction":"てしまう／ちゃう","origin":"食べる、しまう","context":"被問零食放哪了 → 回答不小心吃光了✅自己","tags":["生活"],"audioKey":"clip0081"},{"kanji":"嫌いだから食べたくない","hiragana":"嫌いだから食べたくない","cn":"因為討厭所以不想吃","grammar":"名詞＋だから＋動詞たい形＋ない","contraction":"","origin":"食べる","context":"被問要不要吃 → 回答討厭所以不想吃✅自己","tags":["生活"],"audioKey":"clip0082"},{"kanji":"何か食べに行こう","hiragana":"何か食べに行こう","cn":"去吃點東西吧 / 我們去吃點什麼吧","grammar":"疑問詞＋か＋動詞連用形＋に＋行く／意志形","contraction":"","origin":"食べる、行く","context":"肚子餓了 → 提議去吃點東西（自己+邀對方）","tags":["生活"],"audioKey":"clip0083"},{"kanji":"一口だけ食べてみる","hiragana":"一口だけ食べてみる","cn":"只吃一口看看","grammar":"動詞て形＋みる","contraction":"","origin":"食べる、みる","context":"看起來好吃 → 回答吃一口看看✅自己","tags":["生活"],"audioKey":"clip0084"},{"kanji":"もう少し食べられそう","hiragana":"もう少し食べられそう","cn":"他看起來還能再吃一點(當下外觀判斷)","grammar":"動詞可能形＋そう","contraction":"","origin":"食べる","context":"吃飽了嗎 → 回答還能再吃一點✅自己(そう例外)","tags":["生活"],"audioKey":"clip0085"},{"kanji":"甘いものが食べたい","hiragana":"甘いものが食べたい","cn":"想吃甜食","grammar":"名詞＋が＋動詞［ます形］＋たい","contraction":"","origin":"食べる","context":"嘴饞想吃點心 → 回答想吃甜食✅自己","tags":["生活"],"audioKey":"clip0086"},{"kanji":"このパンは食べやすい","hiragana":"このパンは食べやすい","cn":"這個麵包很好入口","grammar":"動詞ます形＋やすい","contraction":"","origin":"食べる","context":"麵包口感如何 → 回答很好入口✅自己評論","tags":["生活"],"audioKey":"clip0087"},{"kanji":"これ、食べにくすぎる","hiragana":"これ、食べにくすぎる","cn":"這個太不方便吃了 / 物理上太難入口了（指食用方式困難，而非味道不好）","grammar":"動詞ます形＋にくい＋すぎる","contraction":"","origin":"食べる、すぎる","context":"菜吃起來如何 → 回答太難入口了✅自己評論","tags":["生活"],"audioKey":"clip0088"},{"kanji":"子どもには食べにくそう","hiragana":"子どもには食べにくそう","cn":"對小孩來說好像很難入口(當下外觀判斷)","grammar":"動詞＋に形＋〜にくい＋そう","contraction":"","origin":"食べる","context":"要不要幫小孩點這道 → 回答對小孩來說好像很難吃❗他人(小孩)","tags":["生活"],"audioKey":"clip0089"},{"kanji":"食べたみたい","hiragana":"食べたみたい","cn":"他好像吃過了(跡象)","grammar":"動詞た形＋みたいだ","contraction":"","origin":"食べる","context":"某人好像吃過這個 → 回答好像吃過了❗他人","tags":["生活"],"audioKey":"clip0090"},{"kanji":"食べなさそう","hiragana":"食べなさそう","cn":"他看起來不會吃(當下直觀判斷即將發生)","grammar":"動詞否定型＋そう","contraction":"","origin":"食べる","context":"他會吃這個嗎 → 回答他好像不會吃❗他人","tags":["生活"],"audioKey":"clip0091"},{"kanji":"どこへ行くんですか？","hiragana":"どこへ行くんですか？","cn":"您要去哪裡呢？ / 準備要去哪裡？","grammar":"動詞＋んです","contraction":"","origin":"行く","context":"看到對方急忙出門 → 問你要去哪裡❗對方","tags":["生活"],"audioKey":"clip0092"},{"kanji":"どこへ行ったんですか？","hiragana":"どこへ行ったんですか？","cn":"你去了哪裡呢？ / 去了哪裡呢？","grammar":"動詞＋んです","contraction":"","origin":"行く","context":"對方剛出遠門回來 → 問你去了哪裡❗對方","tags":["生活"],"audioKey":"clip0093"},{"kanji":"どうしたんですか？","hiragana":"どうしたんですか？","cn":"怎麼了？ / 發生了什麼事？","grammar":"動詞＋んです","contraction":"","origin":"する","context":"對方愁眉苦臉/受傷 → 關心問怎麼了❗對方","tags":["生活"],"audioKey":"clip0094"},{"kanji":"彼女と喧嘩したんです。","hiragana":"彼女と喧嘩したんです。","cn":"和女朋友吵架了","grammar":"名詞＋と＋普通形＋んです","contraction":"","origin":"喧嘩する","context":"被問怎麼無精打采 → 回答和女友吵架了✅自己","tags":["生活"],"audioKey":"clip0095"},{"kanji":"ちょっとお腹が痛いんです。","hiragana":"ちょっとお腹が痛いんです。","cn":"肚子有點痛","grammar":"副詞＋形容詞＋んです","contraction":"","origin":"-","context":"被問臉色不好嗎 → 回答肚子有點痛✅自己","tags":["生活"],"audioKey":"clip0096"},{"kanji":"眠いんですか？","hiragana":"眠いんですか？","cn":"你困了嗎？","grammar":"形容詞＋んです","contraction":"","origin":"-","context":"看到對方打哈欠 → 問你困了嗎❗對方","tags":["生活"],"audioKey":"clip0097"},{"kanji":"食べ過ぎたんです。","hiragana":"食べ過ぎたんです。","cn":"不小心吃太多了","grammar":"動詞ます形＋すぎる＋んです","contraction":"","origin":"食べる、すぎる","context":"被問怎麼揉肚子 → 回答吃太多了✅自己","tags":["生活"],"audioKey":"clip0098"},{"kanji":"どうして病院へ行かないんですか？","hiragana":"どうして病院へ行かないんですか？","cn":"為什麼不去看醫生呢？","grammar":"どうして＋普通形＋んですか","contraction":"","origin":"行く","context":"看到對方生病不去看醫生 → 問為什麼不去看醫生❗對方","tags":["生活"],"audioKey":"clip0099"},{"kanji":"今勉強しているんですが、もう少し小さい声で話してもらえますか。","hiragana":"今勉強しているんですが、もう少し小さい声で話してもらえますか。","cn":"現在正在讀書，可以請你說話小聲一點嗎？","grammar":"んですが說明理由+てもらえますか拜託","contraction":"","origin":"勉強する、いる、話す、もらう","context":"圖書館/咖啡廳很吵 → 委婉請對方說話小聲點❗對方(說明理由後拜託)","tags":["生活"],"audioKey":"clip0100"},{"kanji":"さっきご飯を食べたばかりです。","hiragana":"さっきご飯を食べたばかりです。","cn":"剛才吃過飯了","grammar":"動詞た形＋ばかりです","contraction":"","origin":"食べる","context":"要不要一起吃午餐 → 回答剛吃過了✅自己","tags":["生活"],"audioKey":"clip0101"},{"kanji":"さっき駅に行ったばかりです。","hiragana":"さっき駅に行ったばかりです。","cn":"剛剛去過車站","grammar":"動詞た形＋ばかりです","contraction":"","origin":"行く","context":"「你剛才去哪裡了？」、「你要去月台那邊嗎？」或被問到「你到車站了嗎？」時的回答。✅自己","tags":["旅遊"],"audioKey":"clip0102"},{"kanji":"一度も刺身を食べたことがありません。","hiragana":"一度も刺身を食べたことがありません。","cn":"一次也沒吃過生魚片。","grammar":"動詞た形＋ことがある（否定）","contraction":"","origin":"食べる、ある","context":"你吃過生魚片嗎 → 回答一次也沒吃過✅自己","tags":["生活"],"audioKey":"clip0103"},{"kanji":"海外旅行をしたことがあります","hiragana":"海外旅行をしたことがあります","cn":"曾出國旅遊過 / 有出國旅遊的經驗","grammar":"動詞た形＋ことがある","contraction":"","origin":"旅行する、ある","context":"你去過哪些國家 → 回答有出國旅遊過✅自己","tags":["旅遊"],"audioKey":"clip0104"},{"kanji":"留学したことがありません。","hiragana":"留学したことがありません。","cn":"沒有留學過。","grammar":"動詞た形＋ことがある（否定）","contraction":"","origin":"留学する、ある","context":"你去國外唸過書嗎 → 回答沒留學過✅自己","tags":["生活"],"audioKey":"clip0105"},{"kanji":"日本に留学したことがありません。","hiragana":"日本に留学したことがありません。","cn":"我從來沒有去日本留學過。","grammar":"名詞＋に＋動詞た形＋ことがある（否定）","contraction":"","origin":"留学する、ある","context":"你去日本留學過嗎 → 回答沒去過✅自己","tags":["生活"],"audioKey":"clip0106"},{"kanji":"アルバイトをしたことがありません。","hiragana":"アルバイトをしたことがありません。","cn":"從沒打過工","grammar":"名詞＋を＋動詞た形＋ことがある（否定）","contraction":"","origin":"アルバイトする、ある","context":"大學打過工嗎 → 回答沒打過工✅自己","tags":["生活"],"audioKey":"clip0107"},{"kanji":"どうぞ食べてください。","hiragana":"どうぞ食べてください。","cn":"請吃","grammar":"どうぞ＋動詞て形＋ください","contraction":"","origin":"食べる","context":"端菜招待客人 → 請對方吃❗對方(邀對方吃)","tags":["生活"],"audioKey":"clip0108"},{"kanji":"朝ご飯を食べた後で会社に行きます。","hiragana":"朝ご飯を食べた後で会社に行きます。","cn":"吃完早餐後去公司。","grammar":"動詞た形＋後で","contraction":"","origin":"食べる、行く","context":"早上出門前做什麼 → 回答吃完早餐再去公司✅自己","tags":["生活"],"audioKey":"clip0109"},{"kanji":"昼休みに会社でご飯を食べたり、運動をしたりします。","hiragana":"昼休みに会社でご飯を食べたり、運動をしたりします。","cn":"午休時間在公司吃吃東西、做做運動。","grammar":"動詞たり、動詞たり＋します","contraction":"","origin":"食べる、運動する","context":"午休都做什麼 → 回答吃東西、運動✅自己","tags":["生活"],"audioKey":"clip0110"},{"kanji":"昼休みに会社でご飯を食べながら日本語を勉強します。","hiragana":"昼休みに会社でご飯を食べながら日本語を勉強します。","cn":"午休時在公司一邊吃著飯一邊學日文","grammar":"動詞ます形＋ながら","contraction":"","origin":"食べる、勉強する","context":"怎麼利用時間學日文 → 回答邊吃飯邊學✅自己","tags":["生活"],"audioKey":"clip0111"},{"kanji":"冷たいものを食べないでください。","hiragana":"冷たいものを食べないでください。","cn":"請不要吃冰涼的食物","grammar":"動詞ない形＋で＋ください","contraction":"","origin":"食べる","context":"醫生/父母叮嚀 → 請不要吃冰的❗對方(叮嚀對方別做","tags":["生活"],"audioKey":"clip0112"},{"kanji":"髪を短くしてください。","hiragana":"髪を短くしてください。","cn":"請把頭髮剪短。","grammar":"形容詞＋（去い）＋く＋する","contraction":"","origin":"する","context":"剪髮時 → 請把頭髮剪短❗對方(對設計師要求)","tags":["生活"],"audioKey":"clip0113"},{"kanji":"どちらのほうが好きですか","hiragana":"どちらのほうが好きですか","cn":"你比較喜歡哪一個？","grammar":"疑問詞＋のほうが＋形容詞","contraction":"","origin":"","context":"給兩個選項 → 問你比較喜歡哪個❗對方(問對方偏好)","tags":["生活"],"audioKey":"clip0114"},{"kanji":"簡単に説明します。","hiragana":"簡単に説明します。","cn":"簡單說明","grammar":"副詞＋する","contraction":"","origin":"説明する","context":"被要求長話短說 → 回答我簡單說明✅自己","tags":["生活"],"audioKey":"clip0115"},{"kanji":"簡単に説明してください。","hiragana":"簡単に説明してください。","cn":"請簡單說明","grammar":"動詞て形＋ください","contraction":"","origin":"説明する","context":"聽不懂複雜內容 → 請對方簡單說明❗對方(請對方說明)","tags":["生活"],"audioKey":"clip0116"},{"kanji":"安全に運転してください。","hiragana":"安全に運転してください。","cn":"請安全駕駛","grammar":"副詞＋動詞て形＋ください","contraction":"","origin":"運転する","context":"下大雨路況差 → 請安全駕駛❗對方(叮嚀司機)","tags":["生活"],"audioKey":"clip0117"},{"kanji":"静かにしてください。","hiragana":"静かにしてください。","cn":"請保持安靜","grammar":"な形容詞＋に＋する","contraction":"","origin":"する","context":"周圍太吵 → 請保持安靜❗對方(要求旁人)","tags":["生活"],"audioKey":"clip0118"},{"kanji":"早く行ってください。","hiragana":"早く行ってください。","cn":"請快一點 / 請快點去","grammar":"動詞て形＋ください","contraction":"","origin":"行く","context":"快遲到了 → 請快點去❗對方(催促對方)","tags":["生活"],"audioKey":"clip0119"},{"kanji":"朝ご飯を食べないで学校へ行きます。","hiragana":"朝ご飯を食べないで学校へ行きます。","cn":"不吃早餐就去學校","grammar":"ない形+で這裡是接續「不做A就做B」","contraction":"","origin":"食べる、行く","context":"沒時間吃早餐 → 回答不吃早餐就去學校✅自己(連接用法)","tags":["生活"],"audioKey":"clip0120"},{"kanji":"朝ご飯を食べないで学校へ行きました。","hiragana":"朝ご飯を食べないで学校へ行きました。","cn":"沒吃早餐就去學校了","grammar":"ない形+で這裡是接續「不做A就做B」","contraction":"","origin":"食べる、行く","context":"今天怎麼沒吃早餐 → 回答沒吃早餐就去學校了✅自己(連接用法)","tags":["生活"],"audioKey":"clip0121"},{"kanji":"予約なしでも大丈夫ですか？","hiragana":"予約なしでも大丈夫ですか？","cn":"沒有預約也沒關係嗎？","grammar":"名詞＋なし＋でも＋大丈夫です","contraction":"","origin":"-","context":"臨時想去熱門餐廳 → 問沒預約也可以嗎❗對方(問對方/店家)","tags":["旅遊"],"audioKey":"clip0122"},{"kanji":"声を小さくします。","hiragana":"声を小さくします。","cn":"把聲音調小","grammar":"形容詞＋（去い）＋く＋する","contraction":"","origin":"する","context":"電視/音樂太大聲 → 回答把聲音調小✅自己","tags":["生活"],"audioKey":"clip0123"},{"kanji":"もう少し静かにしてもらえますか？","hiragana":"もう少し静かにしてもらえますか？","cn":"可以請您再稍微安靜一點嗎？ / 能不能請您稍微小聲一點呢？","grammar":"動詞て形＋もらえる","contraction":"","origin":"する、もらう","context":"圖書館有人吵鬧 → 委婉請對方小聲一點❗對方(拜託對方)","tags":["生活"],"audioKey":"clip0124"},{"kanji":"会社に行く前に朝ごはんを食べます。","hiragana":"会社に行く前に朝ごはんを食べます。","cn":"上班前吃早餐。","grammar":"動詞普通形＋前に","contraction":"","origin":"行く、食べる","context":"上班前有什麼習慣 → 回答先吃早餐再出門✅自己","tags":["生活"],"audioKey":"clip0125"},{"kanji":"ご飯を食べてから行きます。","hiragana":"ご飯を食べてから行きます。","cn":"吃完飯再去 / 吃過飯後再去","grammar":"動詞て形＋から","contraction":"","origin":"食べる、行く","context":"要不要先吃點東西 → 回答吃完飯再去✅自己","tags":["生活"],"audioKey":"clip0126"},{"kanji":"準備してから出かけます。","hiragana":"準備してから出かけます。","cn":"準備好再出門 / 做好準備再出門","grammar":"動詞て形＋から","contraction":"","origin":"準備する、出かける","context":"行李收好了嗎 → 回答準備好再出門✅自己","tags":["旅遊"],"audioKey":"clip0127"},{"kanji":"確認してから来ます。","hiragana":"確認してから来ます。","cn":"確認之後再過來 / 確認完再過來","grammar":"動詞て形＋から","contraction":"","origin":"確認する、来る","context":"這件事確認過了嗎 → 回答確認後再過來✅自己","tags":["生活"],"audioKey":"clip0128"},{"kanji":"結婚していません。","hiragana":"結婚していません。","cn":"（我）還沒結婚 / 沒有結婚","grammar":"動詞て形＋いる（否定）","contraction":"","origin":"結婚する、いる","context":"你結婚了嗎 → 回答還沒結婚✅自己","tags":["生活"],"audioKey":"clip0129"},{"kanji":"辛い物を食べるのは好きです。","hiragana":"辛い物を食べるのは好きです。","cn":"我喜歡吃辣的食物","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"食べる","context":"平常喜歡吃什麼 → 回答喜歡吃辣✅自己","tags":["生活"],"audioKey":"clip0130"},{"kanji":"朝ごはんを食べるのは大切です。","hiragana":"朝ごはんを食べるのは大切です。","cn":"吃早餐很重要","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"食べる","context":"有必要每天吃早餐嗎 → 回答吃早餐很重要✅自己意見","tags":["生活"],"audioKey":"clip0131"},{"kanji":"毎日運動するのは難しいです。","hiragana":"毎日運動するのは難しいです。","cn":"每天都運動是很困難的","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"運動する","context":"每天運動容易嗎 → 回答每天運動很難✅自己意見","tags":["生活"],"audioKey":"clip0132"},{"kanji":"一人で旅行するのは楽しいです。","hiragana":"ひとりで旅行するのは楽しいです。","cn":"一個人旅行很有趣。","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"旅行する","context":"喜歡一個人旅行嗎 → 回答一個人旅行很有趣✅自己意見","tags":["旅遊"],"audioKey":"clip0133"},{"kanji":"一人で海外に行くのは怖いです。","hiragana":"ひとりで海外に行くのは怖いです。","cn":"獨自一人去國外旅遊很恐怖。","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"行く","context":"想過自己出國嗎 → 回答一個人出國很恐怖✅自己意見","tags":["生活"],"audioKey":"clip0134"},{"kanji":"早く会社に行くのは面倒くさいです。","hiragana":"早く会社に行くのは面倒くさいです。","cn":"早點去公司很麻煩","grammar":"動詞普通形＋のは＋名詞","contraction":"","origin":"行く","context":"最近工作狀況如何 → 回答早點去公司很麻煩✅自己意見","tags":["生活"],"audioKey":"clip0135"},{"kanji":"全然勉強しなかったんです。","hiragana":"全然勉強しなかったんです。","cn":"完全沒有讀書 / 根本沒讀書","grammar":"全然＋動詞過去否定＋んです","contraction":"","origin":"勉強する","context":"考試考得怎樣 → 回答完全沒讀書✅自己(んです陳述)","tags":["生活"],"audioKey":"clip0136"},{"kanji":"どうして遅刻したんですか？","hiragana":"どうして遅刻したんですか？","cn":"為什麼遲到？","grammar":"どうして＋動詞過去＋んですか","contraction":"","origin":"遅刻する","context":"對方晚到 → 問為什麼遲到❗對方(んですか疑問)","tags":["生活"],"audioKey":"clip0137"},{"kanji":"遅刻しませんでした。","hiragana":"遅刻しませんでした。","cn":"沒有遲到","grammar":"動詞過去否定","contraction":"","origin":"遅刻する","context":"被問今天遲到了嗎 → 回答沒遲到✅自己","tags":["生活"],"audioKey":"clip0138"},{"kanji":"どうしてご飯を食べないんですか？","hiragana":"どうしてご飯を食べないんですか？","cn":"為什麼不吃飯","grammar":"どうして＋動詞否定＋んですか","contraction":"","origin":"食べる","context":"看到對方沒吃東西 → 問為什麼不吃❗對方","tags":["生活"],"audioKey":"clip0139"},{"kanji":"どうして会社に行かないんですか？","hiragana":"どうして会社に行かないんですか？","cn":"為什麼不上班／不去公司？","grammar":"どうして＋動詞否定＋んですか","contraction":"","origin":"行く","context":"朋友最近常請假 → 問為什麼不去上班❗對方","tags":["生活"],"audioKey":"clip0140"},{"kanji":"確認してください","hiragana":"確認してください","cn":"請確認","grammar":"動詞て形＋ください","contraction":"","origin":"確認する","context":"提交文件給主管 → 請對方確認❗對方","tags":["生活"],"audioKey":"clip0141"},{"kanji":"確認してもらえますか？","hiragana":"確認してもらえますか？","cn":"可以請您幫我確認一下嗎？","grammar":"動詞て形＋もらえる","contraction":"","origin":"する、もらう","context":"拿票券/地圖請店員站務員 → 幫忙確認❗拜託對方","tags":["生活"],"audioKey":"clip0142"},{"kanji":"たこ焼きを食べたくないです","hiragana":"たこ焼きを食べたくないです","cn":"我不想吃章魚燒","grammar":"動詞ます形（去掉ます）＋たくないです","contraction":"","origin":"食べる","context":"被熱情推薦章魚燒 → 委婉回絕✅自己","tags":["生活"],"audioKey":"clip0143"},{"kanji":"ちょっと行ってきます","hiragana":"ちょっと行ってきます","cn":"我去一下洗手間就回來","grammar":"動詞て形（行って）＋きます","contraction":"","origin":"行く、くる","context":"公共場合/辦理入住時 → 說要暫離一下✅自己","tags":["生活"],"audioKey":"clip0144"},{"kanji":"9時に出発します","hiragana":"9時に出発します","cn":"9 點出發","grammar":"時間＋に＋動詞","contraction":"","origin":"する","context":"被問幾點退房/出發 → 回答9點出發✅自己","tags":["生活"],"audioKey":"clip0145"},{"kanji":"空港からホテルまで行きます","hiragana":"空港からホテルまで行きます","cn":"從機場去到飯店","grammar":"地方＋から＋地方＋まで＋動詞","contraction":"","origin":"行く、くる","context":"計程車司機問去哪 → 回答飯店（どちらまで行きますか？）✅自己","tags":["旅遊"],"audioKey":"clip0146"},{"kanji":"あそこでラーメンを食べたい","hiragana":"あそこでラーメンを食べたい","cn":"想在那裡吃拉麵","grammar":"地方＋で＋動詞ます形（去掉ます）＋たい","contraction":"","origin":"食べる","context":"看到厲害的拉麵店 → 表達想吃✅自己","tags":["生活"],"audioKey":"clip0147"},{"kanji":"毎年日本に行っています","hiragana":"毎年日本に行っています","cn":"我每年都會去日本","grammar":"動詞て形（行って）＋ている（反覆的習慣/狀態）","contraction":"","origin":"行く、くる","context":"聊出國頻率 → 分享每年都去日✅自己（習慣）","tags":["生活"],"audioKey":"clip0148"},{"kanji":"今日はあまり食べなさそう","hiragana":"今日はあまり食べなさそう","cn":"他今天好像吃不太下 / 似乎吃得不多(當下外觀判斷)","grammar":"動詞ます形＋なさそう","contraction":"","origin":"食べる","context":"看某人沒什麼胃口 → 推測他吃不多❗他人","tags":["生活"],"audioKey":"clip0149"},{"kanji":"今日何するの？","hiragana":"今日なにするの？","cn":"今天要做什麼？ / 今天有什麼打算？","grammar":"疑問詞＋動詞普通形＋の","contraction":"","origin":"する","context":"朋友剛起床 → 隨口問今天做什麼❗對方","tags":["生活"],"audioKey":"clip0150"},{"kanji":"明日確認しておきます","hiragana":"明日確認しておきます","cn":"我明天先確認一下","grammar":"動詞ます形 ＋ 動詞て形＋おく","contraction":"","origin":"確認する、おく","context":"討論明天安排 → 回答先去確認✅自己","tags":["生活"],"audioKey":"clip0151"},{"kanji":"お腹がいっぱいだから、もう食べられない","hiragana":"お腹がいっぱいだから、もう食べられない","cn":"因為肚子很飽，已經吃不下了","grammar":"普通形＋だから ＋ 動詞可能形否定","contraction":"","origin":"食べる","context":"吃到飽被問要不要再吃 → 回答吃不下了✅自己","tags":["生活"],"audioKey":"clip0152"},{"kanji":"たくさん食べそう","hiragana":"たくさん食べそう","cn":"他們感覺會吃很多 / 看起來會吃很多(當下外觀判斷)","grammar":"動詞ます形＋そう","contraction":"","origin":"食べる","context":"看發育中青少年的眼神 → 推測他們會吃很多❗他人 可以依照語境猜測自己","tags":["生活"],"audioKey":"clip0153"},{"kanji":"お腹いっぱいだからもう食べられない","hiragana":"お腹いっぱいだからもう食べられない","cn":"因為肚子飽了，好像已經吃不下了","grammar":"普通形＋だから ＋可能型","contraction":"","origin":"食べる","context":"聚餐尾聲被問要不要吃甜點 → 委婉推辭","tags":["生活"],"audioKey":"clip0154"},{"kanji":"この子は野菜を食べなさそう","hiragana":"この子は野菜を食べなさそう","cn":"這孩子看起來不吃蔬菜(當下直觀判斷即將發生)","grammar":"動詞ます形＋なさそう","contraction":"","origin":"食べる","context":"挑食小孩看到青椒皺眉 → 媽媽推測小孩不吃❗他人(小孩)","tags":["生活"],"audioKey":"clip0155"},{"kanji":"食べるには熱すぎる","hiragana":"食べるには熱すぎる","cn":"太熱了吃不下 / 要吃的話太燙了","grammar":"動詞辞書形＋には ＋ い形容詞(去い)＋すぎる","contraction":"","origin":"食べる、すぎる","context":"食物剛端上來還冒煙 → 驚呼太燙✅自己","tags":["生活"],"audioKey":"clip0156"},{"kanji":"友達に一緒に行ってもらいました","hiragana":"友達に一緒に行ってもらいました","cn":"請朋友陪我一起去了","grammar":"動詞て形＋もらう","contraction":"","origin":"行く、もらう","context":"被問自己去不會日文的店 → 解釋有朋友陪同✅自己(敘述受益經驗)","tags":["生活"],"audioKey":"clip0157"},{"kanji":"日本に行っちゃった","hiragana":"日本に行っちゃった","cn":"跑去日本了 / 去了日本","grammar":"動詞て形＋ちゃう","contraction":"てしまった／ちゃった","origin":"行く、しまう","context":"同事問某人怎麼沒來 → 回答他去日本了❗他人","tags":["生活"],"audioKey":"clip0158"},{"kanji":"もう行っちゃうの？","hiragana":"もう行っちゃうの？","cn":"已經要走了嗎？ / 準備要出發了嗎？","grammar":"動詞て形＋ちゃう ＋ の (疑問)","contraction":"","origin":"行く、しまう","context":"你提早離席 → 朋友問你要走了嗎❗對方","tags":["生活"],"audioKey":"clip0159"},{"kanji":"みんな行くみたい","hiragana":"みんな行くみたい","cn":"我覺得好像大家好像都要去(跡象)","grammar":"動詞普通形＋みたい","contraction":"","origin":"行く","context":"被問同學會大家去不去 → 轉述打聽到的消息❗他人推測","tags":["生活"],"audioKey":"clip0160"},{"kanji":"今日は行かないみたい","hiragana":"今日は行かないみたい","cn":"我覺得他今天好像不去(跡象)","grammar":"動詞ない形＋みたい","contraction":"","origin":"行く","context":"主管座位是空的 → 推測主管今天不來❗他人推測","tags":["生活"],"audioKey":"clip0161"},{"kanji":"彼も行くらしい","hiragana":"彼も行くらしい","cn":"聽說他也要去(傳聞)","grammar":"動詞普通形＋らしい (傳聞/客觀推測)","contraction":"","origin":"行く","context":"聽說朋友買到演唱會票 → 轉告大家❗他人傳聞","tags":["生活"],"audioKey":"clip0162"},{"kanji":"あの店に行くみたい","hiragana":"あの店に行くみたい","cn":"我覺得他好像要去那家店(跡象)","grammar":"動詞普通形＋みたい","contraction":"","origin":"行く","context":"看排隊人潮方向 → 推測大家要去那家店❗他人推測","tags":["生活"],"audioKey":"clip0163"},{"kanji":"どこに行くの？","hiragana":"どこに行くの？","cn":"要去哪裡？","grammar":"疑問詞 ＋ 動詞普通形＋の","contraction":"","origin":"行く","context":"室友換好衣服準備出門 → 隨口問要去哪❗問對方","tags":["生活"],"audioKey":"clip0164"},{"kanji":"どこに行ったの？","hiragana":"どこに行ったの？","cn":"去了哪裡？","grammar":"疑問詞 ＋ 動詞た形＋の","contraction":"","origin":"行く","context":"朋友放假曬黑帶伴手禮回來 → 好奇問去了哪❗問對方","tags":["生活"],"audioKey":"clip0165"},{"kanji":"いつ行くの？","hiragana":"いつ行くの？","cn":"什麼時候要去？ / 什麼時候出發","grammar":"疑問詞 ＋ 動詞普通形＋の","contraction":"","origin":"行く","context":"朋友宣布要去日本度假 → 追問時間❗問對方","tags":["生活"],"audioKey":"clip0166"},{"kanji":"誰と行くの？","hiragana":"誰と行くの？","cn":"要跟誰去？","grammar":"疑問詞＋と ＋ 動詞普通形＋の","contraction":"","origin":"行く","context":"朋友說要去北海道過節 → 八卦問跟誰去❗問對方","tags":["生活"],"audioKey":"clip0167"},{"kanji":"どうやって行くの？","hiragana":"どうやって行くの？","cn":"要怎麼去？ / 怎麼走？","grammar":"疑問詞 ＋ 動詞普通形＋の","contraction":"","origin":"行く","context":"約在交通不便的地方 → 困惑問怎麼去❗問對方","tags":["生活"],"audioKey":"clip0168"},{"kanji":"行きたいな","hiragana":"行きたいな","cn":"好想去喔","grammar":"動詞ます形＋たい ＋ な (詠嘆)","contraction":"","origin":"行く","context":"看到美景照片 → 感嘆好想去✅自己（自言自語）","tags":["生活"],"audioKey":"clip0169"},{"kanji":"行こうかな","hiragana":"行こうかな","cn":"要去嗎...","grammar":"動詞意向形＋かな","contraction":"","origin":"行く","context":"週末在家無聊 → 自問要不要出門✅自己","tags":["生活"],"audioKey":"clip0170"},{"kanji":"行けるかな","hiragana":"行けるかな","cn":"能去嗎... / 不知道能不能去","grammar":"動詞可能形＋かな","contraction":"","origin":"行く","context":"門票難搶/可能加班 → 擔心能不能去成✅自己(可能形,例外)","tags":["生活"],"audioKey":"clip0171"},{"kanji":"行きたくなってきた","hiragana":"行きたくなってきた","cn":"變得想去了 / 開始想去了","grammar":"動詞ます形＋たい(去い)＋くなる ＋ 動詞て形＋くる","contraction":"","origin":"行く、なる、くる","context":"聽完朋友推薦 → 轉變心意變得想去✅自己","tags":["生活"],"audioKey":"clip0172"},{"kanji":"何を食べているの？","hiragana":"何を食べているの？","cn":"在吃什麼呢？","grammar":"疑問詞＋を ＋ 動詞て形＋いる ＋ の","contraction":"","origin":"食べる","context":"朋友吃著奇特零食 → 好奇問在吃什麼❗對方","tags":["生活"],"audioKey":"clip0173"},{"kanji":"これ食べてくれる？","hiragana":"これ食べてくれる？","cn":"能幫我吃這個嗎？ / 要吃這個嗎？","grammar":"動詞て形＋くれる","contraction":"","origin":"食べる、くれる","context":"便當青椒不敢吃 → 拜託朋友幫忙吃❗拜託對方","tags":["生活"],"audioKey":"clip0174"},{"kanji":"少し食べてもらった","hiragana":"少し食べてもらった","cn":"讓（對方）吃了一點 / 請（對方）幫忙吃了一點","grammar":"動詞て形＋もらう","contraction":"","origin":"食べる、もらう","context":"被問大蛋糕吃得完嗎 → 回答有人幫忙吃了一點✅自己","tags":["生活"],"audioKey":"clip0175"},{"kanji":"全部食べちゃった","hiragana":"全部食べちゃった","cn":"全部吃光光了","grammar":"動詞て形＋ちゃう","contraction":"てしまった／ちゃった","origin":"食べる、しまう","context":"媽媽發現炸雞不見 → 自首全部吃光了✅自己","tags":["生活"],"audioKey":"clip0081"},{"kanji":"もう食べちゃった","hiragana":"もう食べちゃった","cn":"已經吃掉了 / 已經吃完了","grammar":"動詞て形＋ちゃう","contraction":"てしまった／ちゃった","origin":"食べる、しまう","context":"朋友探班問餓不餓 → 回答已經吃過了✅自己","tags":["生活"],"audioKey":"clip0176"},{"kanji":"もう食べたみたい","hiragana":"もう食べたみたい","cn":"我覺得他好像已經吃了 / 看起來已經吃過了(跡象)","grammar":"動詞た形＋みたい","contraction":"","origin":"食べる","context":"看空碗盤和衛生紙 → 推測室友吃過了❗他人推測","tags":["生活"],"audioKey":"clip0177"},{"kanji":"まだ食べてないみたい","hiragana":"まだ食べてないみたい","cn":"我覺得他好像還沒吃 / 看起來還沒吃(跡象)","grammar":"動詞て形＋いない ＋ みたい","contraction":"","origin":"食べる","context":"同事便當沒動 → 推測他還沒吃❗他人推測","tags":["生活"],"audioKey":"clip0178"},{"kanji":"どこで食べるの？","hiragana":"どこで食べるの？","cn":"要在哪裡吃？","grammar":"疑問詞＋で ＋ 動詞普通形＋の","contraction":"","origin":"食べる","context":"買完外帶要去公園 → 順口問在哪吃❗對方","tags":["生活"],"audioKey":"clip0179"},{"kanji":"何か食べる？","hiragana":"何か食べる？","cn":"要吃點什麼嗎？","grammar":"疑問詞＋か ＋ 動詞普通形","contraction":"","origin":"食べる","context":"半夜肚子餓 → 問身邊的人要不要吃❗對方","tags":["生活"],"audioKey":"clip0180"},{"kanji":"何を食べたの","hiragana":"何を食べたの","cn":"吃了什麼？","grammar":"疑問詞＋を ＋ 動詞た形＋の","contraction":"","origin":"食べる","context":"朋友說去了高級餐廳 → 追問吃了什麼❗對方","tags":["生活"],"audioKey":"clip0181"},{"kanji":"食べたいな","hiragana":"食べたいな","cn":"好想吃喔","grammar":"動詞ます形＋たい ＋ な","contraction":"","origin":"食べる","context":"看到甜點櫥窗 → 感嘆好想吃✅自己","tags":["生活"],"audioKey":"clip0182"},{"kanji":"お腹が空いて食べたくなった","hiragana":"お腹がすいて食べたくなった","cn":"肚子餓了變得想吃東西","grammar":"動詞て形 ＋ 動詞ます形＋たい(去い)＋くなる","contraction":"","origin":"空く、食べる、なる","context":"聞到美食街的香味 → 變得想吃東西✅自己","tags":["生活"],"audioKey":"clip0183"},{"kanji":"まだ食べたい","hiragana":"まだ食べたい","cn":"還想吃","grammar":"副詞 ＋ 動詞ます形＋たい","contraction":"","origin":"食べる","context":"吃完一碗還意猶未盡 → 跟老闆說還想吃✅自己","tags":["生活"],"audioKey":"clip0184"},{"kanji":"何をしているの","hiragana":"何をしているの","cn":"在做什麼呢？","grammar":"疑問詞＋を ＋ 動詞て形＋いる ＋ の","contraction":"","origin":"する","context":"室友對電腦打字 → 隨口問在做什麼❗對方","tags":["生活"],"audioKey":"clip0185"},{"kanji":"もう準備したみたい","hiragana":"もう準備したみたい","cn":"我覺得他好像已經準備好了(跡象)","grammar":"動詞た形＋みたい","contraction":"","origin":"準備する","context":"朋友已經穿鞋等在門口 → 推測他準備好了❗他人推測","tags":["生活"],"audioKey":"clip0186"},{"kanji":"どうする","hiragana":"どうする","cn":"要怎麼辦？ / 要做什麼？","grammar":"疑問詞 ＋ 動詞普通形","contraction":"","origin":"する","context":"計畫地點臨時公休 → 跟旅伴商量怎麼辦❗對方(共同商量)","tags":["生活"],"audioKey":"clip0187"},{"kanji":"どうしようかな","hiragana":"どうしようかな","cn":"該怎麼辦呢...","grammar":"疑問詞 ＋ 動詞意向形＋かな","contraction":"","origin":"する","context":"猶豫選哪種飲料 → 自言自語糾結✅自己","tags":["生活"],"audioKey":"clip0188"},{"kanji":"何にする","hiragana":"何にする","cn":"要選哪一個？ / 要決定什麼？","grammar":"疑問詞＋に ＋ する","contraction":"","origin":"する","context":"服務生要點餐 → 問朋友要點什麼❗對方","tags":["生活"],"audioKey":"clip0189"},{"kanji":"好きにして","hiragana":"好きにして","cn":"隨你便 / 照你喜歡的去做吧","grammar":"な形容詞＋に ＋ 動詞て形","contraction":"","origin":"する","context":"朋友猶豫不決 → 讓對方自己決定❗對方","tags":["生活"],"audioKey":"clip0190"},{"kanji":"食べないかも","hiragana":"食べないかも","cn":"我可能不吃","grammar":"動詞ない形＋かも","contraction":"","origin":"食べる","context":"朋友問要不要再吃→ 回答「可能不吃了✅自己","tags":["生活"],"audioKey":"clip0191"},{"kanji":"今日は行かないかも","hiragana":"今日は行かないかも","cn":"我今天可能不去","grammar":"動詞ない形＋かも","contraction":"","origin":"行く","context":"朋友問聚餐/活動去不去 → 還沒決定,回答可能不去✅自己","tags":["生活"],"audioKey":"clip0192"},{"kanji":"気にしないで","hiragana":"気にしないで","cn":"別放在心上 / 不要在意","grammar":"な形容詞＋に ＋ 動詞ない形+で","contraction":"","origin":"する","context":"朋友不小心弄錯/道歉,或因為幫不上忙感到愧疚 → 你安慰對方別放在心上❗對方","tags":["生活"],"audioKey":"clip0193"},{"kanji":"同じものにします","hiragana":"同じものにします","cn":"我要點一樣的 / 我跟（他）一樣","grammar":"名詞＋にする","contraction":"-","origin":"する","context":"點餐時同行的人點了某道菜 → 告訴店員自己也要點一樣的✅自己","tags":["生活"],"audioKey":"clip0194"},{"kanji":"学生ではありません","hiragana":"学生ではありません","cn":"學生不行 / 不可以是學生","grammar":"名詞＋ではいけません","contraction":"-","origin":"行く","context":"申請某項特定資格或方案時 → 說明規定學生身分不符合資格 / 或叮嚀出社會了不能還抱著學生的心態❗對方","tags":["生活"],"audioKey":"clip0195"},{"kanji":"なんか変な味がする","hiragana":"なんか変な味がする","cn":"有股奇怪的味道 / 嚐起來怪怪的","grammar":"名詞＋がする","contraction":"-","origin":"する","context":"吃東西或喝飲料時覺得味道不對勁 → 表達食物嚐起來怪怪的（外在現象）✅自己","tags":["生活"],"audioKey":"clip0196"},{"kanji":"甘い味がする","hiragana":"甘い味がする","cn":"有甜味 / 嚐起來甜甜的","grammar":"名詞＋がする","contraction":"-","origin":"する","context":"試吃或喝東西時嚐出味道 → 表達吃起來有甜味（外在現象）✅自己","tags":["生活"],"audioKey":"clip0197"},{"kanji":"違和感がする","hiragana":"違和感がする","cn":"感覺怪怪的 / 有違和感","grammar":"名詞＋がする","contraction":"-","origin":"する","context":"來到新環境、看到某個設計或聽到某句話覺得不太對勁 → 覺得哪裡怪怪的✅自己","tags":["生活"],"audioKey":"clip0198"},{"kanji":"雨の音がする","hiragana":"雨の音がする","cn":"聽見下雨的聲音 / 有下雨的聲音","grammar":"名詞＋がする","contraction":"-","origin":"する","context":"在室內聽到外面有聲音 → 察覺到好像下雨了（外在現象）","tags":["旅遊"],"audioKey":"clip0199"},{"kanji":"水を持ってきて","hiragana":"水を持ってきて","cn":"請幫我拿水來 / 請拿水來","grammar":"動詞て形","contraction":"","origin":"持つ、来る","context":"餐廳點餐/口渴時 → 請朋友或家人拿水來❗對方","tags":["生活"],"audioKey":"clip0200"},{"kanji":"一緒に飲みましょう","hiragana":"一緒に飲みましょう","cn":"一起喝吧","grammar":"動詞ます形＋ましょう","contraction":"","origin":"飲む","context":"聚會/下班後 → 邀請同事朋友一起去喝一杯（自己+邀對方）","tags":["生活"],"audioKey":"clip0201"},{"kanji":"早く来なさい","hiragana":"早くきなさい","cn":"快點來","grammar":"動詞ます形＋なさい","contraction":"","origin":"来る","context":"對方動作太慢 → 催促對方快點過來❗對方","tags":["生活"],"audioKey":"clip0202"},{"kanji":"もうそこにあるでしょう","hiragana":"もうそこにあるでしょう","cn":"已經在那裡了吧","grammar":"動詞普通形＋でしょう","contraction":"","origin":"ある","context":"朋友找不到東西 → 提醒對方東西已經在那裡了❗對方","tags":["生活"],"audioKey":"clip0203"},{"kanji":"彼はもう来ないかも","hiragana":"彼はもうこないかも","cn":"他可能不會來了","grammar":"動詞ない形＋かも","contraction":"","origin":"来る","context":"等了很久人沒出現 → 推測他可能不來了❗他人","tags":["生活"],"audioKey":"clip0204"},{"kanji":"今日は来るはずだ","hiragana":"今日はくるはずだ","cn":"今天應該會來","grammar":"動詞普通形＋はずだ","contraction":"","origin":"来る","context":"討論某人會不會出席 → 肯定地推測他今天應該會來❗他人","tags":["生活"],"audioKey":"clip0205"},{"kanji":"お酒を飲んだことがない","hiragana":"お酒を飲んだことがない","cn":"沒喝過酒","grammar":"動詞た形＋ことがない","contraction":"","origin":"飲む、ある","context":"被問會不會喝酒 → 回答自己沒喝過酒✅自己經驗","tags":["生活"],"audioKey":"clip0206"},{"kanji":"お酒を飲むなら、運転しないでください","hiragana":"お酒を飲むなら、運転しないでください","cn":"如果要喝酒，請不要開車","grammar":"動詞普通形＋なら / 動詞ない形＋でください","contraction":"","origin":"飲む、運転する","context":"聚餐有喝酒 → 叮嚀對方不要酒駕❗對方","tags":["生活"],"audioKey":"clip0207"},{"kanji":"来るなら、早く来てね","hiragana":"くるなら、早くきてね","cn":"要來的話，請早點來喔","grammar":"動詞普通形＋なら / 動詞て形＋ね","contraction":"","origin":"来る","context":"朋友猶豫要不要來 → 提醒對方要來就早點來❗對方","tags":["生活"],"audioKey":"clip0208"},{"kanji":"もっとお金があれば、旅行に行きたい","hiragana":"もっとお金があれば、旅行に行きたい","cn":"如果有錢的話，想去旅行","grammar":"動詞ば形 / 動詞ます形＋たい","contraction":"","origin":"ある、行く","context":"聊到夢想或休假計畫 → 感嘆有錢的話想去旅行✅自己願望","tags":["旅遊"],"audioKey":"clip0209"},{"kanji":"時間があったら、電話してください","hiragana":"時間があったら、電話してください","cn":"如果有時間的話，請打電話給我","grammar":"動詞た形＋ら / 動詞て形＋ください","contraction":"","origin":"ある、電話する","context":"留話或道別時 → 請對方有空時打個電話過來❗對方","tags":["生活"],"audioKey":"clip0210"},{"kanji":"喉がかわいた、水が飲みたい","hiragana":"喉がかわいた、水が飲みたい","cn":"口渴了，想喝水","grammar":"動詞た形 / 動詞ます形＋たい","contraction":"","origin":"渇く、飲む","context":"運動完或大熱天 → 表達口渴想喝水✅自己","tags":["生活"],"audioKey":"clip0211"},{"kanji":"雨が降ってきて、傘を買った","hiragana":"雨が降ってきて、傘を買った","cn":"下雨了，所以買了傘","grammar":"動詞て形＋くる / 動詞た形","contraction":"","origin":"降る、来る、買う","context":"被問怎麼突然買了傘 → 解釋因為突然下雨了✅自己","tags":["生活"],"audioKey":"clip0212"},{"kanji":"今日は誰も来ません","hiragana":"今日は誰もきません","cn":"今天誰也不會來","grammar":"疑問詞＋も＋動詞否定形","contraction":"","origin":"来る","context":"確認今天的訪客或預約 → 回答今天沒有任何人會來","tags":["生活"],"audioKey":"clip0213"},{"kanji":"今はお金があまりありません","hiragana":"今はお金があまりありません","cn":"現在沒什麼錢","grammar":"あまり＋動詞否定形","contraction":"","origin":"ある","context":"被朋友借錢或推銷 → 委婉拒絕說現在手頭沒錢✅自己","tags":["生活"],"audioKey":"clip0214"},{"kanji":"冷蔵庫に卵があります","hiragana":"冷蔵庫に卵があります","cn":"冰箱裡有雞蛋","grammar":"名詞＋に＋名詞＋がある","contraction":"","origin":"ある","context":"討論要煮什麼或缺什麼食材 → 告知冰箱裡還有蛋","tags":["生活"],"audioKey":"clip0215"},{"kanji":"私も飲みたいです","hiragana":"私も飲みたいです","cn":"我也想喝","grammar":"動詞ます形＋たい","contraction":"","origin":"飲む","context":"表達想喝✅自己願望","tags":["生活"],"audioKey":"clip0216"},{"kanji":"予約してあります","hiragana":"予約してあります","cn":"已經預約好了","grammar":"動詞て形＋ある","contraction":"","origin":"予約する、ある","context":"到達餐廳或飯店櫃檯 → 告知已經事先預約好了✅自己","tags":["旅遊"],"audioKey":"clip0217"},{"kanji":"氷なしで、お願いします","hiragana":"氷なしで、お願いします","cn":"麻煩去冰","grammar":"名詞＋なしで","contraction":"","origin":"お願いする","context":"點飲料時 → 要求去冰✅自己","tags":["生活"],"audioKey":"clip0218"},{"kanji":"歯ブラシ、もう一本もらえますか","hiragana":"歯ブラシ、もう一本もらえますか","cn":"可以再給我一支牙刷嗎？","grammar":"名詞＋をもらえますか","contraction":"","origin":"もらう","context":"飯店備品不夠 → 詢問櫃檯能否多給一支牙刷❗對方","tags":["生活"],"audioKey":"clip0219"},{"kanji":"ストロー、ありますか","hiragana":"ストロー、ありますか","cn":"請問有吸管嗎？","grammar":"名詞＋がある","contraction":"","origin":"ある","context":"買飲料沒拿到吸管 → 詢問店員有沒有吸管❗對方","tags":["生活"],"audioKey":"clip0220"},{"kanji":"二人ですが、席はありますか","hiragana":"ふたりですが、席はありますか","cn":"我們兩位，請問有位子嗎？","grammar":"名詞＋ですが / 名詞＋がある","contraction":"","origin":"ある","context":"進入餐廳時 → 告知人數並詢問是否有空位❗對方","tags":["旅遊"],"audioKey":"clip0221"},{"kanji":"メニューをもらえますか","hiragana":"メニューをもらえますか","cn":"可以給我菜單嗎？","grammar":"名詞＋をもらえますか","contraction":"","origin":"もらう","context":"入座後沒有菜單 → 請服務生給菜單❗對方","tags":["旅遊"],"audioKey":"clip0222"},{"kanji":"お酒は飲まないので、ジュースにします","hiragana":"お酒は飲まないので、ジュースにします","cn":"我不喝酒，所以要果汁","grammar":"動詞ない形＋ので / 名詞＋にする","contraction":"","origin":"飲む、する","context":"聚餐點飲料時 → 解釋不喝酒所以點果汁✅自己","tags":["生活"],"audioKey":"clip0223"},{"kanji":"来そうにないです","hiragana":"きそうにないです","cn":"看起來不像是會來","grammar":"動詞ます形＋そうにない","contraction":"","origin":"来る","context":"等了很久對方都沒出現 → 判斷對方應該是不會來了❗他人","tags":["生活"],"audioKey":"clip0224"},{"kanji":"いつ来ますか","hiragana":"いつ、きますか","cn":"什麼時候會來？","grammar":"疑問詞＋動詞ます形","contraction":"","origin":"来る","context":"期待對方到來或確認行程 → 詢問對方什麼時候會到❗對方","tags":["生活"],"audioKey":"clip0225"},{"kanji":"こちらに来てもらえますか","hiragana":"こちらにきてもらえますか","cn":"可以請你過來這裡嗎？","grammar":"動詞て形＋もらえる","contraction":"","origin":"来る、もらう","context":"需要對方幫忙或確認事情 → 請對方過來這裡一趟❗對方","tags":["生活"],"audioKey":"clip0226"},{"kanji":"ここに来てください","hiragana":"ここにきてください","cn":"請來這裡","grammar":"動詞て形＋ください","contraction":"","origin":"来る","context":"指引方向或要求集合 → 請對方來這個地方❗對方","tags":["生活"],"audioKey":"clip0227"},{"kanji":"また来たいです","hiragana":"またきたいです","cn":"還想再來","grammar":"動詞ます形＋たい","contraction":"","origin":"来る","context":"離開喜歡的餐廳或景點前 → 表達喜歡，下次還想再來✅自己","tags":["生活"],"audioKey":"clip0228"},{"kanji":"来なくても大丈夫です","hiragana":"こなくても大丈夫です","cn":"不來也沒關係","grammar":"動詞ない形（去い）＋くても大丈夫です","contraction":"","origin":"来る","context":"對方說可能無法出席 → 體貼地回覆不來也沒關係❗對方","tags":["生活"],"audioKey":"clip0229"},{"kanji":"ほかに何がありますか","hiragana":"ほかになにがありますか","cn":"還有其他什麼嗎？","grammar":"疑問詞＋がある","contraction":"","origin":"ある","context":"點餐或詢問商品時 → 問還有沒有其他選項❗對方","tags":["生活"],"audioKey":"clip0230"},{"kanji":"何もありません","hiragana":"なにもありません","cn":"什麼都沒有","grammar":"疑問詞＋も＋動詞否定形","contraction":"","origin":"ある","context":"被問到有什麼問題或發生什麼事 → 回答什麼事都沒有✅自己","tags":["生活"],"audioKey":"clip0231"},{"kanji":"何か飲む","hiragana":"なにか飲む","cn":"要喝點什麼嗎？","grammar":"疑問詞＋か＋動詞普通形","contraction":"","origin":"飲む","context":"朋友來訪或休息時 → 問對方要不要喝點什麼❗對方","tags":["生活"],"audioKey":"clip0232"},{"kanji":"もう飲んだ","hiragana":"もう飲んだ","cn":"已經喝過了","grammar":"もう＋動詞た形","contraction":"","origin":"飲む","context":"朋友問要不要喝飲料/吃藥 → 回答已經喝過了✅自己","tags":["生活"],"audioKey":"clip0233"},{"kanji":"飲みすぎないでね","hiragana":"飲みすぎないでね","cn":"別喝太多喔","grammar":"動詞ます形＋すぎる（否定）＋ないでね","contraction":"","origin":"飲む、すぎる","context":"聚餐對方一直喝酒 → 叮嚀對方別喝太多❗對方","tags":["生活"],"audioKey":"clip0234"},{"kanji":"食事の後で飲みます","hiragana":"食事のあとで、飲みます","cn":"飯後喝","grammar":"名詞＋の後で","contraction":"","origin":"飲む","context":"醫生或朋友問什麼時候吃藥 → 回答飯後才喝✅自己","tags":["生活"],"audioKey":"clip0235"},{"kanji":"もう少し飲めそう","hiragana":"もう少し飲めそう","cn":"好像還能再喝一點","grammar":"動詞可能形＋そう","contraction":"","origin":"飲む","context":"被問還能喝嗎 → 覺得自己好像還能再喝一點✅自己","tags":["生活"],"audioKey":"clip0236"},{"kanji":"何か飲み物がありますか","hiragana":"なにか飲み物がありますか","cn":"有什麼飲料嗎？","grammar":"疑問詞＋か＋名詞＋がある","contraction":"","origin":"ある","context":"到朋友家或餐廳想喝東西 → 詢問有什麼飲料選擇❗對方","tags":["生活"],"audioKey":"clip0237"},{"kanji":"どうやって来たの","hiragana":"どうやってきたの","cn":"你是怎麼來的？","grammar":"疑問詞＋動詞た形＋の","contraction":"","origin":"来る","context":"朋友到達赴約地點 → 詢問對方搭什麼交通工具來的❗對方","tags":["生活"],"audioKey":"clip0238"},{"kanji":"来ないかも","hiragana":"こないかも","cn":"可能不會來","grammar":"動詞ない形＋かも","contraction":"","origin":"来る","context":"等待的人遲遲未現身 → 推測對方可能不會來了❗他人","tags":["生活"],"audioKey":"clip0239"},{"kanji":"無理に来なくてもいいです","hiragana":"無理にこなくてもいいです","cn":"不勉強來也沒關係","grammar":"動詞ない形（去い）＋くてもいいです","contraction":"","origin":"来る","context":"對方行程很趕卻想抽空過來 → 體貼對方說不勉強來也行❗對方","tags":["生活"],"audioKey":"clip0240"},{"kanji":"近くにありますか","hiragana":"近くにありますか","cn":"附近有嗎？","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"詢問超商或廁所位置 → 問附近有沒有這個設施❗對方","tags":["生活"],"audioKey":"clip0241"},{"kanji":"ほかに何がありますか","hiragana":"ほかになにがありますか","cn":"還有其他什麼嗎？","grammar":"疑問詞＋がある","contraction":"","origin":"ある","context":"挑選商品或菜單時 → 問店員還有沒有其他種類❗對方","tags":["生活"],"audioKey":"clip0230"},{"kanji":"右側にあります","hiragana":"右側にあります","cn":"在右邊","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"被問路或物品位置 → 指示方向在右邊","tags":["生活"],"audioKey":"clip0242"},{"kanji":"地下にあります","hiragana":"地下にあります","cn":"在地下室","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"被問設施在哪 → 告知在地下室","tags":["生活"],"audioKey":"clip0243"},{"kanji":"調べてみます","hiragana":"調べてみます","cn":"我查看看","grammar":"動詞て形＋みる","contraction":"","origin":"調べる、みる","context":"被問到不知道的事情 → 表示自己去查查看✅自己","tags":["生活"],"audioKey":"clip0244"},{"kanji":"一度も飲んだことがありません","hiragana":"一度も飲んだことがありません","cn":"一次也沒喝過","grammar":"動詞た形＋ことがありません","contraction":"","origin":"飲む、ある","context":"被問有沒有喝過某種酒或飲料 → 回答一次也沒喝過✅自己經驗","tags":["生活"],"audioKey":"clip0245"},{"kanji":"確認してから行く","hiragana":"確認してからいく","cn":"確認之後再去","grammar":"動詞て形＋から","contraction":"","origin":"確認する、行く","context":"討論行程是否直接出發 → 表示要先確認好再去✅自己","tags":["生活"],"audioKey":"clip0246"},{"kanji":"飲みすぎた","hiragana":"飲みすぎた","cn":"喝太多了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"飲む、すぎる","context":"宿醉頭痛或肚子太撐 → 懊悔自己喝太多了✅自己","tags":["生活"],"audioKey":"clip0247"},{"kanji":"高すぎる","hiragana":"高すぎる","cn":"太貴了","grammar":"形容詞（去い）＋すぎる","contraction":"","origin":"すぎる","context":"看到商品標價嚇一跳 → 抱怨價格太貴了✅自己評論","tags":["生活"],"audioKey":"clip0248"},{"kanji":"早すぎる","hiragana":"早すぎる","cn":"太早了 / 太快了","grammar":"形容詞（去い）＋すぎる","contraction":"","origin":"すぎる","context":"對方提早太多到或事情進展太快 → 驚呼太早/太快了","tags":["生活"],"audioKey":"clip0249"},{"kanji":"来なくてもいいです","hiragana":"こなくてもいいです","cn":"不來也可以","grammar":"動詞ない形（去い）＋くてもいいです","contraction":"","origin":"来る","context":"活動取消或不需要對方幫忙 → 告知對方不用來也沒關係❗對方","tags":["生活"],"audioKey":"clip0250"},{"kanji":"急がなくてもいいです","hiragana":"急がなくてもいいです","cn":"不用急也沒關係","grammar":"動詞ない形（去い）＋くてもいいです","contraction":"","origin":"急ぐ","context":"看到對方很慌張趕路 → 安撫對方不用急慢慢來❗對方","tags":["生活"],"audioKey":"clip0251"},{"kanji":"予約しなくても大丈夫です","hiragana":"予約しなくても大丈夫です","cn":"不預約也沒關係","grammar":"動詞ない形（去い）＋くても大丈夫です","contraction":"","origin":"予約する","context":"朋友擔心沒訂位沒位子 → 告知這家店不預約也可以去","tags":["旅遊"],"audioKey":"clip0252"},{"kanji":"来なくても大丈夫です","hiragana":"こなくても大丈夫です","cn":"不來也沒關係","grammar":"動詞ない形（去い）＋くても大丈夫です","contraction":"","origin":"来る","context":"再次確認對方是否必須出席 → 表示不出席也無妨❗對方","tags":["生活"],"audioKey":"clip0229"},{"kanji":"バスが来なくて、遅刻しました","hiragana":"バスがこなくて、遅刻しました","cn":"公車沒來，所以遲到了","grammar":"動詞ない形（去い）＋くて","contraction":"","origin":"来る、遅刻する","context":"向老師或主管解釋遲到原因 → 因為公車沒來✅自己","tags":["旅遊"],"audioKey":"clip0253"},{"kanji":"時間がなくて、朝ごはんを食べられません","hiragana":"時間がなくて、朝ごはんを食べられません","cn":"沒時間，所以沒辦法吃早餐","grammar":"名詞＋がなくて / 動詞可能形否定","contraction":"","origin":"ある、食べる","context":"被問怎麼沒吃早餐 → 解釋因為沒時間所以無法吃✅自己","tags":["生活"],"audioKey":"clip0254"},{"kanji":"お酒を飲まなくても大丈夫です","hiragana":"お酒を飲まなくても大丈夫です","cn":"不喝酒也沒關係","grammar":"動詞ない形（去い）＋くても大丈夫です","contraction":"","origin":"飲む","context":"被勸酒或參加酒會 → 表示自己不喝酒也沒關係✅自己","tags":["生活"],"audioKey":"clip0255"},{"kanji":"コーヒーを飲まなくて、眠くなりました","hiragana":"コーヒーを飲まなくて、眠くなりました","cn":"沒喝咖啡，變得想睡了","grammar":"動詞ない形（去い）＋くて / 形容詞（去い）＋くなる","contraction":"","origin":"飲む、なる","context":"上班打哈欠被關心 → 解釋因為沒喝咖啡變得想睡✅自己","tags":["生活"],"audioKey":"clip0256"},{"kanji":"こちらへ来てください","hiragana":"こちらへきてください","cn":"請往這邊來","grammar":"名詞＋へ＋動詞て形＋ください","contraction":"","origin":"来る","context":"帶位或指引方向時 → 請對方往這邊走❗對方","tags":["生活"],"audioKey":"clip0257"},{"kanji":"だれが来ますか","hiragana":"だれがきますか","cn":"有誰會來？","grammar":"疑問詞＋が＋動詞ます形","contraction":"","origin":"来る","context":"舉辦派對或會議前 → 詢問有誰會出席","tags":["生活"],"audioKey":"clip0258"},{"kanji":"いつ来ますか","hiragana":"いつきますか","cn":"什麼時候來？","grammar":"疑問詞＋動詞ます形","contraction":"","origin":"来る","context":"等待包裹或朋友 → 詢問什麼時候會到","tags":["生活"],"audioKey":"clip0259"},{"kanji":"免税はありますか","hiragana":"めんぜいはありますか","cn":"有免稅嗎？","grammar":"名詞＋はありますか","contraction":"","origin":"ある","context":"結帳時想退稅 → 詢問店家有沒有免稅服務❗對方","tags":["生活"],"audioKey":"clip0260"},{"kanji":"あちらにあります","hiragana":"あちらにあります","cn":"在那邊","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"店員為客人指路 → 告知目標物在那邊","tags":["生活"],"audioKey":"clip0261"},{"kanji":"全部飲んじゃった","hiragana":"全部飲んじゃった","cn":"全部喝光了","grammar":"動詞て形＋ちゃう","contraction":"","origin":"飲む、しまう","context":"朋友問飲料去哪了 → 自首不小心全部喝光了✅自己","tags":["生活"],"audioKey":"clip0262"},{"kanji":"明日、また来てみます","hiragana":"あした、またきてみます","cn":"明天我再來看看","grammar":"動詞て形＋みる","contraction":"","origin":"来る、みる","context":"今天沒買到想要的東西或店休 → 表示明天會再來看看✅自己","tags":["生活"],"audioKey":"clip0263"},{"kanji":"昨日は飲みすぎました。","hiragana":"昨日は飲みすぎました。","cn":"昨天喝太多了","grammar":"動詞ます形＋すぎる","contraction":"","origin":"飲む、すぎる","context":"隔天宿醉被同事問怎麼了 → 解釋昨天喝太多了✅自己","tags":["生活"],"audioKey":"clip0264"},{"kanji":"後でまた来ます","hiragana":"あとでまたきます","cn":"稍後再來 (重新過來)","grammar":"動詞ます形＋なおす","contraction":"","origin":"来る、直す","context":"拜訪時對方不在或排隊太長 → 表示稍後再重新過來一趟✅自己","tags":["生活"],"audioKey":"clip0265"},{"kanji":"友達が来るから、ここで待ちます","hiragana":"友達がくるから、ここで待ちます","cn":"因為朋友會來，所以在這裡等","grammar":"普通形＋から","contraction":"","origin":"来る、待つ","context":"店員問要不要入座或點餐 → 解釋因為朋友要來，先在這裡等✅自己","tags":["生活"],"audioKey":"clip0266"},{"kanji":"あっちにあるから、大丈夫","hiragana":"あっちにあるから、大丈夫","cn":"因為那邊有，所以沒問題","grammar":"普通形＋から","contraction":"","origin":"ある","context":"朋友擔心東西不夠 → 告知那邊還有所以沒問題","tags":["生活"],"audioKey":"clip0267"},{"kanji":"いつ来たらいいですか","hiragana":"いつ、きたらいいですか","cn":"什麼時候來比較好呢？","grammar":"疑問詞＋動詞た形＋らいいですか","contraction":"","origin":"来る","context":"預約回診或下次見面 → 詢問什麼時候來比較好❗對方","tags":["生活"],"audioKey":"clip0268"},{"kanji":"電車が来そうです","hiragana":"電車がきそうです","cn":"電車好像快來了","grammar":"動詞ます形＋そう","contraction":"","origin":"来る","context":"聽到廣播或看到指示燈 → 提醒同行者電車好像要來了","tags":["旅遊"],"audioKey":"clip0269"},{"kanji":"あそこの店にありそう","hiragana":"あそこの店にありそう","cn":"那家店好像有","grammar":"動詞ます形＋そう","contraction":"","origin":"ある","context":"找尋某個商品找不到 → 推測那家店好像會有","tags":["生活"],"audioKey":"clip0270"},{"kanji":"明日も絶対来なきゃ！","hiragana":"あしたも絶対こなきゃ！","cn":"明天也一定要來！","grammar":"動詞ない形（去ない）＋なきゃ","contraction":"","origin":"来る","context":"覺得某個活動或餐廳太棒了 → 激動表示明天也一定要來✅自己義務","tags":["生活"],"audioKey":"clip0271"},{"kanji":"やばい、薬飲まなきゃ","hiragana":"やばい、薬飲まなきゃ","cn":"糟了，必須吃藥了","grammar":"動詞ない形（去ない）＋なきゃ","contraction":"","origin":"飲む","context":"突然想起忘記吃藥 → 驚覺必須趕快吃藥✅自己義務","tags":["生活"],"audioKey":"clip0272"},{"kanji":"ここで飲んじゃダメ","hiragana":"ここで飲んじゃダメ","cn":"不能在這裡喝","grammar":"動詞て形＋はダメ（じゃダメ）","contraction":"","origin":"飲む","context":"朋友想在禁止飲食的地方喝飲料 → 制止對方不能在這裡喝❗對方","tags":["生活"],"audioKey":"clip0273"},{"kanji":"さっきまで、ここにあったのに","hiragana":"さっきまで、ここにあったのに","cn":"剛才明明還在這裡的...","grammar":"普通形＋のに","contraction":"","origin":"ある","context":"突然找不到剛才還在的東西 → 疑惑剛才明明還在這裡的✅自己","tags":["生活"],"audioKey":"clip0274"},{"kanji":"あっ、さっき飲んじゃった","hiragana":"あっ、さっき飲んじゃった","cn":"啊，剛才喝掉了","grammar":"動詞て形＋ちゃう","contraction":"","origin":"飲む、しまう","context":"朋友問某罐飲料去哪了 → 驚覺自己剛才已經喝掉了✅自己","tags":["生活"],"audioKey":"clip0275"},{"kanji":"来たばかりです","hiragana":"きたばかりです","cn":"剛剛才來","grammar":"動詞た形＋ばかり","contraction":"","origin":"来る","context":"剛抵達赴約地點朋友就出現了 → 表示自己也才剛到✅自己","tags":["生活"],"audioKey":"clip0276"},{"kanji":"トイレは、あの店の隣にあります","hiragana":"トイレは、あの店の隣にあります","cn":"廁所在那家店的旁邊","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"被路人詢問廁所位置 → 清楚指出廁所在某家店旁邊","tags":["旅遊"],"audioKey":"clip0277"},{"kanji":"たぶん、飲まないほうがいい","hiragana":"たぶん、飲まないほうがいい","cn":"可能不要喝比較好","grammar":"動詞ない形＋ほうがいい","contraction":"","origin":"飲む","context":"朋友生病還想喝冰飲料 → 勸阻對方可能不要喝比較好❗對方","tags":["生活"],"audioKey":"clip0278"},{"kanji":"たぶん、あそこにあるかも","hiragana":"たぶん、あそこにあるかも","cn":"可能在那裡喔","grammar":"普通形＋かも","contraction":"","origin":"ある","context":"幫忙找東西時 → 推測可能放在那裡","tags":["生活"],"audioKey":"clip0279"},{"kanji":"あのバス、たぶん来ないよ","hiragana":"あのバス、たぶんこないよ","cn":"那班公車，可能不會來喔","grammar":"動詞ない形＋よ","contraction":"","origin":"来る","context":"看到時刻表或改道通知 → 提醒等車的人那班公車可能不來了❗他人","tags":["旅遊"],"audioKey":"clip0280"},{"kanji":"レジの右にあります","hiragana":"レジの右にあります","cn":"在收銀台的右邊","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"店員告知客人商品位置 → 在收銀台的右邊","tags":["生活"],"audioKey":"clip0281"},{"kanji":"棚の下にあります","hiragana":"棚の下にあります","cn":"在架子下方","grammar":"名詞＋にある","contraction":"","origin":"ある","context":"尋找庫存或物品 → 告知在架子下方","tags":["生活"],"audioKey":"clip0282"},{"kanji":"氷なしで飲みたいです","hiragana":"氷なしで飲みたいです","cn":"想喝去冰的","grammar":"名詞＋なしで / 動詞ます形＋たい","contraction":"","origin":"飲む","context":"天氣冷或感冒但想喝飲料 → 表達想喝去冰的✅自己願望","tags":["生活"],"audioKey":"clip0283"},{"kanji":"飲み物を買ってきます","hiragana":"飲み物を買ってきます","cn":"我去買個飲料就來","grammar":"動詞て形＋くる","contraction":"","origin":"買う、来る","context":"聚會中途或休息時間 → 告知大家自己去買個飲料就回來✅自己","tags":["生活"],"audioKey":"clip0284"},{"kanji":"もうありません","hiragana":"もうありません","cn":"已經沒有了","grammar":"もう＋否定","contraction":"","origin":"ある","context":"店員告知熱門商品已售完 → 抱歉地表示已經沒有了","tags":["生活"],"audioKey":"clip0285"},{"kanji":"ぜひ来てください","hiragana":"ぜひきてください","cn":"請務必過來","grammar":"動詞て形＋ください","contraction":"","origin":"来る","context":"邀請朋友參加活動或來家裡玩 → 強烈希望對方務必過來❗對方","tags":["生活"],"audioKey":"clip0286"},{"kanji":"やっと飲めた","hiragana":"やっと飲めた","cn":"終於喝到了","grammar":"動詞可能形","contraction":"","origin":"飲む","context":"排了很久的隊終於買到手搖飲 → 感嘆終於喝到了✅自己","tags":["生活"],"audioKey":"clip0287"},{"kanji":"やっと飲んだ","hiragana":"やっと飲んだ","cn":"終於喝了","grammar":"動詞た形","contraction":"","origin":"飲む","context":"拖延很久終於把苦澀的藥喝下去 → 鬆了一口氣終於喝了✅自己","tags":["生活"],"audioKey":"clip0288"},{"kanji":"ほかのほうがいいです","hiragana":"ほかのほうがいいです","cn":"其他的比較好","grammar":"名詞＋のほうがいい","contraction":"","origin":"-","context":"對目前的選項不滿意 → 提出希望換其他的比較好✅自己意見","tags":["生活"],"audioKey":"clip0289"},{"kanji":"窓側のほうがいいです","hiragana":"窓側のほうがいいです","cn":"靠窗的比較好","grammar":"名詞＋のほうがいい","contraction":"","origin":"-","context":"餐廳帶位時 → 表達希望能坐靠窗的位子比較好✅自己意見","tags":["旅遊"],"audioKey":"clip0290"},{"kanji":"ほかの席はありますか？","hiragana":"ほかの席はありますか？","cn":"有其他的位子嗎？","grammar":"名詞＋はある","contraction":"","origin":"ある","context":"被安排的座位太擠或太吵 → 詢問有沒有其他位子❗對方","tags":["旅遊"],"audioKey":"clip0291"},{"kanji":"カウンター席でもよろしいですか？","hiragana":"カウンター席でもよろしいですか？","cn":"吧台座位也可以嗎？","grammar":"名詞＋でもよろしいですか","contraction":"","origin":"-","context":"餐廳客滿只剩吧台 → 店員詢問客人坐吧台可以嗎❗對方","tags":["旅遊"],"audioKey":"clip0292"},{"kanji":"テーブル席のほうがいいです。","hiragana":"テーブル席のほうがいいです。","cn":"桌位比較好。","grammar":"名詞＋のほうがいい","contraction":"","origin":"-","context":"回應店員的吧台提議 → 表達還是想坐一般桌位比較好✅自己意見","tags":["旅遊"],"audioKey":"clip0293"},{"kanji":"カウンター席だけですか？","hiragana":"カウンター席だけですか？","cn":"只有吧台座位嗎？","grammar":"名詞＋だけですか","contraction":"","origin":"-","context":"看到桌位滿了 → 確認是否只剩下吧台座位","tags":["旅遊"],"audioKey":"clip0294"},{"kanji":"カウンター席だけでも大丈夫です。","hiragana":"カウンター席だけでも大丈夫です。","cn":"只有吧台座位也沒關係。","grammar":"名詞＋だけでも大丈夫です","contraction":"","origin":"-","context":"為了不用等太久 → 表示只有吧台座位也沒關係✅自己","tags":["旅遊"],"audioKey":"clip0295"},{"kanji":"一人でもいいです","hiragana":"ひとりでもいいです","cn":"一個人也可以","grammar":"名詞＋でもいいです","contraction":"","origin":"-","context":"參加活動或去餐廳 → 確認一個人去也沒有問題","tags":["生活"],"audioKey":"clip0296"},{"kanji":"少し辛くてもいいです","hiragana":"少しからくてもいいです","cn":"稍微辣一點也可以","grammar":"形容詞（去い）＋くてもいいです","contraction":"","origin":"-","context":"點餐被問辣度接受度 → 表示稍微辣一點也可以接受✅自己","tags":["生活"],"audioKey":"clip0297"},{"kanji":"聞いても分からない","hiragana":"聞いてもわからない","cn":"問了也不知道 / 聽了也不懂","grammar":"動詞て形＋も","contraction":"","origin":"聞く、分かる","context":"覺得某個專業知識太難 → 抱怨就算問了聽了也不懂✅自己","tags":["生活"],"audioKey":"clip0298"},{"kanji":"ここで飲んでもいいですか","hiragana":"ここで飲んでもいいですか","cn":"可以在這裡喝嗎？","grammar":"動詞て形＋もいいですか","contraction":"","origin":"飲む","context":"在超商或公共場所買了飲料 → 詢問能不能直接在這裡喝❗對方","tags":["生活"],"audioKey":"clip0299"},{"kanji":"お酒を飲んではいけません","hiragana":"お酒を飲んではいけません","cn":"不可以喝酒","grammar":"動詞て形＋はいけません","contraction":"","origin":"飲む","context":"醫生叮嚀病人或看到未成年 → 嚴格禁止喝酒❗對方","tags":["生活"],"audioKey":"clip0300"},{"kanji":"全部飲まなくてもいいです","hiragana":"全部飲まなくてもいいです","cn":"不用全部喝完也可以","grammar":"動詞ない形（去い）＋くてもいいです","contraction":"","origin":"飲む","context":"看到對方喝不下湯或飲料 → 體貼表示不用全部喝完也沒關係❗對方","tags":["生活"],"audioKey":"clip0301"},{"kanji":"薬を飲まなきゃ","hiragana":"薬を飲まなきゃ","cn":"得吃藥了","grammar":"動詞ない形（去ない）＋なきゃ","contraction":"","origin":"飲む","context":"感覺到感冒症狀或時間到了 → 意識到必須趕快吃藥✅自己義務","tags":["生活"],"audioKey":"clip0302"},{"kanji":"よかったら、一緒に飲みませんか？","hiragana":"よかったら、一緒に飲みませんか？","cn":"如果方便的話，要不要一起喝一杯？","grammar":"よかったら / 動詞ます形＋ませんか","contraction":"-","origin":"飲む","context":"邀請朋友下班後去喝酒時 → 禮貌且溫暖的邀約（不會給對方太大壓力）❗對方","tags":["生活"],"audioKey":"clip0303"},{"kanji":"何か飲み物がありますか","hiragana":"なにか飲み物がありますか","cn":"有什麼飲料嗎？","grammar":"疑問詞＋か＋名詞＋がある","contraction":"","origin":"ある","context":"拜訪朋友家口渴 → 詢問有什麼飲料可以喝❗對方","tags":["生活"],"audioKey":"clip0237"},{"kanji":"ほかにありますか","hiragana":"ほかにありますか","cn":"還有其他的嗎？","grammar":"名詞＋がある","contraction":"","origin":"ある","context":"看完展示的商品覺得不滿意 → 詢問還有沒有其他的選項❗對方","tags":["生活"],"audioKey":"clip0304"},{"kanji":"冷たくなくてもいいです","hiragana":"冷たくなくてもいいです","cn":"不冷也沒關係","grammar":"形容詞（去い）＋くなくてもいいです","contraction":"","origin":"-","context":"店員說飲料不冰了 → 表示常溫或不冷也沒關係✅自己","tags":["生活"],"audioKey":"clip0305"},{"kanji":"甘すぎないものはありますか","hiragana":"甘すぎないものはありますか","cn":"有不會太甜的嗎？","grammar":"形容詞（去い）＋すぎる（否定）","contraction":"","origin":"すぎる、ある","context":"挑選甜點或飲料不想吃太甜 → 詢問有沒有不會太甜的選項❗對方","tags":["生活"],"audioKey":"clip0306"},{"kanji":"おすすめを飲んでみます","hiragana":"おすすめを飲んでみます","cn":"我喝看看推薦的","grammar":"動詞て形＋みる","contraction":"","origin":"飲む、みる","context":"不知道要點什麼 → 決定喝看看店員推薦的飲料✅自己","tags":["旅遊"],"audioKey":"clip0307"},{"kanji":"飲みすぎないほうがいいです","hiragana":"飲みすぎないほうがいいです","cn":"不要喝太多比較好","grammar":"動詞ます形＋すぎる（否定）＋ほうがいい","contraction":"","origin":"飲む、すぎる","context":"關心朋友的身體健康 → 勸告對方不要喝太多酒比較好❗對方","tags":["生活"],"audioKey":"clip0308"},{"kanji":"明日来てもいいですか","hiragana":"あした、きてもいいですか","cn":"明天來也可以嗎？","grammar":"動詞て形＋もいいですか","contraction":"","origin":"来る","context":"今天事情沒處理完或想再訪 → 詢問對方明天可不可以再來❗對方","tags":["生活"],"audioKey":"clip0309"},{"kanji":"無理に来なくてもいいです","hiragana":"無理にこなくてもいいです","cn":"不勉強來也沒關係","grammar":"動詞ない形（去い）＋くてもいいです","contraction":"","origin":"来る","context":"朋友說有事可能會遲到很久 → 體貼表示不勉強來也沒關係❗對方","tags":["生活"],"audioKey":"clip0240"},{"kanji":"予約がある人だけ来られます","hiragana":"予約がある人だけこられます","cn":"只有預約的人能來","grammar":"名詞＋だけ / 動詞可能形","contraction":"","origin":"ある、来る","context":"解釋活動的入場規定 → 只有事前預約的人才能進來","tags":["旅遊"],"audioKey":"clip0310"},{"kanji":"何時までに来る必要がありますか","hiragana":"なんじまでにくる必要がありますか","cn":"必須在幾點前來？","grammar":"動詞普通形＋必要がある","contraction":"","origin":"来る、ある","context":"確認報到時間或門禁 → 詢問必須在幾點之前抵達❗對方","tags":["生活"],"audioKey":"clip0311"},{"kanji":"一人で来ても大丈夫ですか","hiragana":"ひとりできても大丈夫ですか","cn":"一個人來也沒關係嗎？","grammar":"動詞て形＋も大丈夫ですか","contraction":"","origin":"来る","context":"報名課程或預約餐廳 → 確認單獨前往是否也沒問題","tags":["生活"],"audioKey":"clip0312"},{"kanji":"予約してあるんですが","hiragana":"予約してあるんですが","cn":"我有預約了... / 請問我有訂位...","grammar":"動詞て形＋ある＋んですが","contraction":"-","origin":"予約する、ある","context":"到餐廳或飯店櫃檯報到時 → 柔和的開場白，告知預約後等待櫃檯接話確認✅自己","tags":["旅遊"],"audioKey":"clip0313"},{"kanji":"予約が必要ですか","hiragana":"予約が必要ですか","cn":"需要預約嗎？","grammar":"名詞＋が必要ですか","contraction":"","origin":"-","context":"打算去某家人氣餐廳或辦事 → 詢問是否需要事先預約❗對方","tags":["旅遊"],"audioKey":"clip0314"},{"kanji":"何か持ってくる必要がありますか","hiragana":"なにか持ってくる必要がありますか","cn":"有必須帶來的東西嗎？","grammar":"動詞て形＋くる / 動詞普通形＋必要がある","contraction":"","origin":"持つ、来る、ある","context":"準備參加活動或面試 → 詢問有沒有必須攜帶的物品❗對方","tags":["生活"],"audioKey":"clip0315"},{"kanji":"まだ空いている席がありますか","hiragana":"まだあいている席がありますか","cn":"還有空位嗎？","grammar":"動詞て形＋いる","contraction":"","origin":"空く、いる、ある","context":"走進看起來很滿的餐廳 → 詢問店員是否還有空位❗對方","tags":["旅遊"],"audioKey":"clip0316"},{"kanji":"予約がなくても大丈夫ですか","hiragana":"予約がなくても大丈夫ですか","cn":"沒有預約也沒關係嗎？","grammar":"名詞＋がなくても大丈夫ですか","contraction":"","origin":"ある","context":"臨時經過一家餐廳想進去 → 詢問沒預約是不是也能用餐❗對方","tags":["旅遊"],"audioKey":"clip0317"},{"kanji":"ほかにない","hiragana":"ほかにない","cn":"沒有其他的了","grammar":"名詞＋がない","contraction":"","origin":"ある","context":"翻找完包包或庫存 → 發現已經沒有其他的了","tags":["生活"],"audioKey":"clip0318"},{"kanji":"何もない","hiragana":"なにもない","cn":"什麼都沒有","grammar":"疑問詞＋も＋ない","contraction":"","origin":"ある","context":"被問在想什麼或有什麼計畫 → 回答什麼想法或計畫都沒有✅自己","tags":["生活"],"audioKey":"clip0319"},{"kanji":"時間がなくても行きます","hiragana":"時間がなくてもいきます","cn":"就算沒時間也要去","grammar":"名詞＋がなくても / 動詞ます形","contraction":"","origin":"ある、行く","context":"某個演唱會或活動非去不可 → 表達就算沒時間也一定要去的決心✅自己","tags":["生活"],"audioKey":"clip0320"},{"kanji":"予約がないと入れません","hiragana":"予約がないと、はいれません","cn":"沒有預約進不去","grammar":"名詞＋がないと / 動詞可能形否定","contraction":"","origin":"ある、入る","context":"店員拒絕沒有預約的客人 → 說明沒有預約無法入場","tags":["旅遊"],"audioKey":"clip0321"},{"kanji":"予約しないと来られません","hiragana":"予約しないと、こられません","cn":"不預約不能來","grammar":"動詞ない形＋と / 動詞可能形否定","contraction":"","origin":"予約する、来る","context":"解釋某個完全預約制的設施 → 說明不預約就無法前來","tags":["旅遊"],"audioKey":"clip0322"},{"kanji":"予約がないと大変です","hiragana":"予約がないと大変です","cn":"沒有預約會很麻煩","grammar":"名詞＋がないと","contraction":"","origin":"ある","context":"朋友打算連假去熱門景點 → 提醒對方不預約的話會很慘/很麻煩","tags":["旅遊"],"audioKey":"clip0323"},{"kanji":"予約がないと入れない","hiragana":"予約がないと、はいれない","cn":"沒有預約進不去","grammar":"名詞＋がないと / 動詞可能形否定","contraction":"","origin":"ある、入る","context":"朋友提議去某家高級餐廳 → 提醒這家沒預約是進不去的","tags":["旅遊"],"audioKey":"clip0324"},{"kanji":"やってみないと分からない","hiragana":"やってみないとわからない","cn":"不做做看不知道","grammar":"動詞て形＋みる＋ない形＋と","contraction":"","origin":"やる、みる、分かる","context":"被問某件事會不會成功 → 表示沒實際做做看是不會知道結果的","tags":["生活"],"audioKey":"clip0325"},{"kanji":"やってみなきゃ","hiragana":"やってみなきゃ","cn":"必須試試看","grammar":"動詞て形＋みる＋ない形（去ない）＋なきゃ","contraction":"","origin":"やる、みる","context":"面對困難的挑戰猶豫不決 → 鼓勵自己必須試試看才知道✅自己","tags":["生活"],"audioKey":"clip0326"},{"kanji":"行ってみないと分からない","hiragana":"いってみないと、わからない","cn":"不去去看不知道","grammar":"動詞て形＋みる＋ない形＋と","contraction":"","origin":"行く、みる、分かる","context":"被問某家新餐廳好不好吃 → 表示沒實際去吃過不知道","tags":["生活"],"audioKey":"clip0327"},{"kanji":"来てみないと分かりません","hiragana":"きてみないと、わかりません","cn":"不來來看看不知道","grammar":"動詞て形＋みる＋ない形＋と","contraction":"","origin":"来る、みる、分かる","context":"朋友問某個地方好不好玩 → 回答要親自來看看才會知道","tags":["生活"],"audioKey":"clip0328"},{"kanji":"やらないと始まらない","hiragana":"やらないと、始まらない","cn":"不去做就不會開始","grammar":"動詞ない形＋と","contraction":"","origin":"やる、始まる","context":"看到朋友光說不練 → 鼓勵對方不採取行動是不會有進展的","tags":["生活"],"audioKey":"clip0329"},{"kanji":"飲まないと元気が出ない","hiragana":"飲まないと、元気が出ない","cn":"不喝就沒有精神","grammar":"動詞ない形＋と","contraction":"","origin":"飲む、出る","context":"早上精神不濟 → 抱怨不喝咖啡就提不起勁✅自己","tags":["生活"],"audioKey":"clip0330"},{"kanji":"水を飲まないと体に悪い","hiragana":"水を飲まないと、体に悪い","cn":"不喝水對身體不好","grammar":"動詞ない形＋と","contraction":"","origin":"飲む","context":"看到朋友都不喝水 → 叮嚀不喝水對身體不好❗對方","tags":["生活"],"audioKey":"clip0331"},{"kanji":"カウンター席だけなら、大丈夫です","hiragana":"カウンター席だけなら、大丈夫です","cn":"如果只有吧台座位的話，沒關係 / 只有吧台座位的話也可以","grammar":"名詞＋なら","contraction":"-","origin":"-","context":"餐廳客滿，店員告知只剩下吧台座位 → 回覆表示只有吧台也沒關係✅自己","tags":["旅遊"],"audioKey":"clip0332"},{"kanji":"時間があったら、来てください","hiragana":"時間があったら、きてください","cn":"如果有時間的話，請過來 / 有空的話請來","grammar":"動詞た形＋ら / 動詞て形＋ください","contraction":"-","origin":"ある、来る","context":"邀請朋友參加活動或聚會 → 體貼地表示有時間的話再過來❗對方","tags":["生活"],"audioKey":"clip0333"},{"kanji":"雪が降らなかったら、飲みに行きましょう","hiragana":"雪が降らなかったら、飲みにいきましょう","cn":"如果沒下雪的話，我們去喝一杯吧","grammar":"動詞ない形＋かったら / 動詞ます形＋に行く / 動詞ます形＋ましょう","contraction":"-","origin":"降る、飲む、行く","context":"討論晚上的計畫，但天氣不好 → 提議如果沒下雪就去喝酒（自己+邀對方）","tags":["生活"],"audioKey":"clip0334"},{"kanji":"来るなら、連絡してください","hiragana":"くるなら、連絡してください","cn":"如果要來的話，請聯絡我","grammar":"動詞普通形＋なら / 動詞て形＋ください","contraction":"-","origin":"来る、連絡する","context":"對方還不確定會不會出席 → 叮嚀對方如果要來記得先聯絡❗對方","tags":["生活"],"audioKey":"clip0335"},{"kanji":"予約がないなら、入れないかも","hiragana":"予約がないなら、はいれないかも","cn":"如果沒有預約的話，可能進不去","grammar":"名詞＋がないなら / 動詞可能形否定 / 普通形＋かも","contraction":"-","origin":"ある、入る","context":"朋友提議去某家人氣餐廳但沒訂位 → 推測沒有預約的話可能無法進去❗他人","tags":["旅遊"],"audioKey":"clip0336"},{"kanji":"どうして来ないんですか？","hiragana":"どうしてこないんですか？","cn":"為什麼沒來呢？ / 怎麼不來呢？","grammar":"どうして＋動詞ない形＋んですか","contraction":"-","origin":"来る","context":"朋友缺席聚會或活動 → 帶有微抱怨或關心的語氣詢問原因❗對方","tags":["生活"],"audioKey":"clip0337"},{"kanji":"お酒を飲みながら話しましょう","hiragana":"お酒を飲みながら話しましょう","cn":"我們邊喝邊聊吧","grammar":"動詞連用形（去ます）＋ながら / 動詞ます形＋ましょう","contraction":"-","origin":"飲む、話す","context":"聚餐或去居酒屋入座後 → 提議大家放鬆邊喝酒邊聊天（自己+邀對方）","tags":["生活"],"audioKey":"clip0338"},{"kanji":"今飲んでいるところです","hiragana":"今飲んでいるところです","cn":"現在正在喝 / 現在正在喝酒","grammar":"動詞て形＋いるところです","contraction":"-","origin":"飲む","context":"朋友打電話來問你在幹嘛 → 回答自己當下正在喝酒或喝飲料✅自己","tags":["生活"],"audioKey":"clip0339"},{"kanji":"明日来たらどうですか？","hiragana":"あしたきたらどうですか？","cn":"明天再來怎麼樣？ / 明天來如何？","grammar":"動詞た形＋らどうですか","contraction":"-","origin":"来る","context":"對方今天沒空或店快關門了 → 給予具體且貼心的建議，提議明天再來❗對方","tags":["生活"],"audioKey":"clip0340"},{"kanji":"今日は来てほしいです","hiragana":"きょうはきてほしいです","cn":"希望你今天能來","grammar":"動詞て形＋ほしいです","contraction":"-","origin":"来る","context":"舉辦重要活動或派對 → 誠懇地向對方表達希望他務必出席的願望❗對方","tags":["生活"],"audioKey":"clip0341"},{"kanji":"あまり飲みすぎないでほしい","hiragana":"あまり飲みすぎないでほしい","cn":"希望你不要喝太多","grammar":"動詞ます形＋すぎる（否定ないで）＋ほしい","contraction":"-","origin":"飲む、すぎる","context":"伴侶或朋友去應酬喝酒 → 體貼且真實地表達關心，希望對方控制酒量❗對方","tags":["生活"],"audioKey":"clip0342"},{"kanji":"氷なしでお願いします","hiragana":"氷なしでお願いします","cn":"麻煩去冰。","grammar":"名詞＋なしで＋お願いします","contraction":"-","origin":"お願いする","context":"買飲料去冰","tags":["生活"],"audioKey":"clip0343"},{"kanji":"予約なしでも入れますか？","hiragana":"予約なしでもはいれますか？","cn":"沒有預約也能進去嗎？ / 沒訂位可以進去嗎？","grammar":"名詞＋なし＋でも / 動詞可能形","contraction":"-","origin":"入る","context":"經過人氣餐廳想直接進去用餐時 → 詢問店員沒訂位是否能入座❗對方","tags":["旅遊"],"audioKey":"clip0344"},{"kanji":"休みなし","hiragana":"休みなし","cn":"無休 / 沒有休息","grammar":"名詞＋なし","contraction":"-","origin":"-","context":"查詢店家營業時間或朋友問這家店哪天公休時 → 回答沒有公休日 / 全年無休 (客觀事實)","tags":["生活"],"audioKey":"clip0345"},{"kanji":"問題なし","hiragana":"問題なし","cn":"沒問題","grammar":"名詞＋なし","contraction":"-","origin":"-","context":"朋友確認行程安排或詢問狀況時 → 俐落且爽快地回覆對方一切順利、沒問題✅自己","tags":["生活"],"audioKey":"clip0346"},{"kanji":"いつか富士山に行こうと思っています","hiragana":"いつか富士山に行こうと思っています","cn":"我打算總有一天要去爬富士山。","grammar":"動詞意向形＋と思っています","contraction":"","origin":"行く、思う","context":"聊到未來的旅遊夢想時✅自己","tags":["生活"],"audioKey":"clip0347"},{"kanji":"食事の後でコーヒーを飲もうと思います","hiragana":"食事の後でコーヒーを飲もうと思います","cn":"我打算飯後喝杯咖啡。","grammar":"動詞意向形＋と思います","contraction":"","origin":"飲む、思う","context":"點餐時，或是跟朋友聊接下來的打算✅自己","tags":["生活"],"audioKey":"clip0348"},{"kanji":"今度は友達と一緒に来ようと思っています","hiragana":"今度は友達と一緒にこようと思っています","cn":"下次我打算跟朋友一起來。","grammar":"動詞意向形＋と思っています","contraction":"","origin":"来る、思う","context":"結帳離開前，稱讚店家或景點很棒時✅自己","tags":["生活"],"audioKey":"clip0349"},{"kanji":"そろそろ何を食べるか決める？","hiragana":"そろそろなにをたべるかきめる？","cn":"差不多該決定要吃什麼了吧？","grammar":"疑問詞＋か（間接疑問句）","contraction":"","origin":"食べる、決める","context":"","tags":["生活"],"audioKey":"clip0350"},{"kanji":"行くか考える","hiragana":"いくかかんがえる","cn":"考慮一下要不要去。","grammar":"動普通形＋か（間接疑問句）","contraction":"","origin":"行く、考える","context":"","tags":["生活"],"audioKey":"clip0351"},{"kanji":"いいお店を見つけたから、行ってみたい。","hiragana":"いいお店を見つけたから、行ってみたい","cn":"因為找到了好店，所以想去看看。","grammar":"動詞た形＋から＋動詞て形＋みたい（試著）","contraction":"","origin":"見つける、行く、見る","context":"","tags":["旅遊"],"audioKey":"clip0352"},{"kanji":"鍵が見つからなくて、どこにも行けない。","hiragana":"鍵が見つからなくて、どこにも行けない","cn":"因為找不到鑰匙，哪裡都不能去。","grammar":"動詞ない形＋くて＋疑問詞＋にも＋動詞可能形否定","contraction":"","origin":"見つかる、行く","context":"","tags":["旅遊"],"audioKey":"clip0353"},{"kanji":"暑くなってきたので、冷たい飲み物が要る。","hiragana":"暑くなってきたので、冷たい飲み物が要る","cn":"因為開始變熱了，所以需要冷飲。","grammar":"形容詞＋くなる＋動詞て形＋くる＋ので＋動詞原型","contraction":"","origin":"なる、くる、要る","context":"","tags":["生活"],"audioKey":"clip0354"},{"kanji":"誰もいなかったから、全部食べてしまった。","hiragana":"誰もいなかったから、全部食べてしまった","cn":"因為當時沒人在，所以就全部吃掉了。","grammar":"疑問詞＋も＋動詞ない形(過去)＋から＋動詞て形＋しまう","contraction":"","origin":"いる、食べる","context":"","tags":["生活"],"audioKey":"clip0355"},{"kanji":"行きたくなかったけど、行ってみたら面白かった。","hiragana":"行きたくなかったけど、行ってみたら面白かった","cn":"本來不想去的，但試著去了之後覺得很有趣。","grammar":"動詞たい形(過去否定)＋けど＋動詞て形＋みたら（動作後的發現）","contraction":"","origin":"行く、見る","context":"","tags":["生活"],"audioKey":"clip0356"},{"kanji":"予約しておいたので、すぐに入れると思います。","hiragana":"予約しておいたので、すぐにはいれると思います。","cn":"因為已經先預約好了，我想應該馬上就能進去。","grammar":"動詞て形＋おく＋ので＋動詞可能形＋と思います","contraction":"","origin":"予約する、おく、入る、思う","context":"","tags":["旅遊"],"audioKey":"clip0357"},{"kanji":"まだ見ていないから、言わないでほしい。","hiragana":"まだ見ていないから、言わないでほしい","cn":"因為我還沒看，希望你先不要說（不要暴雷）。","grammar":"動詞ていない＋から＋動詞ない形＋でほしい（希望對方不要做）","contraction":"","origin":"見る、いる、言う、ほしい","context":"","tags":["生活"],"audioKey":"clip0358"},{"kanji":"使わなくなったから、要るならあげるよ。","hiragana":"使わなくなったから、要るならあげるよ","cn":"因為沒在用了，如果你需要的話就送你喔。","grammar":"動ない形(去い)＋くなった＋から＋動原型＋なら＋あげる","contraction":"","origin":"使う、なる、要る、あげる","context":"","tags":["生活"],"audioKey":"clip0359"},{"kanji":"いいお店を見つけたよ。","hiragana":"いいお店を見つけたよ","cn":"我找到一家好店喔。","grammar":"動詞た形＋終助詞よ","contraction":"","origin":"見つける","context":"","tags":["旅遊"],"audioKey":"clip0360"},{"kanji":"探したけど、見つけられなかった。","hiragana":"探したけど、見つけられなかった","cn":"我找了，但是找不到。","grammar":"動詞た形＋けど＋動詞可能形（過去否定）","contraction":"","origin":"探す、見つける","context":"","tags":["生活"],"audioKey":"clip0361"},{"kanji":"スマホ、見つかった？","hiragana":"スマホ、見つかった","cn":"手機找到了嗎？","grammar":"動詞た形（口語上揚表疑問）","contraction":"","origin":"見つかる","context":"","tags":["生活"],"audioKey":"clip0362"},{"kanji":"ずっと探していた本が見つかった！","hiragana":"ずっと探していた本が見つかった","cn":"一直在找的書找到了！","grammar":"動詞ていた（過去持續）＋名詞＋動詞た形","contraction":"","origin":"探す、見つかる","context":"","tags":["生活"],"audioKey":"clip0363"},{"kanji":"来月、日本へ行くことになりました。","hiragana":"来月、日本へ行くことになりました","cn":"決定下個月要去日本了。","grammar":"動詞る形＋ことになりました（客觀決定）","contraction":"","origin":"行く、なる","context":"","tags":["生活"],"audioKey":"clip0364"},{"kanji":"ずっと気になっている。","hiragana":"ずっと気になっている","cn":"我一直很在意。","grammar":"動詞ている（狀態持續）","contraction":"","origin":"気になる、いる","context":"","tags":["生活"],"audioKey":"clip0365"},{"kanji":"暗くて、よく見えない。","hiragana":"暗くて、よく見えない","cn":"因為很暗，所以看不清楚。","grammar":"形容詞くて（原因）＋動詞ない形","contraction":"","origin":"見える","context":"","tags":["生活"],"audioKey":"clip0366"},{"kanji":"鍵が見つからなくて、困っている。","hiragana":"鍵が見つからなくて、困っている","cn":"因為找不到鑰匙，覺得很困擾。","grammar":"動詞なくて（原因）＋動詞ている","contraction":"","origin":"見つかる、困る、いる","context":"","tags":["旅遊"],"audioKey":"clip0367"},{"kanji":"予定がなくなって、暇になった。","hiragana":"予定がなくなって、暇になった","cn":"因為行程取消了，變得有空了。","grammar":"動詞て形（原因）＋形容動詞＋になった","contraction":"","origin":"なくなる、なる","context":"","tags":["生活"],"audioKey":"clip0368"},{"kanji":"今、家にいるので、いつでも大丈夫です。","hiragana":"今、家にいるので、いつでも大丈夫です","cn":"我現在在家，所以隨時都可以喔。","grammar":"動詞る形＋ので（客觀原因）","contraction":"","origin":"いる","context":"","tags":["生活"],"audioKey":"clip0369"},{"kanji":"もう見えなくなったので、帰りましょう。","hiragana":"もう見えなくなったので、帰りましょう","cn":"已經看不到了，我們回去吧。","grammar":"動詞なくなった＋ので＋動詞ましょう（提議）","contraction":"","origin":"見える、なくなる、帰る","context":"","tags":["生活"],"audioKey":"clip0370"},{"kanji":"レジ袋は要らないので、そのままでいいです。","hiragana":"レジ袋は要らないので、そのままでいいです","cn":"因為我不需要塑膠袋，就這樣直接拿可以了。","grammar":"動詞ない形＋ので","contraction":"","origin":"要る","context":"","tags":["旅遊"],"audioKey":"clip0371"},{"kanji":"先生のおかげで、日本語が分かるようになりました。","hiragana":"先生のおかげで、日本語が分かるようになりました","cn":"多虧了老師，我變得懂日文了。","grammar":"名詞＋のおかげで（好的因果）＋ようになる（變化）","contraction":"","origin":"分かる、なる","context":"","tags":["生活"],"audioKey":"clip0372"},{"kanji":"眼鏡を変えたおかげで、よく見える。","hiragana":"眼鏡を変えたおかげで、よく見える","cn":"多虧換了眼鏡，看得很清楚。","grammar":"動詞た形＋おかげで（好的因果）","contraction":"","origin":"変える、見える","context":"","tags":["生活"],"audioKey":"clip0373"},{"kanji":"映画を見たせいで、寝るのが遅くなった。","hiragana":"映画を見たせいで、寝るのが遅くなった","cn":"都是因為看了電影，變得晚睡了。","grammar":"動詞た形＋せいで（壞的因果）＋形容詞＋くなった","contraction":"","origin":"見る、寝る、なる","context":"","tags":["生活"],"audioKey":"clip0374"},{"kanji":"雨のせいで、星が見えなかった。","hiragana":"雨のせいで、星が見えなかった","cn":"因為下雨的關係，看不到星星。","grammar":"名詞＋のせいで（壞的因果）＋動詞ない形（過去）","contraction":"","origin":"見える","context":"","tags":["生活"],"audioKey":"clip0375"},{"kanji":"ちょっと見て。","hiragana":"ちょっと見て","cn":"你過來看一下。(常體)","grammar":"動詞て形（口語省略ください）","contraction":"","origin":"見る","context":"","tags":["生活"],"audioKey":"clip0376"},{"kanji":"後でもう一度見ます。","hiragana":"後でもう一度見ます","cn":"等等我會再看一次。(ます體)","grammar":"動詞ます形","contraction":"","origin":"見る","context":"","tags":["生活"],"audioKey":"clip0377"},{"kanji":"見たけど、よく分からなかった。","hiragana":"見たけど、よく分からなかった","cn":"看了但不太懂。(常體)","grammar":"動詞た形＋けど＋動詞ない形(過去)","contraction":"","origin":"見る、分かる","context":"","tags":["生活"],"audioKey":"clip0378"},{"kanji":"パスポートを見せてください。","hiragana":"パスポートを見せてください","cn":"請出示護照。(ます體)","grammar":"動詞て形＋ください（請求）","contraction":"","origin":"見せる","context":"","tags":["生活"],"audioKey":"clip0379"},{"kanji":"写真、見せて。","hiragana":"写真、見せて","cn":"照片給我看。(常體)","grammar":"動詞て形（口語省略ください）","contraction":"","origin":"見せる","context":"","tags":["旅遊"],"audioKey":"clip0380"},{"kanji":"明日、見せますね。","hiragana":"明日、見せますね","cn":"明天給你看喔。(ます體)","grammar":"動詞ます形＋終助詞ね","contraction":"","origin":"見せる","context":"","tags":["生活"],"audioKey":"clip0381"},{"kanji":"後ろからよく見えません。","hiragana":"後ろからよく見えません","cn":"從後面看不清楚。(ます體)","grammar":"動詞ません（否定）","contraction":"","origin":"見える","context":"","tags":["生活"],"audioKey":"clip0382"},{"kanji":"星が見えるよ。","hiragana":"星が見えるよ","cn":"看得到星星喔。(常體)","grammar":"動詞る形＋終助詞よ","contraction":"","origin":"見える","context":"","tags":["生活"],"audioKey":"clip0383"},{"kanji":"遠くて見えないから、もっと前に行こう。","hiragana":"遠くて見えないから、もっと前に行こう","cn":"因為太遠看不到，我們往前走吧。(常體)","grammar":"形容詞くて＋動ない形＋から（因果）＋意向形","contraction":"","origin":"見える、行く","context":"","tags":["生活"],"audioKey":"clip0384"},{"kanji":"ネットで面白い記事を見つけました。","hiragana":"ネットで面白い記事を見つけました","cn":"在網路上找到了有趣的文章。(ます體)","grammar":"動詞ました（過去）","contraction":"","origin":"見つける","context":"","tags":["生活"],"audioKey":"clip0385"},{"kanji":"やっと見つけた！","hiragana":"やっと見つけた","cn":"終於找到了！(常體)","grammar":"動詞た形","contraction":"","origin":"見つける","context":"","tags":["生活"],"audioKey":"clip0386"},{"kanji":"なかなか見つけられません。","hiragana":"なかなか見つけられません","cn":"一直找不到。(ます體)","grammar":"動詞可能形＋ません","contraction":"","origin":"見つける","context":"","tags":["生活"],"audioKey":"clip0387"},{"kanji":"なくした財布が見つかりました。","hiragana":"なくした財布が見つかりました","cn":"弄丟的錢包找到了。(ます體)","grammar":"動詞た形（修飾名詞）＋動詞ました","contraction":"","origin":"なくす、見つかる","context":"","tags":["旅遊"],"audioKey":"clip0388"},{"kanji":"いい仕事が見つかるといいね。","hiragana":"いい仕事が見つかるといいね","cn":"希望能找到好工作。(常體)","grammar":"動詞る形＋といいね（希望能...）","contraction":"","origin":"見つかる","context":"","tags":["生活"],"audioKey":"clip0389"},{"kanji":"見つからなかったら、また今度買おう。","hiragana":"見つからなかったら、また今度買おう","cn":"如果找不到，下次再買吧。(常體)","grammar":"動詞なかったら（假設）＋意向形","contraction":"","origin":"見つかる、買う","context":"","tags":["旅遊"],"audioKey":"clip0390"},{"kanji":"今、ロビーにいます。","hiragana":"今、ロビーにいます","cn":"現在在飯店大廳。(ます體)","grammar":"助詞に（存在地點）＋ます形","contraction":"","origin":"いる","context":"","tags":["生活"],"audioKey":"clip0391"},{"kanji":"明日はずっと家にいるよ。","hiragana":"明日はずっと家にいるよ","cn":"明天會一直待在家喔。(常體)","grammar":"助詞に＋る形＋終助詞よ","contraction":"","origin":"いる","context":"","tags":["生活"],"audioKey":"clip0392"},{"kanji":"誰かいますか。","hiragana":"誰かいますか","cn":"有人在嗎？(ます體)","grammar":"疑問詞か＋ます形＋か","contraction":"","origin":"いる","context":"","tags":["生活"],"audioKey":"clip0393"},{"kanji":"疲れているから、今日は休む。","hiragana":"疲れているから、今日は休む","cn":"因為累了，今天休息。(常體)","grammar":"動詞ている＋から（因果）＋る形","contraction":"","origin":"疲れる、いる、休む","context":"","tags":["生活"],"audioKey":"clip0394"},{"kanji":"レシートは要りますか。","hiragana":"レシートは要りますか","cn":"需要收據嗎？(ます體)","grammar":"動詞ます形＋か","contraction":"","origin":"要る","context":"","tags":["生活"],"audioKey":"clip0395"},{"kanji":"これ、要る？","hiragana":"これ、要る","cn":"這個需要嗎？(常體)","grammar":"動詞る形（語尾上揚表疑問）","contraction":"","origin":"要る","context":"","tags":["生活"],"audioKey":"clip0396"},{"kanji":"今は要りません。","hiragana":"今は要りません","cn":"現在不需要。(ます體)","grammar":"動詞ません（否定）","contraction":"","origin":"要る","context":"","tags":["生活"],"audioKey":"clip0397"},{"kanji":"お会計は1000円になります。","hiragana":"お会計は1000円になります","cn":"結帳一共是1000日圓。(ます體)","grammar":"名詞＋になります（服務業客氣宣告）","contraction":"","origin":"なる","context":"","tags":["旅遊"],"audioKey":"clip0398"},{"kanji":"暗くなってきたから、帰ろう。","hiragana":"暗くなってきたから、帰ろう。","cn":"因為變暗了，回家吧。(常體)","grammar":"形容詞くなる＋てきた＋から（因果）＋意向形","contraction":"","origin":"なる、くる、帰る","context":"","tags":["生活"],"audioKey":"clip0399"},{"kanji":"日本語が上手になりましたね。","hiragana":"日本語が上手になりましたね","cn":"日文變好了呢。(ます體)","grammar":"形容動詞＋になりました","contraction":"","origin":"なる","context":"","tags":["生活"],"audioKey":"clip0400"},{"kanji":"来年、社会人になる。","hiragana":"来年、社会人になる","cn":"明年就要出社會了。(常體)","grammar":"名詞＋になる","contraction":"","origin":"なる","context":"","tags":["生活"],"audioKey":"clip0401"},{"kanji":"慣れると、簡単になりますよ。","hiragana":"慣れると、簡単になりますよ","cn":"習慣之後，就會變簡單喔。(ます體)","grammar":"動詞る形＋と（一...就會...）＋ます形","contraction":"","origin":"慣れる、なる","context":"","tags":["生活"],"audioKey":"clip0402"},{"kanji":"駅はここから遠くにあります","hiragana":"駅はここから遠くにあります","cn":"車站離這裡很遠。(ます體)","grammar":"名詞(遠く)+に+動詞ます形(あります)","contraction":"","origin":"ある","context":"","tags":["旅遊"],"audioKey":"clip0403"},{"kanji":"音が遠く聞こえています","hiragana":"音が遠く聞こえています","cn":"聲音聽起來很遠。(ます體)","grammar":"い形容詞く形(遠く)+動詞て形(聞こえて)+います","contraction":"","origin":"聞こえる、いる","context":"","tags":["旅遊"],"audioKey":"clip0404"},{"kanji":"山が遠く見えます","hiragana":"山が遠く見えます","cn":"可以看到遠處的山。(ます體)","grammar":"い形容詞く形(遠く)+動詞ます形(見えます)","contraction":"","origin":"見える","context":"","tags":["生活"],"audioKey":"clip0405"},{"kanji":"近くに住んでいます","hiragana":"近くに住んでいます","cn":"住在附近。(ます體)","grammar":"名詞(近く)+に+動詞て形(住んで)+います","contraction":"","origin":"住む、いる","context":"","tags":["生活"],"audioKey":"clip0406"},{"kanji":"遠くへ行く","hiragana":"遠くへ行く","cn":"去遠方。(常體)","grammar":"名詞(遠く)+へ+動詞辞書形(行く)","contraction":"","origin":"行く","context":"","tags":["生活"],"audioKey":"clip0407"},{"kanji":"子どもが大きくなりました","hiragana":"子どもが大きくなりました","cn":"孩子長大了。(ます體)","grammar":"い形容詞く形(大きく)+動詞た形(なりました)","contraction":"","origin":"大きい、なる","context":"","tags":["生活"],"audioKey":"clip0408"},{"kanji":"外が暗くなってきました","hiragana":"外が暗くなってきました","cn":"外面變暗了。(ます體)","grammar":"い形容詞く形(暗く)+動詞て形(なって)+きました(てくる)","contraction":"","origin":"暗い、なる、くる","context":"","tags":["生活"],"audioKey":"clip0409"},{"kanji":"日本語が少し上手になりました","hiragana":"日本語が少し上手になりました","cn":"日文變得稍微好一點了。(ます體)","grammar":"な形容詞に形(上手に)+動詞た形(なりました)","contraction":"","origin":"上手、なる","context":"","tags":["生活"],"audioKey":"clip0410"},{"kanji":"この店は最近有名になりました","hiragana":"この店は最近有名になりました","cn":"這家店最近變有名了。(ます體)","grammar":"な形容詞に形(有名に)+動詞た形(なりました)","contraction":"","origin":"有名、なる","context":"","tags":["生活"],"audioKey":"clip0411"},{"kanji":"薬を飲んで、少し元気になりました","hiragana":"薬を飲んで、少し元気になりました","cn":"吃了藥，變得有點精神了。(ます體)","grammar":"動詞て形(飲んで)+な形容詞に形(元気に)+動詞た形(なりました)","contraction":"","origin":"飲む、元気、なる","context":"","tags":["生活"],"audioKey":"clip0412"},{"kanji":"早く元気になってください","hiragana":"早く元気になってください","cn":"請早日康復。(ます體)","grammar":"い形容詞く形(早く)+な形容詞に形(元気に)+動詞て形(なって)+ください","contraction":"","origin":"早い、元気、なる","context":"","tags":["生活"],"audioKey":"clip0413"},{"kanji":"近くにあったら、歩いて行けます","hiragana":"近くにあったら、歩いて行けます","cn":"如果在附近的話，可以走路去。(ます體)","grammar":"名詞(近く)+に+動詞た形(あった)+ら(条件)+動詞て形(歩いて)+動詞可能形ます形(行けます)","contraction":"","origin":"ある、歩く、行ける","context":"","tags":["生活"],"audioKey":"clip0414"},{"kanji":"声を小さくします","hiragana":"声を小さくします","cn":"把聲音弄小。(ます體)","grammar":"い形容詞く形(小さく)+動詞ます形(します)","contraction":"","origin":"小さい、する","context":"","tags":["生活"],"audioKey":"clip0415"},{"kanji":"声を小さくしてください","hiragana":"声を小さくしてください","cn":"請把聲音關小。(ます體)","grammar":"い形容詞く形(小さく)+動詞て形(して)+ください","contraction":"","origin":"小さい、する","context":"","tags":["生活"],"audioKey":"clip0416"},{"kanji":"野菜は体にいいです","hiragana":"野菜は体にいいです","cn":"蔬菜對身體很好。(ます體)","grammar":"名詞(体)+に+い形容詞(いい)+です","contraction":"","origin":"いい (よい)","context":"","tags":["生活"],"audioKey":"clip0417"},{"kanji":"スマホの見すぎは目に悪いです","hiragana":"スマホの見すぎは目に悪いです","cn":"手機看太多對眼睛不好。(ます體)","grammar":"動詞ます形去ます(見)+すぎ(過度)+は+名詞(目)+に+い形容詞(悪い)+です","contraction":"","origin":"見る、悪い","context":"","tags":["生活"],"audioKey":"clip0418"},{"kanji":"この薬は体に合わない","hiragana":"この薬は体に合わない","cn":"這個藥不適合我的體質。(常體)","grammar":"名詞(体)+に+動詞ない形(合わない)","contraction":"","origin":"合う","context":"","tags":["生活"],"audioKey":"clip0419"},{"kanji":"この店は外国人に優しいです","hiragana":"この店は外国人に優しいです","cn":"這家店對外國人很友善。(ます體)","grammar":"名詞(外国人)+に+い形容詞(優しい)+です","contraction":"","origin":"優しい","context":"","tags":["生活"],"audioKey":"clip0420"},{"kanji":"新しい仕事に慣れました","hiragana":"新しい仕事に慣れました","cn":"習慣新工作了。(ます體)","grammar":"名詞(仕事)+に+動詞た形(慣れました)","contraction":"","origin":"新しい、慣れる","context":"","tags":["生活"],"audioKey":"clip0421"},{"kanji":"私はエビにアレルギーがあります","hiragana":"私はエビにアレルギーがあります","cn":"我對蝦子過敏。(ます體)","grammar":"名詞(エビ)+に+名詞(アレルギー)+が+動詞ます形(あります)","contraction":"","origin":"ある","context":"","tags":["旅遊"],"audioKey":"clip0422"},{"kanji":"日本で生活するにはお金が必要です","hiragana":"日本で生活するにはお金が必要です","cn":"在日本生活需要錢。(ます體)","grammar":"動詞辞書形(生活する)+には(目的)+名詞(お金)+が+な形容詞(必要)+です","contraction":"","origin":"生活する、必要","context":"","tags":["生活"],"audioKey":"clip0423"},{"kanji":"子どもには危ないです","hiragana":"子どもには危ないです","cn":"對小孩子來說很危險。(ます體)","grammar":"名詞(子ども)+には(對象)+い形容詞(危ない)+です","contraction":"","origin":"危ない","context":"","tags":["生活"],"audioKey":"clip0424"},{"kanji":"このバスは空港まで行きますか。","hiragana":"このバスは空港まで行きますか。","cn":"抽菸對身體不好。(ます體)","grammar":"名詞(タバコ)+は+名詞(体)+に+い形容詞(悪い)+です","contraction":"","origin":"悪い","context":"","tags":["旅遊"],"audioKey":"clip0425"},{"kanji":"次の駅で乗り換えればいいですか。","hiragana":"次の駅で乗り換えればいいですか。","cn":"酒喝太多對身體不好。(ます體)","grammar":"名詞(お酒)+の+動詞ます形去ます(飲み)+すぎ(過度)+は+名詞(体)+に+い形容詞(悪い)+です","contraction":"","origin":"飲む、悪い","context":"","tags":["旅遊"],"audioKey":"clip0426"},{"kanji":"道に迷ってしまいました。","hiragana":"道に迷ってしまいました。","cn":"熬夜對身體不好。(ます體)","grammar":"名詞(夜更かし)+は+名詞(体)+に+い形容詞(悪い)+です","contraction":"","origin":"悪い","context":"","tags":["旅遊"],"audioKey":"clip0427"},{"kanji":"この店、予約なしでも入れますか？","hiragana":"この店、予約なしでもはいれますか？","cn":"甜食吃太多對身體不好。(ます體)","grammar":"い形容詞(甘い)+名詞(もの)+の+動詞ます形去ます(食べ)+すぎ(過度)+は+名詞(体)+に+い形容詞(悪い)+です","contraction":"","origin":"甘い、食べる、悪い","context":"","tags":["旅遊"],"audioKey":"clip0428"},{"kanji":"袋は要りません。","hiragana":"袋はいりません。","cn":"壓力對身體不好。(ます體)","grammar":"名詞(ストレス)+は+名詞(体)+に+い形容詞(悪い)+です","contraction":"","origin":"悪い","context":"","tags":["旅遊"],"audioKey":"clip0429"},{"kanji":"エアコン、強すぎるんじゃない？","hiragana":"エアコン、強すぎるんじゃない？","cn":"冷氣是不是開得太強了？","grammar":"い形容詞去い＋すぎる＋んじゃない？（口語推測／確認）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0430"},{"kanji":"もう少し弱くしてもらえますか。","hiragana":"もう少し弱くしてもらえますか。","cn":"可以再調弱一點嗎？","grammar":"い形容詞去い＋くする＋てもらえますか（委婉請求）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0431"},{"kanji":"この音、ちょっと大きすぎない？","hiragana":"この音、ちょっと大きすぎない？","cn":"這個聲音會不會有點太大？","grammar":"い形容詞去い＋すぎる＋ない？（口語反問）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0432"},{"kanji":"アナウンスが聞き取りにくいです。","hiragana":"アナウンスが聞き取りにくいです。","cn":"廣播不太容易聽清楚。","grammar":"動詞ます形去ます＋にくい（不容易～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0433"},{"kanji":"もう一回言ってもらえますか。","hiragana":"もう一回言ってもらえますか。","cn":"可以再說一次嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["生活"],"audioKey":"clip0434"},{"kanji":"すみません、聞き取れませんでした。","hiragana":"すみません、聞き取れませんでした。","cn":"不好意思，我剛才沒聽清楚。","grammar":"動詞ます形去ます＋取れる的否定過去（沒能聽清）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0435"},{"kanji":"テレビをつけてもらえますか。","hiragana":"テレビをつけてもらえますか。","cn":"可以幫我開電視嗎？","grammar":"他動詞を＋動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0436"},{"kanji":"テレビがつかないんですが。","hiragana":"テレビがつかないんですが。","cn":"電視打不開，該怎麼辦？","grammar":"自動詞ない形＋んですが（委婉說明問題）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0437"},{"kanji":"電気をつけたのに、明るくなりません。","hiragana":"電気をつけたのに、明るくなりません。","cn":"明明開了燈，卻沒有變亮。","grammar":"動詞た形＋のに（明明～卻～）；い形容詞去い＋くなる","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0438"},{"kanji":"財布が見つからないんですが。","hiragana":"財布がみつからないんですが。","cn":"我的錢包找不到了。","grammar":"自動詞ない形＋んですが（委婉說明狀況）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0439"},{"kanji":"財布を探しているんですが。","hiragana":"財布を探しているんですが。","cn":"我正在找錢包。","grammar":"動詞て形＋いる（正在～）＋んですが","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0440"},{"kanji":"荷物を預けてもいいですか。","hiragana":"荷物を預けてもいいですか。","cn":"可以寄放行李嗎？","grammar":"動詞て形＋もいいですか（詢問許可）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0441"},{"kanji":"この席、空いていますか？","hiragana":"この席、あいていますか？","cn":"這個位子有人坐嗎？","grammar":"自動詞て形＋いる（空著／有空位）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0442"},{"kanji":"混んでいたら、別の店に行きましょう。","hiragana":"混んでいたら、別の店に行きましょう。","cn":"如果人太多，我們就去別家店吧。","grammar":"動詞た形＋ら（如果～）；意向形＋ましょう","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0443"},{"kanji":"もう少しで乗り過ごすところでした。","hiragana":"もう少しで乗り過ごすところでした。","cn":"差一點就坐過站了。","grammar":"もう少しで＋動詞辭書形＋ところだった（差點就～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0444"},{"kanji":"鍵が見つからなくて、困っています。","hiragana":"鍵がみつからなくて、困っています。","cn":"找不到鑰匙，正傷腦筋。","grammar":"動詞ない形＋なくて（原因）；動詞て形＋いる","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0445"},{"kanji":"おすすめは何ですか？","hiragana":"おすすめはなんですか？","cn":"有什麼推薦的嗎？","grammar":"名詞は何ですか（詢問推薦項目）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0446"},{"kanji":"これ、袋に入れてもらえますか？","hiragana":"これ、袋にいれてもらえますか？","cn":"可以幫我把這個裝進袋子嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0447"},{"kanji":"写真を撮ってもらえますか？","hiragana":"写真を撮ってもらえますか？","cn":"可以幫我拍張照嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0448"},{"kanji":"もう一度見せてもらえますか？","hiragana":"もう一度見せてもらえますか？","cn":"可以再給我看一次嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0449"},{"kanji":"ちょっと見てきます。","hiragana":"ちょっと見てきます。","cn":"我去看一下就回來。","grammar":"動詞て形＋くる（去做某事後回來）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0450"},{"kanji":"この近くにATMはありますか？","hiragana":"この近くにATMはありますか？","cn":"這附近有 ATM 嗎？","grammar":"場所に＋物はありますか（詢問存在）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0451"},{"kanji":"ここから駅まで歩いて行けますか？","hiragana":"ここから駅まで歩いて行けますか？","cn":"從這裡可以走路到車站嗎？","grammar":"動詞て形＋行く；可能形＋ますか","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0452"},{"kanji":"混んでいたので、予約しておいてよかったです。","hiragana":"混んでいたので、予約しておいてよかったです。","cn":"因為人很多，還好有先預約。","grammar":"普通形＋ので（原因）；動詞て形＋おく；ておいてよかった","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0453"},{"kanji":"声が小さくて、よく聞こえません。","hiragana":"声が小さくて、よく聞こえません。","cn":"聲音太小，我聽不太清楚。","grammar":"い形容詞＋くて（原因）；自動詞聞こえる的否定","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0454"},{"kanji":"このアナウンスは聞き取りやすいです。","hiragana":"このアナウンスは聞き取りやすいです。","cn":"這段廣播很容易聽清楚。","grammar":"動詞ます形去ます＋やすい（容易～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0455"},{"kanji":"このマイクは小さい音も拾いやすいです。","hiragana":"このマイクは小さい音も拾いやすいです。","cn":"這支麥克風連很小的聲音也容易收進去。","grammar":"動詞ます形去ます＋やすい（容易～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0456"},{"kanji":"待ち合わせ場所は駅の改札前です。","hiragana":"待ち合わせ場所は駅の改札前です。","cn":"碰面地點在車站剪票口前。","grammar":"名詞は場所です（說明集合地點）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0457"},{"kanji":"電車に乗り遅れてしまいました。","hiragana":"電車に乗り遅れてしまいました。","cn":"我沒趕上電車。","grammar":"動詞ます形去ます＋遅れる；動詞て形＋しまう（遺憾／不小心）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0458"},{"kanji":"すみません、もう一度聞き返してもいいですか。","hiragana":"すみません、もう一度聞き返してもいいですか。","cn":"不好意思，可以請你再說一次嗎？","grammar":"動詞て形＋もいいですか（詢問許可）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0459"},{"kanji":"サイズを取り替えてもらえますか。","hiragana":"サイズを取り替えてもらえますか。","cn":"可以幫我換尺寸嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0460"},{"kanji":"帰る前に、コンビニに立ち寄ります。","hiragana":"帰る前に、コンビニに立ち寄ります。","cn":"回去前我會順道去便利商店。","grammar":"動詞辭書形＋前に（在～之前）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0461"},{"kanji":"そろそろ出かけましょう。","hiragana":"そろそろ出かけましょう。","cn":"差不多該出門了。","grammar":"動詞意向形＋ましょう（提議一起～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0462"},{"kanji":"先に切符を買っておきます。","hiragana":"先に切符を買っておきます。","cn":"我先把車票買好。","grammar":"動詞て形＋おく（事先做好）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0463"},{"kanji":"このアプリから予約できますか。","hiragana":"このアプリから予約できますか。","cn":"可以用這個 App 預約嗎？","grammar":"動詞可能形＋ますか（詢問能否～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0464"},{"kanji":"窓側の席をお願いします。","hiragana":"窓側の席をお願いします。","cn":"麻煩給我靠窗的座位。","grammar":"名詞をお願いします（提出需求）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0465"},{"kanji":"通路側の席をお願いします。","hiragana":"通路側の席をお願いします。","cn":"麻煩給我走道旁的座位。","grammar":"名詞をお願いします（提出需求）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0466"},{"kanji":"できれば、窓側の席がいいです。","hiragana":"できれば、窓側の席がいいです。","cn":"可以的話，我想要靠窗的座位。","grammar":"できれば（可以的話）＋名詞がいいです（偏好）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0467"},{"kanji":"この席、通路側に替えてもらえますか。","hiragana":"この席、通路側に替えてもらえますか。","cn":"可以幫我把這個位子換到走道旁嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0468"},{"kanji":"禁煙席はありますか。","hiragana":"禁煙席はありますか。","cn":"有禁菸座位嗎？","grammar":"名詞はありますか（詢問是否有～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0469"},{"kanji":"窓側と通路側、どちらが空いていますか。","hiragana":"窓側と通路側、どちらが空いていますか。","cn":"靠窗和走道旁的座位，哪一種還有空位？","grammar":"AとB、どちら；自動詞て形＋いる（有空位）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0470"},{"kanji":"チェックインをお願いします。予約しています。","hiragana":"チェックインをお願いします。予約しています。","cn":"我要辦理入住，我有預約。","grammar":"名詞をお願いします；動詞て形＋いる（預約中的狀態）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0471"},{"kanji":"チェックアウトは何時ですか。","hiragana":"チェックアウトはなんじですか。","cn":"退房時間是幾點？","grammar":"名詞は何時ですか（詢問時間）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0472"},{"kanji":"朝食は何時からですか。","hiragana":"朝食はなんじからですか。","cn":"早餐從幾點開始？","grammar":"名詞は何時からですか（詢問開始時間）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0473"},{"kanji":"Wi-Fiのパスワードを教えてもらえますか。","hiragana":"Wi-Fiのパスワードを教えてもらえますか。","cn":"可以告訴我 Wi-Fi 密碼嗎？","grammar":"動詞て形＋もらえますか（請對方告知）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0474"},{"kanji":"交通系ICカードにチャージできますか。","hiragana":"交通系ICカードにチャージできますか。","cn":"可以幫交通 IC 卡加值嗎？","grammar":"動詞可能形＋ますか（詢問能否～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0475"},{"kanji":"この切符で乗れますか。","hiragana":"この切符で乗れますか。","cn":"可以用這張票搭車嗎？","grammar":"名詞で（手段）；動詞可能形＋ますか","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0476"},{"kanji":"何番ホームから出ますか。","hiragana":"なんばんホームから出ますか。","cn":"從幾號月台出發？","grammar":"何番＋名詞；場所から＋動詞（詢問出發月台）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0477"},{"kanji":"ここで乗り換えですか。","hiragana":"ここで乗り換えですか。","cn":"是在這裡轉車嗎？","grammar":"場所で＋名詞ですか（確認地點／事項）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0478"},{"kanji":"近くに薬局はありますか。","hiragana":"近くに薬局はありますか。","cn":"附近有藥局嗎？","grammar":"場所に＋物はありますか（詢問存在）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0479"},{"kanji":"すみません、気分が悪いです。","hiragana":"すみません、気分が悪いです。","cn":"不好意思，我覺得不舒服。","grammar":"名詞が形容詞です（說明身體狀況）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0480"},{"kanji":"近くに病院はありますか。","hiragana":"近くに病院はありますか。","cn":"附近有醫院嗎？","grammar":"場所に＋物はありますか（詢問存在）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0481"},{"kanji":"これ、何が入っていますか？","hiragana":"これ、なにがはいっていますか？","cn":"這裡面有什麼成分？","grammar":"疑問詞が＋動詞て形＋いる（詢問內容物）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0482"},{"kanji":"甲殻類アレルギーがあります。","hiragana":"甲殻類アレルギーがあります。","cn":"我對甲殼類過敏。","grammar":"名詞があります（表示有～）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0483"},{"kanji":"財布をなくしてしまいました。","hiragana":"財布をなくしてしまいました。","cn":"我的錢包不見了。","grammar":"動詞て形＋しまう（遺憾／不小心）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0484"},{"kanji":"交番はどこですか。","hiragana":"交番はどこですか。","cn":"派出所在哪裡？","grammar":"名詞はどこですか（詢問地點）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0485"},{"kanji":"この荷物を預かってもらえますか。","hiragana":"この荷物を預かってもらえますか。","cn":"可以幫我保管這件行李嗎？","grammar":"動詞て形＋もらえますか（請對方幫忙）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0486"},{"kanji":"空港までお願いします。","hiragana":"空港までお願いします。","cn":"麻煩載我去機場。","grammar":"地點までお願いします（指定目的地）","contraction":"","origin":"","context":"","tags":["旅遊"],"audioKey":"clip0487"},{"kanji":"クレジットカードは使えますか。","hiragana":"クレジットカードは使えますか。","cn":"可以刷信用卡嗎？","grammar":"動詞可能形＋ますか（詢問能否～）","contraction":"","origin":"","context":"","tags":["生活"],"audioKey":"clip0488"},{"kanji":"免税手続きはできますか。","hiragana":"免税手続きはできますか。","cn":"可以辦理免稅手續嗎？","grammar":"動詞可能形＋ますか（詢問能否辦理）","contraction":"","origin":"","context":"","tags":["生活"],"audioKey":"clip0489"},{"kanji":"搭乗口は何番ですか。","hiragana":"搭乗口はなんばんですか。","cn":"登機門是幾號？","grammar":"名詞は何番ですか（詢問編號）","contraction":"","origin":"","context":"","tags":["生活"],"audioKey":"clip0490"},{"kanji":"コンビニに行く","hiragana":"","cn":"去便利商店","grammar":"名詞＋に＋行く","contraction":"なければいけない／なきゃ必須","origin":"行く","context":"「肚子有點餓了」、「我想買個飲料」或被問到「你要去哪裡？」時的回答。","tags":["未分類"],"audioKey":"legacy001"},{"kanji":"スーパーに行く","hiragana":"","cn":"去超市","grammar":"名詞＋に＋行く","contraction":"","origin":"行く","context":"「家裡沒菜了」、「我想去買晚餐的食材」或被問到「你等一下要去哪裡？」時的回答。","tags":["未分類"],"audioKey":"legacy002"},{"kanji":"トイレにいく","hiragana":"","cn":"去上洗手間","grammar":"名詞＋に＋行く","contraction":"","origin":"行く","context":"「想去洗手間」、「需要離開一下」或被問到「你要去哪裡？」時的回答。","tags":["未分類"],"audioKey":"legacy003"},{"kanji":"銀行にいった","hiragana":"","cn":"去銀行","grammar":"名詞＋に＋行った","contraction":"なければいけない／なきゃ必須","origin":"行く","context":"「我的卡片找不到了」、「我想去存錢」或被問到「你今天下午要去哪裡？」時的回答。","tags":["未分類"],"audioKey":"legacy004"},{"kanji":"病院にいかない","hiragana":"","cn":"不去醫院","grammar":"名詞＋に＋行く","contraction":"","origin":"行く","context":"「生病了但想撐過去」、「覺得沒有到很嚴重」或被問到「你不去看醫生嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy005"},{"kanji":"カフェにいく","hiragana":"","cn":"去咖啡廳","grammar":"名詞＋に＋行く","contraction":"","origin":"行く","context":"「有點累了想休息一下」、「找個地方坐著聊天」或被問到「接下來要去哪裡？」時的回答。","tags":["未分類"],"audioKey":"legacy006"},{"kanji":"散歩にいく","hiragana":"","cn":"去散步","grammar":"名詞＋に＋行く","contraction":"","origin":"行く","context":"「天氣很好」、「坐太久了想動一動」或被問到「等一下要做什麼？」時的回答。","tags":["未分類"],"audioKey":"legacy007"},{"kanji":"明日行っておく","hiragana":"","cn":"明天先去看看","grammar":"動詞て形＋おく＋て形＋みる","contraction":"","origin":"行く、おく","context":"「明天去哪裡玩呢？」、「要不要先去探個路？」或被問到「明天有什麼計畫？」時的回答。","tags":["未分類"],"audioKey":"legacy008"},{"kanji":"先に行っておいて","hiragana":"","cn":"你先去、你先走","grammar":"動詞て形＋おく＋て","contraction":"","origin":"行く、おく","context":"「我想先去買點東西」、「我很快就回來」或被問到「我們要出發了嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy009"},{"kanji":"今日は行きたくない","hiragana":"","cn":"今天不想去","grammar":"動詞ます形＋たい／たくない","contraction":"なければいけない／なきゃ必須","origin":"行く","context":"「要一起去聚餐嗎？」、「明天要不要去逛街？」或被問到「今天放假要出去走走嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy010"},{"kanji":"先に行っておきます","hiragana":"","cn":"我先走一步","grammar":"動詞て形＋おく","contraction":"","origin":"行く、おく","context":"「我要先離開了」、「我先走一步」或被問到「你不和大家一起走嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy011"},{"kanji":"あの店に行ったことある","hiragana":"","cn":"去過那家店","grammar":"動詞た形＋ことがある","contraction":"","origin":"行く、ある","context":"「那家店很有名喔」、「聽說那裡的料理很好吃」或被問到「你去過那家店嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy012"},{"kanji":"掃除をする","hiragana":"","cn":"打掃","grammar":"名詞＋を＋する","contraction":"","origin":"掃除する","context":"「房間有點髒了」、「客人快要來了」或被問到「你等一下要做什麼？」時的回答。","tags":["未分類"],"audioKey":"legacy013"},{"kanji":"洗濯をする","hiragana":"","cn":"洗衣服","grammar":"名詞＋を＋する","contraction":"","origin":"洗濯する","context":"「衣服髒了」、「累積了好多髒衣服」或被問到「你等一下要做什麼？」時的回答。","tags":["未分類"],"audioKey":"legacy014"},{"kanji":"買い物をする","hiragana":"","cn":"去買東西","grammar":"名詞＋を＋する","contraction":"なければいけない／なきゃ必須","origin":"買い物する","context":"「你要出門做什麼？」、「你今天打算做什麼？」或「你有什麼安排？」時的回答。","tags":["未分類"],"audioKey":"legacy015"},{"kanji":"注文をする","hiragana":"","cn":"下訂單","grammar":"名詞＋を＋する","contraction":"","origin":"注文する","context":"「決定好要買什麼了」、「看好菜單了」或被問到「要點餐了嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy016"},{"kanji":"連絡をした","hiragana":"","cn":"聯絡了","grammar":"名詞＋を＋する","contraction":"","origin":"連絡する","context":"「你聯絡對方了嗎？」、「事情處理得怎麼樣了？」或需要交代進度時的回答。","tags":["未分類"],"audioKey":"legacy017"},{"kanji":"いい匂いがしてきた","hiragana":"","cn":"傳出好聞的氣味","grammar":"名詞＋が＋する＋てくる","contraction":"","origin":"する、くる","context":"「聞到廚房傳來香味」、「走進麵包店」或「有人走過去身上散發香氣」時的感嘆。","tags":["未分類"],"audioKey":"legacy018"},{"kanji":"準備した","hiragana":"","cn":"準備好了","grammar":"動詞て形＋しまう","contraction":"","origin":"準備する","context":"被問到「你準備好了嗎？」、「我們開始準備吧」或想表達「我不小心都準備好了」時的回答。","tags":["未分類"],"audioKey":"legacy019"},{"kanji":"牛肉を食べられません","hiragana":"","cn":"不能吃牛肉","grammar":"名詞＋が＋動詞可能形否定","contraction":"","origin":"食べる","context":"「有什麼不吃的肉類嗎？」、「你怎麼不吃這個牛排？」或被問到「有對什麼食物過敏或忌口嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy020"},{"kanji":"ご飯を食べる","hiragana":"","cn":"吃飯","grammar":"名詞＋を＋動詞","contraction":"","origin":"食べる","context":"「要不要一起去吃午餐？」、「你等一下要幹嘛？」或被問到「你今天要做什麼？」時的回答。","tags":["未分類"],"audioKey":"legacy021"},{"kanji":"デザートを食べる","hiragana":"","cn":"吃甜點","grammar":"名詞＋を＋動詞","contraction":"","origin":"食べる","context":"「正餐吃飽了」、「這家店的點心看起來很好吃」或被問到「你要吃附餐的甜點嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy022"},{"kanji":"昼休み会社でご飯を食べたり、運動をしたりします。","hiragana":"","cn":"午休時在公司吃吃飯、做做運動。","grammar":"動詞たり、動詞たり＋します","contraction":"","origin":"食べる、運動する","context":"「你午休時間在公司都做些什麼？」或被問到「你中午休息都在幹嘛？」時的回答。","tags":["未分類"],"audioKey":"legacy023"},{"kanji":"髪を短くして。","hiragana":"","cn":"請幫我把頭髮剪短。","grammar":"動詞て形","contraction":"","origin":"する","context":"「想換個清爽的髮型」、「天氣太熱了想剪短」或在美容院被問到「今天想怎麼修剪？」時的回答。","tags":["未分類"],"audioKey":"legacy024"},{"kanji":"音を小さくします。","hiragana":"","cn":"把聲音變小","grammar":"形容詞＋（去い）＋く＋する","contraction":"","origin":"する","context":"「電視的聲音太大了」、「音樂放得太大聲」或被問到「你可以把聲音調小一點嗎？」時的回答。","tags":["未分類"],"audioKey":"legacy025"}];
+const rawData = [
+  {
+    "kanji": "今行っているところです",
+    "hiragana": "今行っているところです",
+    "cn": "現在正要去 / 正往那裡去的路上",
+    "grammar": "動詞て形＋いるところだ",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友問你在哪 → 回答正在路上✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0001"
+  },
+  {
+    "kanji": "昨日は外で食べたほうがおいしかったです",
+    "hiragana": "昨日は外で食べたほうがおいしかったです",
+    "cn": "昨天在外面吃比較好吃",
+    "grammar": "動詞た形+ほうが～",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "聊昨天的餐點 → 外食比較好吃✅自己經驗",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0002"
+  },
+  {
+    "kanji": "予約しておくほうが安心です",
+    "hiragana": "予約しておくほうが安心です",
+    "cn": "先預約比較安心",
+    "grammar": "動詞て形＋おく＋ほうが〜",
+    "contraction": "",
+    "origin": "予約する、おく",
+    "context": "討論訂位/排行程 → 建議先訂位保險（對朋友建議）",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0003"
+  },
+  {
+    "kanji": "あの店によく行く",
+    "hiragana": "あの店によく行く",
+    "cn": "經常去那家店",
+    "grammar": "動詞て形＋いる (習慣或狀態)",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問推薦店家 → 回答自己常去✅自己習慣",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0004"
+  },
+  {
+    "kanji": "病院に行かないかも",
+    "hiragana": "病院に行かないかも",
+    "cn": "可能不會去看醫生",
+    "grammar": "動詞ない形+かも",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友關心你不舒服卻不去看醫生✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0005"
+  },
+  {
+    "kanji": "そろそろ行こう",
+    "hiragana": "そろそろ行こう",
+    "cn": "差不多該走吧 / 差不多該出發了",
+    "grammar": "動詞意向形",
+    "contraction": "",
+    "origin": "行く",
+    "context": "聚會尾聲、時間差不多 → 提議該走了（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0006"
+  },
+  {
+    "kanji": "ほかの店で食べました",
+    "hiragana": "ほかの店で食べました",
+    "cn": "在別家店吃了",
+    "grammar": "動詞た形",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被誤以為在某店用餐 → 澄清其實在別家✅自己經驗",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0007"
+  },
+  {
+    "kanji": "歩いて行ってみる",
+    "hiragana": "歩いて行ってみる",
+    "cn": "試著走過去看看",
+    "grammar": "動詞て形＋行く＋て形＋みる",
+    "contraction": "",
+    "origin": "歩く、行く、みる",
+    "context": "被問怎麼過去 → 回答走路過去看看✅自己打算",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0008"
+  },
+  {
+    "kanji": "行かなさそう",
+    "hiragana": "行かなさそう",
+    "cn": "他看起來不去 / 好像不去(當下外觀判斷)",
+    "grammar": "動詞未然形＋なそう（～なさそう）",
+    "contraction": "",
+    "origin": "行く",
+    "context": "聊到某人會不會去 → 推測他好像不去❗他人(第三人稱)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0009"
+  },
+  {
+    "kanji": "どこかに行きたい",
+    "hiragana": "どこかに行きたい",
+    "cn": "想去某個地方",
+    "grammar": "疑問詞＋か＋に＋動詞ます形＋たい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "放假很閒 → 想去某個地方走走✅自己願望",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0010"
+  },
+  {
+    "kanji": "ちょっと行かなきゃ",
+    "hiragana": "ちょっと行かなきゃ",
+    "cn": "得走一下 / 必須去一下",
+    "grammar": "動詞ない形（去掉ない）＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "行く",
+    "context": "快遲到了/有人在等 → 回答得先走一下✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0011"
+  },
+  {
+    "kanji": "今日は行けそう",
+    "hiragana": "今日は行けそう",
+    "cn": "今天去得了 / 今天能去(當下直觀判斷即將發生)",
+    "grammar": "動詞可能形語幹＋そう",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問今天能不能到 → 回答應該去得了✅自己能力推測(例外)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0012"
+  },
+  {
+    "kanji": "明日先に行っておく",
+    "hiragana": "明日先に行っておく",
+    "cn": "我明天先去",
+    "grammar": "動詞て形＋おく",
+    "contraction": "",
+    "origin": "行く、おく",
+    "context": "討論明天行程 → 回答先去探路✅自己打算",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0013"
+  },
+  {
+    "kanji": "スーパーに行きそうだね",
+    "hiragana": "スーパーに行きそうだね",
+    "cn": "他看起來要去超市呢(推測多用於他人)(當下外觀判斷)",
+    "grammar": "動詞ます形＋そう",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看到某人往超市方向走 → 推測他要去超市❗他人(第三人稱)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0014"
+  },
+  {
+    "kanji": "スーパーに行くかも",
+    "hiragana": "スーパーに行くかも",
+    "cn": "我可能會去超市",
+    "grammar": "動詞普通形＋かも",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問等一下要幹嘛 → 回答可能會去超市✅自己不確定計畫",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0015"
+  },
+  {
+    "kanji": "一緒に行ってくれませんか",
+    "hiragana": "一緒に行ってくれませんか",
+    "cn": "可以陪我一起去嗎？",
+    "grammar": "動詞て形＋くれる",
+    "contraction": "",
+    "origin": "行く、くれる",
+    "context": "邀請/拜託對方一起去（對聽話者請求）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0016"
+  },
+  {
+    "kanji": "コンビニに行きたい",
+    "hiragana": "コンビニに行きたい",
+    "cn": "想去便利商店",
+    "grammar": "動詞ます形＋たい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "肚子有點餓 → 想去超商買點心✅自己願望",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0017"
+  },
+  {
+    "kanji": "なんか今日は行きたくないかも",
+    "hiragana": "なんか今日は行きたくないかも",
+    "cn": "總覺得今天好像沒什麼動力出門",
+    "grammar": "動詞ます形＋たい／たくない+かも",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被邀約聚餐/逛街 → 回答今天可能不想去✅自己意願",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0018"
+  },
+  {
+    "kanji": "早く行かなきゃ",
+    "hiragana": "早く行かなきゃ",
+    "cn": "快點去吧 / 得快點去才行",
+    "grammar": "動詞ない形＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "行く",
+    "context": "快遲到了 → 回答得快點去✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0019"
+  },
+  {
+    "kanji": "もう行っちゃった／もう行ってしまった",
+    "hiragana": "もう行っちゃった／もう行ってしまった",
+    "cn": "已經走了 / 已經出發了",
+    "grammar": "副詞＋動詞て形＋しまう",
+    "contraction": "てしまう ／ ちゃう",
+    "origin": "行く、しまう",
+    "context": "被問某人在哪 → 回答他已經走了（他人的動作(自己敘述)）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0020"
+  },
+  {
+    "kanji": "みんな行きそうだね",
+    "hiragana": "みんな行きそうだね",
+    "cn": "大家好像都會去喔(當下直觀判斷即將發生)",
+    "grammar": "動詞ます形＋そう（推量）",
+    "contraction": "",
+    "origin": "行く",
+    "context": "討論聚會誰會去 → 推測大家應該都會去❗他人/大家(第三人稱群體)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0021"
+  },
+  {
+    "kanji": "先に行きます",
+    "hiragana": "先に行きます",
+    "cn": "我先走／我先去",
+    "grammar": "動詞て形",
+    "contraction": "",
+    "origin": "行く",
+    "context": "要先離開時的宣告✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0022"
+  },
+  {
+    "kanji": "一緒に行ってもいい",
+    "hiragana": "一緒に行ってもいい",
+    "cn": "也可以一起去喔 / 一起去也行喔",
+    "grammar": "動詞て形＋もいい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "對方想跟你一起去時的回應（允許聽話者同行）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0023"
+  },
+  {
+    "kanji": "あの店に行ったことがありますか",
+    "hiragana": "あの店に行ったことがありますか",
+    "cn": "去過那家店嗎",
+    "grammar": "動詞た形＋ことがある",
+    "contraction": "",
+    "origin": "行く、ある",
+    "context": "被問是否去過某店✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0024"
+  },
+  {
+    "kanji": "あの店に行ったことがある",
+    "hiragana": "あの店に行ったことがある",
+    "cn": "去過那家店",
+    "grammar": "動詞た形＋ことがある",
+    "contraction": "",
+    "origin": "行く、ある",
+    "context": "被問是否去過某店 → 回答有經驗✅自己經驗",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0025"
+  },
+  {
+    "kanji": "先にあの店に行っておく",
+    "hiragana": "先にあの店に行っておく",
+    "cn": "先去那家店準備 / 先去那家店（做準備）",
+    "grammar": "動詞て形＋おく",
+    "contraction": "〜ておく／とく",
+    "origin": "行く、おく",
+    "context": "安排行程 → 先去那家店探路/準備✅自己打算",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0026"
+  },
+  {
+    "kanji": "ちょっとトイレ行ってきます",
+    "hiragana": "ちょっとトイレ行ってきます",
+    "cn": "我先去洗手間一下 / 我去一下廁所",
+    "grammar": "名詞＋に＋動詞て形＋くる",
+    "contraction": "",
+    "origin": "行く、くる",
+    "context": "肚子痛/喝多水 → 回答先去廁所一下✅自己動作",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0027"
+  },
+  {
+    "kanji": "歩いて行くには遠い",
+    "hiragana": "歩いて行くには遠い",
+    "cn": "走路去太遠了",
+    "grammar": "動詞て形＋行く＋には＋形容詞",
+    "contraction": "",
+    "origin": "歩く、行く",
+    "context": "討論走路能不能到 → 回答走路太遠（客觀評論）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0028"
+  },
+  {
+    "kanji": "ちょっと行ってみる",
+    "hiragana": "ちょっと行ってみる",
+    "cn": "試著去看看 / 去去看看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "行く、みる",
+    "context": "討論新開的店好不好玩 → 回答去看看✅自己打算",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0029"
+  },
+  {
+    "kanji": "雨だから行かないかも／雨だから行かないかもしれない",
+    "hiragana": "雨だから行かないかも／雨だから行かないかもしれない",
+    "cn": "因為下雨，所以說不定不去 / 因為下雨，所以可能不去了",
+    "grammar": "名詞＋だから＋動詞・ない形＋かも",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被約逛街/散步 → 因下雨可能不去(委婉拒絕)✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0030"
+  },
+  {
+    "kanji": "あの店、よく行くよ",
+    "hiragana": "あの店、よく行くよ",
+    "cn": "經常去那家店",
+    "grammar": "よく＋動詞",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問常去的店 → 回答這家我常去✅自己習慣",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0031"
+  },
+  {
+    "kanji": "スーパーに行ってから帰る",
+    "hiragana": "スーパーに行ってから帰る",
+    "cn": "去超市買好東西再回家",
+    "grammar": "動詞て形＋から",
+    "contraction": "",
+    "origin": "行く、帰る",
+    "context": "被問下班後幹嘛 → 先去超市再回家✅自己打算",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0032"
+  },
+  {
+    "kanji": "あの店に行ったことがあります",
+    "hiragana": "あの店に行ったことがあります",
+    "cn": "去過那家店 / 曾去過那家店",
+    "grammar": "動詞た形＋ことがある",
+    "contraction": "",
+    "origin": "行く、ある",
+    "context": "被問去過那家店嗎 → 回答去過✅自己經驗",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0033"
+  },
+  {
+    "kanji": "どこにも行かないで",
+    "hiragana": "どこにも行かないで",
+    "cn": "哪裡都不要去 / 哪裡也別去",
+    "grammar": "疑問詞＋も＋動詞ない形＋で",
+    "contraction": "",
+    "origin": "行く",
+    "context": "留住對方 → 哪裡都不要去❗對方　要求聽話者,不是自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0034"
+  },
+  {
+    "kanji": "雪だから行けそうにない",
+    "hiragana": "雪だから行けそうにない",
+    "cn": "因為下雪，所以似乎無法去 / 因為下雪，看起來沒辦法去了(當下外觀判斷)",
+    "grammar": "動詞可能形＋そうにない",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看起來還能再吃一點✅自己能力推測(そう例外)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0035"
+  },
+  {
+    "kanji": "掃除をするのが面倒です",
+    "hiragana": "掃除をするのが面倒です",
+    "cn": "打掃很麻煩",
+    "grammar": "名詞＋を＋する",
+    "contraction": "",
+    "origin": "掃除する",
+    "context": "房間很亂/被問怎麼不打掃 → 回答打掃很麻煩✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0036"
+  },
+  {
+    "kanji": "洗濯をするのは大変です",
+    "hiragana": "洗濯をするのは大変です",
+    "cn": "洗衣服很辛苦",
+    "grammar": "名詞＋を＋する",
+    "contraction": "",
+    "origin": "洗濯する",
+    "context": "髒衣服堆積 → 回答洗衣服很辛苦✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0037"
+  },
+  {
+    "kanji": "自分でするほうが簡単です",
+    "hiragana": "自分でするほうが簡単です",
+    "cn": "自己做比較簡單",
+    "grammar": "名詞＋で＋動詞普通形＋ほうが＋形容詞",
+    "contraction": "",
+    "origin": "する",
+    "context": "被問要不要找人幫忙 → 回答自己做比較簡單✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0038"
+  },
+  {
+    "kanji": "料理をした",
+    "hiragana": "料理をした",
+    "cn": "做了料理 / 下廚了",
+    "grammar": "名詞＋を＋する",
+    "contraction": "",
+    "origin": "料理する",
+    "context": "被問晚餐吃什麼/放假幹嘛 → 回答自己下廚了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0039"
+  },
+  {
+    "kanji": "予約をしない",
+    "hiragana": "予約をしない",
+    "cn": "不預約 / 不訂位",
+    "grammar": "～しない",
+    "contraction": "",
+    "origin": "予約する",
+    "context": "被問要不要訂位 → 回答不預約✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0040"
+  },
+  {
+    "kanji": "ほかの日に行きます",
+    "hiragana": "ほかの日に行きます",
+    "cn": "改天去 / 別天去",
+    "grammar": "動詞ます形",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被邀約但沒空 → 回答改天再去✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0041"
+  },
+  {
+    "kanji": "ほかの店も見てみます",
+    "hiragana": "ほかの店も見てみます",
+    "cn": "去別家店看看 / 也看看別家店",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "見る、みる",
+    "context": "這家沒看到滿意的 → 提議去別家看看✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0042"
+  },
+  {
+    "kanji": "これにする",
+    "hiragana": "これにする",
+    "cn": "就選這個 / 我決定要這個",
+    "grammar": "名詞＋に＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "點餐/購物決定 → 就選這個✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0043"
+  },
+  {
+    "kanji": "洗濯をしておく",
+    "hiragana": "洗濯をしておく",
+    "cn": "先把衣服洗好",
+    "grammar": "動詞て形＋おく",
+    "contraction": "",
+    "origin": "洗濯する、おく",
+    "context": "出門/睡前 → 先把衣服洗好✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0044"
+  },
+  {
+    "kanji": "ネットで注文してみる",
+    "hiragana": "ネットで注文してみる",
+    "cn": "試著在網路上訂購看看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "注文する、みる",
+    "context": "想買的東西實體店沒有 → 試著網路訂購看看✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0045"
+  },
+  {
+    "kanji": "早く掃除しなきゃ",
+    "hiragana": "早く掃除しなきゃ",
+    "cn": "得快點打掃 / 必須快點打掃",
+    "grammar": "動詞ない形＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "掃除する",
+    "context": "房間很亂/客人要來 → 得快點打掃✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0046"
+  },
+  {
+    "kanji": "予約しておこう／予約しておきましょう",
+    "hiragana": "予約しておこう／予約しておきましょう",
+    "cn": "先預訂吧 / 先預約吧",
+    "grammar": "動詞て形＋おく＋意向形／意志形",
+    "contraction": "",
+    "origin": "予約する、おく",
+    "context": "餐廳可能很多人 → 提議先預約吧（自己+邀對方）",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0047"
+  },
+  {
+    "kanji": "あとで連絡してみる",
+    "hiragana": "あとで連絡してみる",
+    "cn": "等一下聯絡看看 / 待會聯絡看看",
+    "grammar": "副詞＋動詞て形＋みる",
+    "contraction": "",
+    "origin": "連絡する、みる",
+    "context": "要不要先確認看看 → 回答等一下聯絡看看",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0048"
+  },
+  {
+    "kanji": "先に準備しておく",
+    "hiragana": "先に準備しておく",
+    "cn": "先準備好",
+    "grammar": "動詞て形＋おく＋て形＋みる",
+    "contraction": "",
+    "origin": "準備する、おく",
+    "context": "快輪到報告了 → 回答先準備好✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0049"
+  },
+  {
+    "kanji": "これにします",
+    "hiragana": "これにします",
+    "cn": "我要選這個 / 我決定是這個了",
+    "grammar": "名詞＋にする",
+    "contraction": "",
+    "origin": "する",
+    "context": "點餐/購物決定(禮貌體) → 我要選這個✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0050"
+  },
+  {
+    "kanji": "予約をしておく",
+    "hiragana": "予約をしておく",
+    "cn": "先預約好 / 先做好預約",
+    "grammar": "動詞て形＋おく",
+    "contraction": "",
+    "origin": "予約する、おく",
+    "context": "餐廳很熱門 → 先預約好✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0051"
+  },
+  {
+    "kanji": "早く予約しなきゃ",
+    "hiragana": "早く予約しなきゃ",
+    "cn": "得趕快預約 / 必須早點預約",
+    "grammar": "動詞ない形＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "予約する",
+    "context": "門票快賣完/旅行將近 → 得趕快預約✅自己義務",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0052"
+  },
+  {
+    "kanji": "準備をしておく",
+    "hiragana": "準備をしておく",
+    "cn": "先做好準備",
+    "grammar": "動詞て形＋おく",
+    "contraction": "",
+    "origin": "準備する、おく",
+    "context": "出發前要做什麼 → 先做好準備✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0053"
+  },
+  {
+    "kanji": "早く準備しなきゃ／早く準備しなければならないんです",
+    "hiragana": "早く準備しなきゃ／早く準備しなければならないんです",
+    "cn": "快點準備 / 快點準備才行",
+    "grammar": "Vない形＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "準備する",
+    "context": "快遲到了 → 得快點準備✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0054"
+  },
+  {
+    "kanji": "なんかいい匂いがしてきた",
+    "hiragana": "なんかいい匂いがしてきた",
+    "cn": "總覺得一陣好聞的香味傳了過來",
+    "grammar": "名詞＋が＋する＋てくる",
+    "contraction": "",
+    "origin": "する、くる",
+    "context": "走進麵包店/聞到廚房香味 → 香味飄了過來（外在現象）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0055"
+  },
+  {
+    "kanji": "心配しすぎた",
+    "hiragana": "心配しすぎた",
+    "cn": "太擔心了 / 擔心過頭了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "心配する、すぎる",
+    "context": "被說想太多 → 回答自己真的太擔心了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0056"
+  },
+  {
+    "kanji": "考えすぎた",
+    "hiragana": "考えすぎた",
+    "cn": "想太多了",
+    "grammar": "動詞ます形＋すぎます",
+    "contraction": "",
+    "origin": "考える、すぎる",
+    "context": "擔心對方討厭自己/被安慰別想太多 → 回答自己想太多了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0057"
+  },
+  {
+    "kanji": "準備しすぎた",
+    "hiragana": "準備しすぎた",
+    "cn": "準備得太多了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "準備する、すぎる",
+    "context": "行李帶太多 → 回答準備得太多了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0058"
+  },
+  {
+    "kanji": "確認しすぎた",
+    "hiragana": "確認しすぎた",
+    "cn": "確認次數太多 / 確認過頭了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "確認する、すぎる",
+    "context": "反覆檢查鎖門/文件 → 自言自語確認太多次了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0059"
+  },
+  {
+    "kanji": "話しすぎた",
+    "hiragana": "話しすぎた",
+    "cn": "話太多 / 說太多了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "話す、すぎる",
+    "context": "聚會聊完覺得 → 回答自己話說太多✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0060"
+  },
+  {
+    "kanji": "そのままにしといて／そのままにしておいて",
+    "hiragana": "そのままにしといて／そのままにしておいて",
+    "cn": "就這樣放著不用動 / 就保持那樣吧",
+    "grammar": "名詞＋にする／〜ておく",
+    "contraction": "",
+    "origin": "する、おく",
+    "context": "這個要怎麼處理 → 回答先放著別動❗對方（要求聽話者,不是自己動作）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0061"
+  },
+  {
+    "kanji": "無理しないでね",
+    "hiragana": "無理しないでね",
+    "cn": "不要勉強喔 / 不要硬撐喔",
+    "grammar": "動詞ない形＋で＋ね",
+    "contraction": "",
+    "origin": "無理する",
+    "context": "對方加班硬撐 → 回答不要勉強喔❗對方（勸聽話者,不是自己）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0062"
+  },
+  {
+    "kanji": "コーヒーにします",
+    "hiragana": "コーヒーにします",
+    "cn": "我要咖啡。",
+    "grammar": "名詞＋に＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "被問要點什麼 → 回答我要咖啡✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0063"
+  },
+  {
+    "kanji": "ちょっと確認してもらえますか？",
+    "hiragana": "ちょっと確認してもらえますか？",
+    "cn": "可以請您幫我確認一下嗎？",
+    "grammar": "動詞て形＋もらえる",
+    "contraction": "",
+    "origin": "確認する、もらう",
+    "context": "請對方幫忙看文件 → 可以幫我確認一下嗎❗對方(拜託對方做)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0064"
+  },
+  {
+    "kanji": "なんか、いい匂いがする",
+    "hiragana": "なんか、いい匂いがする",
+    "cn": "總覺得有股香味 / 感覺有香味",
+    "grammar": "名詞＋が＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "聞到麵包香/路過咖啡廳 → 總覺得有股香味（外在現象）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0065"
+  },
+  {
+    "kanji": "これ、どうしますか",
+    "hiragana": "これ、どうしますか",
+    "cn": "這個要怎麼辦呢？",
+    "grammar": "疑問詞＋動詞ます形＋か",
+    "contraction": "",
+    "origin": "する",
+    "context": "提出兩個方案時 → 問對方這個要怎麼辦❗對方(問對方怎麼處理)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0066"
+  },
+  {
+    "kanji": "少し休憩しよう",
+    "hiragana": "少し休憩しよう",
+    "cn": "我們休息一下吧",
+    "grammar": "動詞意向形",
+    "contraction": "",
+    "origin": "休憩する",
+    "context": "讀書/開會累了 → 提議休息一下（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0067"
+  },
+  {
+    "kanji": "確認した",
+    "hiragana": "確認した",
+    "cn": "確認過了",
+    "grammar": "動詞た形",
+    "contraction": "",
+    "origin": "確認する",
+    "context": "被問有沒有確認過 → 回答確認過✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0068"
+  },
+  {
+    "kanji": "ほかに何かありますか",
+    "hiragana": "ほかに何かありますか",
+    "cn": "還有其他什麼嗎？ / 還有其他的嗎？",
+    "grammar": "疑問詞＋か＋ありますか",
+    "contraction": "",
+    "origin": "ある",
+    "context": "點餐/會議尾聲 → 問還有其他的嗎❗對方(詢問對方)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0069"
+  },
+  {
+    "kanji": "予約した",
+    "hiragana": "予約した",
+    "cn": "預約了 / 訂好了",
+    "grammar": "動詞た形",
+    "contraction": "",
+    "origin": "予約する",
+    "context": "被問位置訂好了嗎 → 回答預約了✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0070"
+  },
+  {
+    "kanji": "予約しておいたから",
+    "hiragana": "予約しておいたから",
+    "cn": "因為有事先預約了 / 已經先預約好了",
+    "grammar": "動詞て形＋おく＋から",
+    "contraction": "",
+    "origin": "予約する、おく",
+    "context": "被問怎麼這麼快訂好 → 回答有先預約了✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0071"
+  },
+  {
+    "kanji": "牛肉は食べられません",
+    "hiragana": "牛肉は食べられません",
+    "cn": "不能吃牛肉",
+    "grammar": "名詞＋は＋動詞可能形否定",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被問不吃什麼肉 → 回答不能吃牛肉✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0072"
+  },
+  {
+    "kanji": "電車のほうが便利です",
+    "hiragana": "電車のほうが便利です。",
+    "cn": "搭電車比較方便",
+    "grammar": "名詞＋のほうが＋形容詞",
+    "contraction": "",
+    "origin": "",
+    "context": "討論交通方式 → 回答搭電車比較方便✅自己意見",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0073"
+  },
+  {
+    "kanji": "野菜を食べた",
+    "hiragana": "野菜を食べた",
+    "cn": "吃了蔬菜",
+    "grammar": "名詞＋を＋動詞過去形（た形）",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被問昨天吃了什麼 → 回答吃了蔬菜✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0074"
+  },
+  {
+    "kanji": "シーフードを食べられない",
+    "hiragana": "シーフードを食べられない",
+    "cn": "不能吃海鮮",
+    "grammar": "名詞＋を＋動詞可能形",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被問不能吃什麼 → 回答不能吃海鮮✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0075"
+  },
+  {
+    "kanji": "デザートを食べるかも",
+    "hiragana": "デザートを食べるかも",
+    "cn": "可能會吃甜點",
+    "grammar": "名詞＋を＋動詞+かも",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "正餐還沒吃完,不確定等一下吃不吃得下✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0076"
+  },
+  {
+    "kanji": "うどんを食べる",
+    "hiragana": "うどんを食べる",
+    "cn": "吃烏龍麵",
+    "grammar": "名詞＋を＋動詞",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "午餐吃什麼 → 回答吃烏龍麵✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0077"
+  },
+  {
+    "kanji": "新しいのを食べてみる",
+    "hiragana": "新しいのを食べてみる",
+    "cn": "嚐鮮看看 / 買新口味來吃吃看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "食べる、みる",
+    "context": "聽說新口味好吃 → 回答買來吃吃看✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0078"
+  },
+  {
+    "kanji": "パンを食べに行かない？",
+    "hiragana": "パンを食べに行かない？",
+    "cn": "要不要一起去吃麵包？",
+    "grammar": "動詞ます形＋に行く",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "肚子餓了 → 邀對方一起去吃麵包（邀約對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0079"
+  },
+  {
+    "kanji": "野菜を食べなきゃ",
+    "hiragana": "野菜を食べなきゃ",
+    "cn": "必須吃蔬菜",
+    "grammar": "動詞ない形＋なきゃ",
+    "contraction": "なければいけない／なきゃ必須",
+    "origin": "食べる",
+    "context": "好久沒吃青菜 → 回答得吃蔬菜✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0080"
+  },
+  {
+    "kanji": "全部食べちゃった",
+    "hiragana": "全部食べちゃった",
+    "cn": "不小心全部吃光了",
+    "grammar": "動詞て形＋ちゃう（てしまう）",
+    "contraction": "てしまう／ちゃう",
+    "origin": "食べる、しまう",
+    "context": "被問零食放哪了 → 回答不小心吃光了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0081"
+  },
+  {
+    "kanji": "嫌いだから食べたくない",
+    "hiragana": "嫌いだから食べたくない",
+    "cn": "因為討厭所以不想吃",
+    "grammar": "名詞＋だから＋動詞たい形＋ない",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被問要不要吃 → 回答討厭所以不想吃✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0082"
+  },
+  {
+    "kanji": "何か食べに行こう",
+    "hiragana": "何か食べに行こう",
+    "cn": "去吃點東西吧 / 我們去吃點什麼吧",
+    "grammar": "疑問詞＋か＋動詞連用形＋に＋行く／意志形",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "肚子餓了 → 提議去吃點東西（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0083"
+  },
+  {
+    "kanji": "一口だけ食べてみる",
+    "hiragana": "一口だけ食べてみる",
+    "cn": "只吃一口看看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "食べる、みる",
+    "context": "看起來好吃 → 回答吃一口看看✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0084"
+  },
+  {
+    "kanji": "もう少し食べられそう",
+    "hiragana": "もう少し食べられそう",
+    "cn": "他看起來還能再吃一點(當下外觀判斷)",
+    "grammar": "動詞可能形＋そう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "吃飽了嗎 → 回答還能再吃一點✅自己(そう例外)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0085"
+  },
+  {
+    "kanji": "甘いものが食べたい",
+    "hiragana": "甘いものが食べたい",
+    "cn": "想吃甜食",
+    "grammar": "名詞＋が＋動詞［ます形］＋たい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "嘴饞想吃點心 → 回答想吃甜食✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0086"
+  },
+  {
+    "kanji": "このパンは食べやすい",
+    "hiragana": "このパンは食べやすい",
+    "cn": "這個麵包很好入口",
+    "grammar": "動詞ます形＋やすい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "麵包口感如何 → 回答很好入口✅自己評論",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0087"
+  },
+  {
+    "kanji": "これ、食べにくすぎる",
+    "hiragana": "これ、食べにくすぎる",
+    "cn": "這個太不方便吃了 / 物理上太難入口了（指食用方式困難，而非味道不好）",
+    "grammar": "動詞ます形＋にくい＋すぎる",
+    "contraction": "",
+    "origin": "食べる、すぎる",
+    "context": "菜吃起來如何 → 回答太難入口了✅自己評論",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0088"
+  },
+  {
+    "kanji": "子どもには食べにくそう",
+    "hiragana": "子どもには食べにくそう",
+    "cn": "對小孩來說好像很難入口(當下外觀判斷)",
+    "grammar": "動詞＋に形＋〜にくい＋そう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "要不要幫小孩點這道 → 回答對小孩來說好像很難吃❗他人(小孩)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0089"
+  },
+  {
+    "kanji": "食べたみたい",
+    "hiragana": "食べたみたい",
+    "cn": "他好像吃過了(跡象)",
+    "grammar": "動詞た形＋みたいだ",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "某人好像吃過這個 → 回答好像吃過了❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0090"
+  },
+  {
+    "kanji": "食べなさそう",
+    "hiragana": "食べなさそう",
+    "cn": "他看起來不會吃(當下直觀判斷即將發生)",
+    "grammar": "動詞否定型＋そう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "他會吃這個嗎 → 回答他好像不會吃❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0091"
+  },
+  {
+    "kanji": "どこへ行くんですか？",
+    "hiragana": "どこへ行くんですか？",
+    "cn": "您要去哪裡呢？ / 準備要去哪裡？",
+    "grammar": "動詞＋んです",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看到對方急忙出門 → 問你要去哪裡❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0092"
+  },
+  {
+    "kanji": "どこへ行ったんですか？",
+    "hiragana": "どこへ行ったんですか？",
+    "cn": "你去了哪裡呢？ / 去了哪裡呢？",
+    "grammar": "動詞＋んです",
+    "contraction": "",
+    "origin": "行く",
+    "context": "對方剛出遠門回來 → 問你去了哪裡❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0093"
+  },
+  {
+    "kanji": "どうしたんですか？",
+    "hiragana": "どうしたんですか？",
+    "cn": "怎麼了？ / 發生了什麼事？",
+    "grammar": "動詞＋んです",
+    "contraction": "",
+    "origin": "する",
+    "context": "對方愁眉苦臉/受傷 → 關心問怎麼了❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0094"
+  },
+  {
+    "kanji": "彼女と喧嘩したんです。",
+    "hiragana": "彼女と喧嘩したんです。",
+    "cn": "和女朋友吵架了",
+    "grammar": "名詞＋と＋普通形＋んです",
+    "contraction": "",
+    "origin": "喧嘩する",
+    "context": "被問怎麼無精打采 → 回答和女友吵架了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0095"
+  },
+  {
+    "kanji": "ちょっとお腹が痛いんです。",
+    "hiragana": "ちょっとお腹が痛いんです。",
+    "cn": "肚子有點痛",
+    "grammar": "副詞＋形容詞＋んです",
+    "contraction": "",
+    "origin": "-",
+    "context": "被問臉色不好嗎 → 回答肚子有點痛✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0096"
+  },
+  {
+    "kanji": "眠いんですか？",
+    "hiragana": "眠いんですか？",
+    "cn": "你困了嗎？",
+    "grammar": "形容詞＋んです",
+    "contraction": "",
+    "origin": "-",
+    "context": "看到對方打哈欠 → 問你困了嗎❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0097"
+  },
+  {
+    "kanji": "食べ過ぎたんです。",
+    "hiragana": "食べ過ぎたんです。",
+    "cn": "不小心吃太多了",
+    "grammar": "動詞ます形＋すぎる＋んです",
+    "contraction": "",
+    "origin": "食べる、すぎる",
+    "context": "被問怎麼揉肚子 → 回答吃太多了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0098"
+  },
+  {
+    "kanji": "どうして病院へ行かないんですか？",
+    "hiragana": "どうして病院へ行かないんですか？",
+    "cn": "為什麼不去看醫生呢？",
+    "grammar": "どうして＋普通形＋んですか",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看到對方生病不去看醫生 → 問為什麼不去看醫生❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0099"
+  },
+  {
+    "kanji": "今勉強しているんですが、もう少し小さい声で話してもらえますか。",
+    "hiragana": "今勉強しているんですが、もう少し小さい声で話してもらえますか。",
+    "cn": "現在正在讀書，可以請你說話小聲一點嗎？",
+    "grammar": "んですが說明理由+てもらえますか拜託",
+    "contraction": "",
+    "origin": "勉強する、いる、話す、もらう",
+    "context": "圖書館/咖啡廳很吵 → 委婉請對方說話小聲點❗對方(說明理由後拜託)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0100"
+  },
+  {
+    "kanji": "さっきご飯を食べたばかりです。",
+    "hiragana": "さっきご飯を食べたばかりです。",
+    "cn": "剛才吃過飯了",
+    "grammar": "動詞た形＋ばかりです",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "要不要一起吃午餐 → 回答剛吃過了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0101"
+  },
+  {
+    "kanji": "さっき駅に行ったばかりです。",
+    "hiragana": "さっき駅に行ったばかりです。",
+    "cn": "剛剛去過車站",
+    "grammar": "動詞た形＋ばかりです",
+    "contraction": "",
+    "origin": "行く",
+    "context": "「你剛才去哪裡了？」、「你要去月台那邊嗎？」或被問到「你到車站了嗎？」時的回答。✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0102"
+  },
+  {
+    "kanji": "一度も刺身を食べたことがありません。",
+    "hiragana": "一度も刺身を食べたことがありません。",
+    "cn": "一次也沒吃過生魚片。",
+    "grammar": "動詞た形＋ことがある（否定）",
+    "contraction": "",
+    "origin": "食べる、ある",
+    "context": "你吃過生魚片嗎 → 回答一次也沒吃過✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0103"
+  },
+  {
+    "kanji": "海外旅行をしたことがあります",
+    "hiragana": "海外旅行をしたことがあります",
+    "cn": "曾出國旅遊過 / 有出國旅遊的經驗",
+    "grammar": "動詞た形＋ことがある",
+    "contraction": "",
+    "origin": "旅行する、ある",
+    "context": "你去過哪些國家 → 回答有出國旅遊過✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0104"
+  },
+  {
+    "kanji": "留学したことがありません。",
+    "hiragana": "留学したことがありません。",
+    "cn": "沒有留學過。",
+    "grammar": "動詞た形＋ことがある（否定）",
+    "contraction": "",
+    "origin": "留学する、ある",
+    "context": "你去國外唸過書嗎 → 回答沒留學過✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0105"
+  },
+  {
+    "kanji": "日本に留学したことがありません。",
+    "hiragana": "日本に留学したことがありません。",
+    "cn": "我從來沒有去日本留學過。",
+    "grammar": "名詞＋に＋動詞た形＋ことがある（否定）",
+    "contraction": "",
+    "origin": "留学する、ある",
+    "context": "你去日本留學過嗎 → 回答沒去過✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0106"
+  },
+  {
+    "kanji": "アルバイトをしたことがありません。",
+    "hiragana": "アルバイトをしたことがありません。",
+    "cn": "從沒打過工",
+    "grammar": "名詞＋を＋動詞た形＋ことがある（否定）",
+    "contraction": "",
+    "origin": "アルバイトする、ある",
+    "context": "大學打過工嗎 → 回答沒打過工✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0107"
+  },
+  {
+    "kanji": "どうぞ食べてください。",
+    "hiragana": "どうぞ食べてください。",
+    "cn": "請吃",
+    "grammar": "どうぞ＋動詞て形＋ください",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "端菜招待客人 → 請對方吃❗對方(邀對方吃)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0108"
+  },
+  {
+    "kanji": "朝ご飯を食べた後で会社に行きます。",
+    "hiragana": "朝ご飯を食べた後で会社に行きます。",
+    "cn": "吃完早餐後去公司。",
+    "grammar": "動詞た形＋後で",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "早上出門前做什麼 → 回答吃完早餐再去公司✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0109"
+  },
+  {
+    "kanji": "昼休みに会社でご飯を食べたり、運動をしたりします。",
+    "hiragana": "昼休みに会社でご飯を食べたり、運動をしたりします。",
+    "cn": "午休時間在公司吃吃東西、做做運動。",
+    "grammar": "動詞たり、動詞たり＋します",
+    "contraction": "",
+    "origin": "食べる、運動する",
+    "context": "午休都做什麼 → 回答吃東西、運動✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0110"
+  },
+  {
+    "kanji": "昼休みに会社でご飯を食べながら日本語を勉強します。",
+    "hiragana": "昼休みに会社でご飯を食べながら日本語を勉強します。",
+    "cn": "午休時在公司一邊吃著飯一邊學日文",
+    "grammar": "動詞ます形＋ながら",
+    "contraction": "",
+    "origin": "食べる、勉強する",
+    "context": "怎麼利用時間學日文 → 回答邊吃飯邊學✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0111"
+  },
+  {
+    "kanji": "冷たいものを食べないでください。",
+    "hiragana": "冷たいものを食べないでください。",
+    "cn": "請不要吃冰涼的食物",
+    "grammar": "動詞ない形＋で＋ください",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "醫生/父母叮嚀 → 請不要吃冰的❗對方(叮嚀對方別做",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0112"
+  },
+  {
+    "kanji": "髪を短くしてください。",
+    "hiragana": "髪を短くしてください。",
+    "cn": "請把頭髮剪短。",
+    "grammar": "形容詞＋（去い）＋く＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "剪髮時 → 請把頭髮剪短❗對方(對設計師要求)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0113"
+  },
+  {
+    "kanji": "どちらのほうが好きですか",
+    "hiragana": "どちらのほうが好きですか",
+    "cn": "你比較喜歡哪一個？",
+    "grammar": "疑問詞＋のほうが＋形容詞",
+    "contraction": "",
+    "origin": "",
+    "context": "給兩個選項 → 問你比較喜歡哪個❗對方(問對方偏好)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0114"
+  },
+  {
+    "kanji": "簡単に説明します。",
+    "hiragana": "簡単に説明します。",
+    "cn": "簡單說明",
+    "grammar": "副詞＋する",
+    "contraction": "",
+    "origin": "説明する",
+    "context": "被要求長話短說 → 回答我簡單說明✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0115"
+  },
+  {
+    "kanji": "簡単に説明してください。",
+    "hiragana": "簡単に説明してください。",
+    "cn": "請簡單說明",
+    "grammar": "動詞て形＋ください",
+    "contraction": "",
+    "origin": "説明する",
+    "context": "聽不懂複雜內容 → 請對方簡單說明❗對方(請對方說明)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0116"
+  },
+  {
+    "kanji": "安全に運転してください。",
+    "hiragana": "安全に運転してください。",
+    "cn": "請安全駕駛",
+    "grammar": "副詞＋動詞て形＋ください",
+    "contraction": "",
+    "origin": "運転する",
+    "context": "下大雨路況差 → 請安全駕駛❗對方(叮嚀司機)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0117"
+  },
+  {
+    "kanji": "静かにしてください。",
+    "hiragana": "静かにしてください。",
+    "cn": "請保持安靜",
+    "grammar": "な形容詞＋に＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "周圍太吵 → 請保持安靜❗對方(要求旁人)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0118"
+  },
+  {
+    "kanji": "早く行ってください。",
+    "hiragana": "早く行ってください。",
+    "cn": "請快一點 / 請快點去",
+    "grammar": "動詞て形＋ください",
+    "contraction": "",
+    "origin": "行く",
+    "context": "快遲到了 → 請快點去❗對方(催促對方)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0119"
+  },
+  {
+    "kanji": "朝ご飯を食べないで学校へ行きます。",
+    "hiragana": "朝ご飯を食べないで学校へ行きます。",
+    "cn": "不吃早餐就去學校",
+    "grammar": "ない形+で這裡是接續「不做A就做B」",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "沒時間吃早餐 → 回答不吃早餐就去學校✅自己(連接用法)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0120"
+  },
+  {
+    "kanji": "朝ご飯を食べないで学校へ行きました。",
+    "hiragana": "朝ご飯を食べないで学校へ行きました。",
+    "cn": "沒吃早餐就去學校了",
+    "grammar": "ない形+で這裡是接續「不做A就做B」",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "今天怎麼沒吃早餐 → 回答沒吃早餐就去學校了✅自己(連接用法)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0121"
+  },
+  {
+    "kanji": "予約なしでも大丈夫ですか？",
+    "hiragana": "予約なしでも大丈夫ですか？",
+    "cn": "沒有預約也沒關係嗎？",
+    "grammar": "名詞＋なし＋でも＋大丈夫です",
+    "contraction": "",
+    "origin": "-",
+    "context": "臨時想去熱門餐廳 → 問沒預約也可以嗎❗對方(問對方/店家)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0122"
+  },
+  {
+    "kanji": "声を小さくします。",
+    "hiragana": "声を小さくします。",
+    "cn": "把聲音調小",
+    "grammar": "形容詞＋（去い）＋く＋する",
+    "contraction": "",
+    "origin": "する",
+    "context": "電視/音樂太大聲 → 回答把聲音調小✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0123"
+  },
+  {
+    "kanji": "もう少し静かにしてもらえますか？",
+    "hiragana": "もう少し静かにしてもらえますか？",
+    "cn": "可以請您再稍微安靜一點嗎？ / 能不能請您稍微小聲一點呢？",
+    "grammar": "動詞て形＋もらえる",
+    "contraction": "",
+    "origin": "する、もらう",
+    "context": "圖書館有人吵鬧 → 委婉請對方小聲一點❗對方(拜託對方)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0124"
+  },
+  {
+    "kanji": "会社に行く前に朝ごはんを食べます。",
+    "hiragana": "会社に行く前に朝ごはんを食べます。",
+    "cn": "上班前吃早餐。",
+    "grammar": "動詞普通形＋前に",
+    "contraction": "",
+    "origin": "行く、食べる",
+    "context": "上班前有什麼習慣 → 回答先吃早餐再出門✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0125"
+  },
+  {
+    "kanji": "ご飯を食べてから行きます。",
+    "hiragana": "ご飯を食べてから行きます。",
+    "cn": "吃完飯再去 / 吃過飯後再去",
+    "grammar": "動詞て形＋から",
+    "contraction": "",
+    "origin": "食べる、行く",
+    "context": "要不要先吃點東西 → 回答吃完飯再去✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0126"
+  },
+  {
+    "kanji": "準備してから出かけます。",
+    "hiragana": "準備してから出かけます。",
+    "cn": "準備好再出門 / 做好準備再出門",
+    "grammar": "動詞て形＋から",
+    "contraction": "",
+    "origin": "準備する、出かける",
+    "context": "行李收好了嗎 → 回答準備好再出門✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0127"
+  },
+  {
+    "kanji": "確認してから来ます。",
+    "hiragana": "確認してから来ます。",
+    "cn": "確認之後再過來 / 確認完再過來",
+    "grammar": "動詞て形＋から",
+    "contraction": "",
+    "origin": "確認する、来る",
+    "context": "這件事確認過了嗎 → 回答確認後再過來✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0128"
+  },
+  {
+    "kanji": "結婚していません。",
+    "hiragana": "結婚していません。",
+    "cn": "（我）還沒結婚 / 沒有結婚",
+    "grammar": "動詞て形＋いる（否定）",
+    "contraction": "",
+    "origin": "結婚する、いる",
+    "context": "你結婚了嗎 → 回答還沒結婚✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0129"
+  },
+  {
+    "kanji": "辛い物を食べるのは好きです。",
+    "hiragana": "辛い物を食べるのは好きです。",
+    "cn": "我喜歡吃辣的食物",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "平常喜歡吃什麼 → 回答喜歡吃辣✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0130"
+  },
+  {
+    "kanji": "朝ごはんを食べるのは大切です。",
+    "hiragana": "朝ごはんを食べるのは大切です。",
+    "cn": "吃早餐很重要",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "有必要每天吃早餐嗎 → 回答吃早餐很重要✅自己意見",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0131"
+  },
+  {
+    "kanji": "毎日運動するのは難しいです。",
+    "hiragana": "毎日運動するのは難しいです。",
+    "cn": "每天都運動是很困難的",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "運動する",
+    "context": "每天運動容易嗎 → 回答每天運動很難✅自己意見",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0132"
+  },
+  {
+    "kanji": "一人で旅行するのは楽しいです。",
+    "hiragana": "ひとりで旅行するのは楽しいです。",
+    "cn": "一個人旅行很有趣。",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "旅行する",
+    "context": "喜歡一個人旅行嗎 → 回答一個人旅行很有趣✅自己意見",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0133"
+  },
+  {
+    "kanji": "一人で海外に行くのは怖いです。",
+    "hiragana": "ひとりで海外に行くのは怖いです。",
+    "cn": "獨自一人去國外旅遊很恐怖。",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "行く",
+    "context": "想過自己出國嗎 → 回答一個人出國很恐怖✅自己意見",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0134"
+  },
+  {
+    "kanji": "早く会社に行くのは面倒くさいです。",
+    "hiragana": "早く会社に行くのは面倒くさいです。",
+    "cn": "早點去公司很麻煩",
+    "grammar": "動詞普通形＋のは＋名詞",
+    "contraction": "",
+    "origin": "行く",
+    "context": "最近工作狀況如何 → 回答早點去公司很麻煩✅自己意見",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0135"
+  },
+  {
+    "kanji": "全然勉強しなかったんです。",
+    "hiragana": "全然勉強しなかったんです。",
+    "cn": "完全沒有讀書 / 根本沒讀書",
+    "grammar": "全然＋動詞過去否定＋んです",
+    "contraction": "",
+    "origin": "勉強する",
+    "context": "考試考得怎樣 → 回答完全沒讀書✅自己(んです陳述)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0136"
+  },
+  {
+    "kanji": "どうして遅刻したんですか？",
+    "hiragana": "どうして遅刻したんですか？",
+    "cn": "為什麼遲到？",
+    "grammar": "どうして＋動詞過去＋んですか",
+    "contraction": "",
+    "origin": "遅刻する",
+    "context": "對方晚到 → 問為什麼遲到❗對方(んですか疑問)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0137"
+  },
+  {
+    "kanji": "遅刻しませんでした。",
+    "hiragana": "遅刻しませんでした。",
+    "cn": "沒有遲到",
+    "grammar": "動詞過去否定",
+    "contraction": "",
+    "origin": "遅刻する",
+    "context": "被問今天遲到了嗎 → 回答沒遲到✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0138"
+  },
+  {
+    "kanji": "どうしてご飯を食べないんですか？",
+    "hiragana": "どうしてご飯を食べないんですか？",
+    "cn": "為什麼不吃飯",
+    "grammar": "どうして＋動詞否定＋んですか",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看到對方沒吃東西 → 問為什麼不吃❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0139"
+  },
+  {
+    "kanji": "どうして会社に行かないんですか？",
+    "hiragana": "どうして会社に行かないんですか？",
+    "cn": "為什麼不上班／不去公司？",
+    "grammar": "どうして＋動詞否定＋んですか",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友最近常請假 → 問為什麼不去上班❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0140"
+  },
+  {
+    "kanji": "確認してください",
+    "hiragana": "確認してください",
+    "cn": "請確認",
+    "grammar": "動詞て形＋ください",
+    "contraction": "",
+    "origin": "確認する",
+    "context": "提交文件給主管 → 請對方確認❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0141"
+  },
+  {
+    "kanji": "確認してもらえますか？",
+    "hiragana": "確認してもらえますか？",
+    "cn": "可以請您幫我確認一下嗎？",
+    "grammar": "動詞て形＋もらえる",
+    "contraction": "",
+    "origin": "する、もらう",
+    "context": "拿票券/地圖請店員站務員 → 幫忙確認❗拜託對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0142"
+  },
+  {
+    "kanji": "たこ焼きを食べたくないです",
+    "hiragana": "たこ焼きを食べたくないです",
+    "cn": "我不想吃章魚燒",
+    "grammar": "動詞ます形（去掉ます）＋たくないです",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "被熱情推薦章魚燒 → 委婉回絕✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0143"
+  },
+  {
+    "kanji": "ちょっと行ってきます",
+    "hiragana": "ちょっとお行ってきます",
+    "cn": "我去一下洗手間就回來",
+    "grammar": "動詞て形（行って）＋きます",
+    "contraction": "",
+    "origin": "行く、くる",
+    "context": "公共場合/辦理入住時 → 說要暫離一下✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0144"
+  },
+  {
+    "kanji": "9時に出発します",
+    "hiragana": "9時に出発します",
+    "cn": "9 點出發",
+    "grammar": "時間＋に＋動詞",
+    "contraction": "",
+    "origin": "する",
+    "context": "被問幾點退房/出發 → 回答9點出發✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0145"
+  },
+  {
+    "kanji": "空港からホテルまで行きます",
+    "hiragana": "空港からホテルまで行きます",
+    "cn": "從機場去到飯店",
+    "grammar": "地方＋から＋地方＋まで＋動詞",
+    "contraction": "",
+    "origin": "行く、くる",
+    "context": "計程車司機問去哪 → 回答飯店（どちらまで行きますか？）✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0146"
+  },
+  {
+    "kanji": "あそこでラーメンを食べたい",
+    "hiragana": "あそこでラーメンを食べたい",
+    "cn": "想在那裡吃拉麵",
+    "grammar": "地方＋で＋動詞ます形（去掉ます）＋たい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看到厲害的拉麵店 → 表達想吃✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0147"
+  },
+  {
+    "kanji": "毎年日本に行っています",
+    "hiragana": "毎年日本に行っています",
+    "cn": "我每年都會去日本",
+    "grammar": "動詞て形（行って）＋ている（反覆的習慣/狀態）",
+    "contraction": "",
+    "origin": "行く、くる",
+    "context": "聊出國頻率 → 分享每年都去日✅自己（習慣）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0148"
+  },
+  {
+    "kanji": "今日はあまり食べなさそう",
+    "hiragana": "今日はあまり食べなさそう",
+    "cn": "他今天好像吃不太下 / 似乎吃得不多(當下外觀判斷)",
+    "grammar": "動詞ます形＋なさそう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看某人沒什麼胃口 → 推測他吃不多❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0149"
+  },
+  {
+    "kanji": "今日何するの？",
+    "hiragana": "今日はなにするの？",
+    "cn": "今天要做什麼？ / 今天有什麼打算？",
+    "grammar": "疑問詞＋動詞普通形＋の",
+    "contraction": "",
+    "origin": "する",
+    "context": "朋友剛起床 → 隨口問今天做什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0150"
+  },
+  {
+    "kanji": "明日確認しておきます",
+    "hiragana": "明日確認しておきます",
+    "cn": "我明天先確認一下",
+    "grammar": "動詞ます形 ＋ 動詞て形＋おく",
+    "contraction": "",
+    "origin": "確認する、おく",
+    "context": "討論明天安排 → 回答先去確認✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0151"
+  },
+  {
+    "kanji": "お腹がいっぱいだから、もう食べられない",
+    "hiragana": "お腹がいっぱいだから、もう食べられない",
+    "cn": "因為肚子很飽，已經吃不下了",
+    "grammar": "普通形＋だから ＋ 動詞可能形否定",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "吃到飽被問要不要再吃 → 回答吃不下了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0152"
+  },
+  {
+    "kanji": "たくさん食べそう",
+    "hiragana": "たくさん食べそう",
+    "cn": "他們感覺會吃很多 / 看起來會吃很多(當下外觀判斷)",
+    "grammar": "動詞ます形＋そう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看發育中青少年的眼神 → 推測他們會吃很多❗他人 可以依照語境猜測自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0153"
+  },
+  {
+    "kanji": "お腹いっぱいだからもう食べられない",
+    "hiragana": "お腹いっぱいだからもう食べられない",
+    "cn": "因為肚子飽了，好像已經吃不下了",
+    "grammar": "普通形＋だから ＋可能型",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "聚餐尾聲被問要不要吃甜點 → 委婉推辭",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0154"
+  },
+  {
+    "kanji": "この子は野菜を食べなさそう",
+    "hiragana": "この子は野菜を食べなさそう",
+    "cn": "這孩子看起來不吃蔬菜(當下直觀判斷即將發生)",
+    "grammar": "動詞ます形＋なさそう",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "挑食小孩看到青椒皺眉 → 媽媽推測小孩不吃❗他人(小孩)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0155"
+  },
+  {
+    "kanji": "食べるには熱すぎる",
+    "hiragana": "食べるには熱すぎる",
+    "cn": "太熱了吃不下 / 要吃的話太燙了",
+    "grammar": "動詞辞書形＋には ＋ い形容詞(去い)＋すぎる",
+    "contraction": "",
+    "origin": "食べる、すぎる",
+    "context": "食物剛端上來還冒煙 → 驚呼太燙✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0156"
+  },
+  {
+    "kanji": "友達に一緒に行ってもらいました",
+    "hiragana": "友達に一緒に行ってもらいました",
+    "cn": "請朋友陪我一起去了",
+    "grammar": "動詞て形＋もらう",
+    "contraction": "",
+    "origin": "行く、もらう",
+    "context": "被問自己去不會日文的店 → 解釋有朋友陪同✅自己(敘述受益經驗)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0157"
+  },
+  {
+    "kanji": "日本に行っちゃった",
+    "hiragana": "日本に行っちゃった",
+    "cn": "跑去日本了 / 去了日本",
+    "grammar": "動詞て形＋ちゃう",
+    "contraction": "てしまった／ちゃった",
+    "origin": "行く、しまう",
+    "context": "同事問某人怎麼沒來 → 回答他去日本了❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0158"
+  },
+  {
+    "kanji": "もう行っちゃうの？",
+    "hiragana": "もう行っちゃうの？",
+    "cn": "已經要走了嗎？ / 準備要出發了嗎？",
+    "grammar": "動詞て形＋ちゃう ＋ の (疑問)",
+    "contraction": "",
+    "origin": "行く、しまう",
+    "context": "你提早離席 → 朋友問你要走了嗎❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0159"
+  },
+  {
+    "kanji": "みんな行くみたい",
+    "hiragana": "みんな行くみたい",
+    "cn": "我覺得好像大家好像都要去(跡象)",
+    "grammar": "動詞普通形＋みたい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問同學會大家去不去 → 轉述打聽到的消息❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0160"
+  },
+  {
+    "kanji": "今日は行かないみたい",
+    "hiragana": "今日は行かないみたい",
+    "cn": "我覺得他今天好像不去(跡象)",
+    "grammar": "動詞ない形＋みたい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "主管座位是空的 → 推測主管今天不來❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0161"
+  },
+  {
+    "kanji": "彼も行くらしい",
+    "hiragana": "彼も行くらしい",
+    "cn": "聽說他也要去(傳聞)",
+    "grammar": "動詞普通形＋らしい (傳聞/客觀推測)",
+    "contraction": "",
+    "origin": "行く",
+    "context": "聽說朋友買到演唱會票 → 轉告大家❗他人傳聞",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0162"
+  },
+  {
+    "kanji": "あの店に行くみたい",
+    "hiragana": "あの店に行くみたい",
+    "cn": "我覺得他好像要去那家店(跡象)",
+    "grammar": "動詞普通形＋みたい",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看排隊人潮方向 → 推測大家要去那家店❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0163"
+  },
+  {
+    "kanji": "どこに行くの？",
+    "hiragana": "どこに行くの？",
+    "cn": "要去哪裡？",
+    "grammar": "疑問詞 ＋ 動詞普通形＋の",
+    "contraction": "",
+    "origin": "行く",
+    "context": "室友換好衣服準備出門 → 隨口問要去哪❗問對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0164"
+  },
+  {
+    "kanji": "どこに行ったの？",
+    "hiragana": "どこに行ったの？",
+    "cn": "去了哪裡？",
+    "grammar": "疑問詞 ＋ 動詞た形＋の",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友放假曬黑帶伴手禮回來 → 好奇問去了哪❗問對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0165"
+  },
+  {
+    "kanji": "いつ行くの？",
+    "hiragana": "いつ行くの？",
+    "cn": "什麼時候要去？ / 什麼時候出發",
+    "grammar": "疑問詞 ＋ 動詞普通形＋の",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友宣布要去日本度假 → 追問時間❗問對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0166"
+  },
+  {
+    "kanji": "誰と行くの？",
+    "hiragana": "誰と行くの？",
+    "cn": "要跟誰去？",
+    "grammar": "疑問詞＋と ＋ 動詞普通形＋の",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友說要去北海道過節 → 八卦問跟誰去❗問對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0167"
+  },
+  {
+    "kanji": "どうやって行くの？",
+    "hiragana": "どうやって行くの？",
+    "cn": "要怎麼去？ / 怎麼走？",
+    "grammar": "疑問詞 ＋ 動詞普通形＋の",
+    "contraction": "",
+    "origin": "行く",
+    "context": "約在交通不便的地方 → 困惑問怎麼去❗問對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0168"
+  },
+  {
+    "kanji": "行きたいな",
+    "hiragana": "行きたいな",
+    "cn": "好想去喔",
+    "grammar": "動詞ます形＋たい ＋ な (詠嘆)",
+    "contraction": "",
+    "origin": "行く",
+    "context": "看到美景照片 → 感嘆好想去✅自己（自言自語）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0169"
+  },
+  {
+    "kanji": "行こうかな",
+    "hiragana": "行こうかな",
+    "cn": "要去嗎...",
+    "grammar": "動詞意向形＋かな",
+    "contraction": "",
+    "origin": "行く",
+    "context": "週末在家無聊 → 自問要不要出門✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0170"
+  },
+  {
+    "kanji": "行けるかな",
+    "hiragana": "行けるかな",
+    "cn": "能去嗎... / 不知道能不能去",
+    "grammar": "動詞可能形＋かな",
+    "contraction": "",
+    "origin": "行く",
+    "context": "門票難搶/可能加班 → 擔心能不能去成✅自己(可能形,例外)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0171"
+  },
+  {
+    "kanji": "行きたくなってきた",
+    "hiragana": "行きたくなってきた",
+    "cn": "變得想去了 / 開始想去了",
+    "grammar": "動詞ます形＋たい(去い)＋くなる ＋ 動詞て形＋くる",
+    "contraction": "",
+    "origin": "行く、なる、くる",
+    "context": "聽完朋友推薦 → 轉變心意變得想去✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0172"
+  },
+  {
+    "kanji": "何を食べているの？",
+    "hiragana": "何を食べているの？",
+    "cn": "在吃什麼呢？",
+    "grammar": "疑問詞＋を ＋ 動詞て形＋いる ＋ の",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "朋友吃著奇特零食 → 好奇問在吃什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0173"
+  },
+  {
+    "kanji": "これ食べてくれる？",
+    "hiragana": "これ食べてくれる？",
+    "cn": "能幫我吃這個嗎？ / 要吃這個嗎？",
+    "grammar": "動詞て形＋くれる",
+    "contraction": "",
+    "origin": "食べる、くれる",
+    "context": "便當青椒不敢吃 → 拜託朋友幫忙吃❗拜託對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0174"
+  },
+  {
+    "kanji": "少し食べてもらった",
+    "hiragana": "少し食べてもらった",
+    "cn": "讓（對方）吃了一點 / 請（對方）幫忙吃了一點",
+    "grammar": "動詞て形＋もらう",
+    "contraction": "",
+    "origin": "食べる、もらう",
+    "context": "被問大蛋糕吃得完嗎 → 回答有人幫忙吃了一點✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0175"
+  },
+  {
+    "kanji": "全部食べちゃった",
+    "hiragana": "全部食べちゃった",
+    "cn": "全部吃光光了",
+    "grammar": "動詞て形＋ちゃう",
+    "contraction": "てしまった／ちゃった",
+    "origin": "食べる、しまう",
+    "context": "媽媽發現炸雞不見 → 自首全部吃光了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0176"
+  },
+  {
+    "kanji": "もう食べちゃった",
+    "hiragana": "もう食べちゃった",
+    "cn": "已經吃掉了 / 已經吃完了",
+    "grammar": "動詞て形＋ちゃう",
+    "contraction": "てしまった／ちゃった",
+    "origin": "食べる、しまう",
+    "context": "朋友探班問餓不餓 → 回答已經吃過了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0177"
+  },
+  {
+    "kanji": "もう食べたみたい",
+    "hiragana": "もう食べたみたい",
+    "cn": "我覺得他好像已經吃了 / 看起來已經吃過了(跡象)",
+    "grammar": "動詞た形＋みたい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看空碗盤和衛生紙 → 推測室友吃過了❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0178"
+  },
+  {
+    "kanji": "まだ食べてないみたい",
+    "hiragana": "まだ食べてないみたい",
+    "cn": "我覺得他好像還沒吃 / 看起來還沒吃(跡象)",
+    "grammar": "動詞て形＋いない ＋ みたい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "同事便當沒動 → 推測他還沒吃❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0179"
+  },
+  {
+    "kanji": "どこで食べるの？",
+    "hiragana": "どこで食べるの？",
+    "cn": "要在哪裡吃？",
+    "grammar": "疑問詞＋で ＋ 動詞普通形＋の",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "買完外帶要去公園 → 順口問在哪吃❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0180"
+  },
+  {
+    "kanji": "何か食べる？",
+    "hiragana": "何か食べる？",
+    "cn": "要吃點什麼嗎？",
+    "grammar": "疑問詞＋か ＋ 動詞普通形",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "半夜肚子餓 → 問身邊的人要不要吃❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0181"
+  },
+  {
+    "kanji": "何を食べたの",
+    "hiragana": "何を食べたの",
+    "cn": "吃了什麼？",
+    "grammar": "疑問詞＋を ＋ 動詞た形＋の",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "朋友說去了高級餐廳 → 追問吃了什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0182"
+  },
+  {
+    "kanji": "食べたいな",
+    "hiragana": "食べたいな",
+    "cn": "好想吃喔",
+    "grammar": "動詞ます形＋たい ＋ な",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "看到甜點櫥窗 → 感嘆好想吃✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0183"
+  },
+  {
+    "kanji": "お腹が空いて食べたくなった",
+    "hiragana": "お腹がすいて食べたくなった",
+    "cn": "肚子餓了變得想吃東西",
+    "grammar": "動詞て形 ＋ 動詞ます形＋たい(去い)＋くなる",
+    "contraction": "",
+    "origin": "空く、食べる、なる",
+    "context": "聞到美食街的香味 → 變得想吃東西✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0184"
+  },
+  {
+    "kanji": "まだ食べたい",
+    "hiragana": "まだ食べたい",
+    "cn": "還想吃",
+    "grammar": "副詞 ＋ 動詞ます形＋たい",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "吃完一碗還意猶未盡 → 跟老闆說還想吃✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0185"
+  },
+  {
+    "kanji": "何をしているの",
+    "hiragana": "何をしているの",
+    "cn": "在做什麼呢？",
+    "grammar": "疑問詞＋を ＋ 動詞て形＋いる ＋ の",
+    "contraction": "",
+    "origin": "する",
+    "context": "室友對電腦打字 → 隨口問在做什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0186"
+  },
+  {
+    "kanji": "もう準備したみたい",
+    "hiragana": "もう準備したみたい",
+    "cn": "我覺得他好像已經準備好了(跡象)",
+    "grammar": "動詞た形＋みたい",
+    "contraction": "",
+    "origin": "準備する",
+    "context": "朋友已經穿鞋等在門口 → 推測他準備好了❗他人推測",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0187"
+  },
+  {
+    "kanji": "どうする",
+    "hiragana": "どうする",
+    "cn": "要怎麼辦？ / 要做什麼？",
+    "grammar": "疑問詞 ＋ 動詞普通形",
+    "contraction": "",
+    "origin": "する",
+    "context": "計畫地點臨時公休 → 跟旅伴商量怎麼辦❗對方(共同商量)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0188"
+  },
+  {
+    "kanji": "どうしようかな",
+    "hiragana": "どうしようかな",
+    "cn": "該怎麼辦呢...",
+    "grammar": "疑問詞 ＋ 動詞意向形＋かな",
+    "contraction": "",
+    "origin": "する",
+    "context": "猶豫選哪種飲料 → 自言自語糾結✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0189"
+  },
+  {
+    "kanji": "何にする",
+    "hiragana": "何にする",
+    "cn": "要選哪一個？ / 要決定什麼？",
+    "grammar": "疑問詞＋に ＋ する",
+    "contraction": "",
+    "origin": "する",
+    "context": "服務生要點餐 → 問朋友要點什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0190"
+  },
+  {
+    "kanji": "好きにして",
+    "hiragana": "好きにして",
+    "cn": "隨你便 / 照你喜歡的去做吧",
+    "grammar": "な形容詞＋に ＋ 動詞て形",
+    "contraction": "",
+    "origin": "する",
+    "context": "朋友猶豫不決 → 讓對方自己決定❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0191"
+  },
+  {
+    "kanji": "食べないかも",
+    "hiragana": "食べないかも",
+    "cn": "我可能不吃",
+    "grammar": "動詞ない形＋かも",
+    "contraction": "",
+    "origin": "食べる",
+    "context": "朋友問要不要再吃→ 回答「可能不吃了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0192"
+  },
+  {
+    "kanji": "今日は行かないかも",
+    "hiragana": "今日は行かないかも",
+    "cn": "我今天可能不去",
+    "grammar": "動詞ない形＋かも",
+    "contraction": "",
+    "origin": "行く",
+    "context": "朋友問聚餐/活動去不去 → 還沒決定,回答可能不去✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0193"
+  },
+  {
+    "kanji": "気にしないで",
+    "hiragana": "気にしないで",
+    "cn": "別放在心上 / 不要在意",
+    "grammar": "な形容詞＋に ＋ 動詞ない形+で",
+    "contraction": "",
+    "origin": "する",
+    "context": "朋友不小心弄錯/道歉,或因為幫不上忙感到愧疚 → 你安慰對方別放在心上❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0194"
+  },
+  {
+    "kanji": "同じものにします",
+    "hiragana": "同じものにします",
+    "cn": "我要點一樣的 / 我跟（他）一樣",
+    "grammar": "名詞＋にする",
+    "contraction": "-",
+    "origin": "する",
+    "context": "點餐時同行的人點了某道菜 → 告訴店員自己也要點一樣的✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0195"
+  },
+  {
+    "kanji": "学生ではありません",
+    "hiragana": "学生ではありません",
+    "cn": "學生不行 / 不可以是學生",
+    "grammar": "名詞＋ではいけません",
+    "contraction": "-",
+    "origin": "行く",
+    "context": "申請某項特定資格或方案時 → 說明規定學生身分不符合資格 / 或叮嚀出社會了不能還抱著學生的心態❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0196"
+  },
+  {
+    "kanji": "なんか変な味がする",
+    "hiragana": "なんか変な味がする",
+    "cn": "有股奇怪的味道 / 嚐起來怪怪的",
+    "grammar": "名詞＋がする",
+    "contraction": "-",
+    "origin": "する",
+    "context": "吃東西或喝飲料時覺得味道不對勁 → 表達食物嚐起來怪怪的（外在現象）✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0197"
+  },
+  {
+    "kanji": "甘い味がする",
+    "hiragana": "甘い味がする",
+    "cn": "有甜味 / 嚐起來甜甜的",
+    "grammar": "名詞＋がする",
+    "contraction": "-",
+    "origin": "する",
+    "context": "試吃或喝東西時嚐出味道 → 表達吃起來有甜味（外在現象）✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0198"
+  },
+  {
+    "kanji": "違和感がする",
+    "hiragana": "違和感がする",
+    "cn": "感覺怪怪的 / 有違和感",
+    "grammar": "名詞＋がする",
+    "contraction": "-",
+    "origin": "する",
+    "context": "來到新環境、看到某個設計或聽到某句話覺得不太對勁 → 覺得哪裡怪怪的✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0199"
+  },
+  {
+    "kanji": "雨の音がする",
+    "hiragana": "雨の音がする",
+    "cn": "聽見下雨的聲音 / 有下雨的聲音",
+    "grammar": "名詞＋がする",
+    "contraction": "-",
+    "origin": "する",
+    "context": "在室內聽到外面有聲音 → 察覺到好像下雨了（外在現象）",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0200"
+  },
+  {
+    "kanji": "水を持ってきて",
+    "hiragana": "水を持ってきて",
+    "cn": "請幫我拿水來 / 請拿水來",
+    "grammar": "動詞て形",
+    "contraction": "",
+    "origin": "持つ、来る",
+    "context": "餐廳點餐/口渴時 → 請朋友或家人拿水來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0201"
+  },
+  {
+    "kanji": "一緒に飲みましょう",
+    "hiragana": "一緒に飲みましょう",
+    "cn": "一起喝吧",
+    "grammar": "動詞ます形＋ましょう",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "聚會/下班後 → 邀請同事朋友一起去喝一杯（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0202"
+  },
+  {
+    "kanji": "早く来なさい",
+    "hiragana": "早くきなさい",
+    "cn": "快點來",
+    "grammar": "動詞ます形＋なさい",
+    "contraction": "",
+    "origin": "来る",
+    "context": "對方動作太慢 → 催促對方快點過來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0203"
+  },
+  {
+    "kanji": "もうそこにあるでしょう",
+    "hiragana": "もうそこにあるでしょう",
+    "cn": "已經在那裡了吧",
+    "grammar": "動詞普通形＋でしょう",
+    "contraction": "",
+    "origin": "ある",
+    "context": "朋友找不到東西 → 提醒對方東西已經在那裡了❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0204"
+  },
+  {
+    "kanji": "彼はもう来ないかも",
+    "hiragana": "彼はもうこないかも",
+    "cn": "他可能不會來了",
+    "grammar": "動詞ない形＋かも",
+    "contraction": "",
+    "origin": "来る",
+    "context": "等了很久人沒出現 → 推測他可能不來了❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0205"
+  },
+  {
+    "kanji": "今日は来るはずだ",
+    "hiragana": "今日はくるはずだ",
+    "cn": "今天應該會來",
+    "grammar": "動詞普通形＋はずだ",
+    "contraction": "",
+    "origin": "来る",
+    "context": "討論某人會不會出席 → 肯定地推測他今天應該會來❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0206"
+  },
+  {
+    "kanji": "お酒を飲んだことがない",
+    "hiragana": "お酒を飲んだことがない",
+    "cn": "沒喝過酒",
+    "grammar": "動詞た形＋ことがない",
+    "contraction": "",
+    "origin": "飲む、ある",
+    "context": "被問會不會喝酒 → 回答自己沒喝過酒✅自己經驗",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0207"
+  },
+  {
+    "kanji": "お酒を飲むなら、運転しないでください",
+    "hiragana": "お酒を飲むなら、運転しないでください",
+    "cn": "如果要喝酒，請不要開車",
+    "grammar": "動詞普通形＋なら / 動詞ない形＋でください",
+    "contraction": "",
+    "origin": "飲む、運転する",
+    "context": "聚餐有喝酒 → 叮嚀對方不要酒駕❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0208"
+  },
+  {
+    "kanji": "来るなら、早く来てね",
+    "hiragana": "くるなら、早くきてね",
+    "cn": "要來的話，請早點來喔",
+    "grammar": "動詞普通形＋なら / 動詞て形＋ね",
+    "contraction": "",
+    "origin": "来る",
+    "context": "朋友猶豫要不要來 → 提醒對方要來就早點來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0209"
+  },
+  {
+    "kanji": "もっとお金があれば、旅行に行きたい",
+    "hiragana": "もっとお金があれば、旅行に行きたい",
+    "cn": "如果有錢的話，想去旅行",
+    "grammar": "動詞ば形 / 動詞ます形＋たい",
+    "contraction": "",
+    "origin": "ある、行く",
+    "context": "聊到夢想或休假計畫 → 感嘆有錢的話想去旅行✅自己願望",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0210"
+  },
+  {
+    "kanji": "時間があったら、電話してください",
+    "hiragana": "時間があったら、電話してください",
+    "cn": "如果有時間的話，請打電話給我",
+    "grammar": "動詞た形＋ら / 動詞て形＋ください",
+    "contraction": "",
+    "origin": "ある、電話する",
+    "context": "留話或道別時 → 請對方有空時打個電話過來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0211"
+  },
+  {
+    "kanji": "喉がかわいた、水が飲みたい",
+    "hiragana": "喉がかわいた、水が飲みたい",
+    "cn": "口渴了，想喝水",
+    "grammar": "動詞た形 / 動詞ます形＋たい",
+    "contraction": "",
+    "origin": "渇く、飲む",
+    "context": "運動完或大熱天 → 表達口渴想喝水✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0212"
+  },
+  {
+    "kanji": "雨が降ってきて、傘を買った",
+    "hiragana": "雨が降ってきて、傘を買った",
+    "cn": "下雨了，所以買了傘",
+    "grammar": "動詞て形＋くる / 動詞た形",
+    "contraction": "",
+    "origin": "降る、来る、買う",
+    "context": "被問怎麼突然買了傘 → 解釋因為突然下雨了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0213"
+  },
+  {
+    "kanji": "今日は誰も来ません",
+    "hiragana": "今日は誰もきません",
+    "cn": "今天誰也不會來",
+    "grammar": "疑問詞＋も＋動詞否定形",
+    "contraction": "",
+    "origin": "来る",
+    "context": "確認今天的訪客或預約 → 回答今天沒有任何人會來",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0214"
+  },
+  {
+    "kanji": "今はお金があまりありません",
+    "hiragana": "今はお金があまりありません",
+    "cn": "現在沒什麼錢",
+    "grammar": "あまり＋動詞否定形",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被朋友借錢或推銷 → 委婉拒絕說現在手頭沒錢✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0215"
+  },
+  {
+    "kanji": "冷蔵庫に卵があります",
+    "hiragana": "冷蔵庫に卵があります",
+    "cn": "冰箱裡有雞蛋",
+    "grammar": "名詞＋に＋名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "討論要煮什麼或缺什麼食材 → 告知冰箱裡還有蛋",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0216"
+  },
+  {
+    "kanji": "私も飲みたいです",
+    "hiragana": "私も飲みたいです",
+    "cn": "我也想喝",
+    "grammar": "動詞ます形＋たい",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "表達想喝✅自己願望",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0217"
+  },
+  {
+    "kanji": "予約してあります",
+    "hiragana": "予約してあります",
+    "cn": "已經預約好了",
+    "grammar": "動詞て形＋ある",
+    "contraction": "",
+    "origin": "予約する、ある",
+    "context": "到達餐廳或飯店櫃檯 → 告知已經事先預約好了✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0218"
+  },
+  {
+    "kanji": "氷なしで、お願いします",
+    "hiragana": "氷なしで、お願いします",
+    "cn": "麻煩去冰",
+    "grammar": "名詞＋なしで",
+    "contraction": "",
+    "origin": "お願いする",
+    "context": "點飲料時 → 要求去冰✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0219"
+  },
+  {
+    "kanji": "歯ブラシ、もう一本もらえますか",
+    "hiragana": "歯ブラシ、もう一本もらえますか",
+    "cn": "可以再給我一支牙刷嗎？",
+    "grammar": "名詞＋をもらえますか",
+    "contraction": "",
+    "origin": "もらう",
+    "context": "飯店備品不夠 → 詢問櫃檯能否多給一支牙刷❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0220"
+  },
+  {
+    "kanji": "ストロー、ありますか",
+    "hiragana": "ストロー、ありますか",
+    "cn": "請問有吸管嗎？",
+    "grammar": "名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "買飲料沒拿到吸管 → 詢問店員有沒有吸管❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0221"
+  },
+  {
+    "kanji": "二人ですが、席はありますか",
+    "hiragana": "ふたりですが、席はありますか",
+    "cn": "我們兩位，請問有位子嗎？",
+    "grammar": "名詞＋ですが / 名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "進入餐廳時 → 告知人數並詢問是否有空位❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0222"
+  },
+  {
+    "kanji": "メニューをもらえますか",
+    "hiragana": "メニューをもらえますか",
+    "cn": "可以給我菜單嗎？",
+    "grammar": "名詞＋をもらえますか",
+    "contraction": "",
+    "origin": "もらう",
+    "context": "入座後沒有菜單 → 請服務生給菜單❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0223"
+  },
+  {
+    "kanji": "お酒は飲まないので、ジュースにします",
+    "hiragana": "お酒は飲まないので、ジュースにします",
+    "cn": "我不喝酒，所以要果汁",
+    "grammar": "動詞ない形＋ので / 名詞＋にする",
+    "contraction": "",
+    "origin": "飲む、する",
+    "context": "聚餐點飲料時 → 解釋不喝酒所以點果汁✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0224"
+  },
+  {
+    "kanji": "来そうにないです",
+    "hiragana": "きそうにないです",
+    "cn": "看起來不像是會來",
+    "grammar": "動詞ます形＋そうにない",
+    "contraction": "",
+    "origin": "来る",
+    "context": "等了很久對方都沒出現 → 判斷對方應該是不會來了❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0225"
+  },
+  {
+    "kanji": "いつ来ますか",
+    "hiragana": "いつ、きますか",
+    "cn": "什麼時候會來？",
+    "grammar": "疑問詞＋動詞ます形",
+    "contraction": "",
+    "origin": "来る",
+    "context": "期待對方到來或確認行程 → 詢問對方什麼時候會到❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0226"
+  },
+  {
+    "kanji": "こちらに来てもらえますか",
+    "hiragana": "こちらにきてもらえますか",
+    "cn": "可以請你過來這裡嗎？",
+    "grammar": "動詞て形＋もらえる",
+    "contraction": "",
+    "origin": "来る、もらう",
+    "context": "需要對方幫忙或確認事情 → 請對方過來這裡一趟❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0227"
+  },
+  {
+    "kanji": "ここに来てください",
+    "hiragana": "ここにきてください",
+    "cn": "請來這裡",
+    "grammar": "動詞て形＋ください",
+    "contraction": "",
+    "origin": "来る",
+    "context": "指引方向或要求集合 → 請對方來這個地方❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0228"
+  },
+  {
+    "kanji": "また来たいです",
+    "hiragana": "またきたいです",
+    "cn": "還想再來",
+    "grammar": "動詞ます形＋たい",
+    "contraction": "",
+    "origin": "来る",
+    "context": "離開喜歡的餐廳或景點前 → 表達喜歡，下次還想再來✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0229"
+  },
+  {
+    "kanji": "来なくても大丈夫です",
+    "hiragana": "こなくても大丈夫です",
+    "cn": "不來也沒關係",
+    "grammar": "動詞ない形（去い）＋くても大丈夫です",
+    "contraction": "",
+    "origin": "来る",
+    "context": "對方說可能無法出席 → 體貼地回覆不來也沒關係❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0230"
+  },
+  {
+    "kanji": "ほかに何がありますか",
+    "hiragana": "ほかになにがありますか",
+    "cn": "還有其他什麼嗎？",
+    "grammar": "疑問詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "點餐或詢問商品時 → 問還有沒有其他選項❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0231"
+  },
+  {
+    "kanji": "何もありません",
+    "hiragana": "なにもありません",
+    "cn": "什麼都沒有",
+    "grammar": "疑問詞＋も＋動詞否定形",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被問到有什麼問題或發生什麼事 → 回答什麼事都沒有✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0232"
+  },
+  {
+    "kanji": "何か飲む",
+    "hiragana": "なにか飲む",
+    "cn": "要喝點什麼嗎？",
+    "grammar": "疑問詞＋か＋動詞普通形",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "朋友來訪或休息時 → 問對方要不要喝點什麼❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0233"
+  },
+  {
+    "kanji": "もう飲んだ",
+    "hiragana": "もう飲んだ",
+    "cn": "已經喝過了",
+    "grammar": "もう＋動詞た形",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "朋友問要不要喝飲料/吃藥 → 回答已經喝過了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0234"
+  },
+  {
+    "kanji": "飲みすぎないでね",
+    "hiragana": "飲みすぎないでね",
+    "cn": "別喝太多喔",
+    "grammar": "動詞ます形＋すぎる（否定）＋ないでね",
+    "contraction": "",
+    "origin": "飲む、すぎる",
+    "context": "聚餐對方一直喝酒 → 叮嚀對方別喝太多❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0235"
+  },
+  {
+    "kanji": "食事の後で飲みます",
+    "hiragana": "食事のあとで、飲みます",
+    "cn": "飯後喝",
+    "grammar": "名詞＋の後で",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "醫生或朋友問什麼時候吃藥 → 回答飯後才喝✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0236"
+  },
+  {
+    "kanji": "もう少し飲めそう",
+    "hiragana": "もう少し飲めそう",
+    "cn": "好像還能再喝一點",
+    "grammar": "動詞可能形＋そう",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "被問還能喝嗎 → 覺得自己好像還能再喝一點✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0237"
+  },
+  {
+    "kanji": "何か飲み物がありますか",
+    "hiragana": "なにか飲み物がありますか",
+    "cn": "有什麼飲料嗎？",
+    "grammar": "疑問詞＋か＋名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "到朋友家或餐廳想喝東西 → 詢問有什麼飲料選擇❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0238"
+  },
+  {
+    "kanji": "どうやって来たの",
+    "hiragana": "どうやってきたの",
+    "cn": "你是怎麼來的？",
+    "grammar": "疑問詞＋動詞た形＋の",
+    "contraction": "",
+    "origin": "来る",
+    "context": "朋友到達赴約地點 → 詢問對方搭什麼交通工具來的❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0239"
+  },
+  {
+    "kanji": "来ないかも",
+    "hiragana": "こないかも",
+    "cn": "可能不會來",
+    "grammar": "動詞ない形＋かも",
+    "contraction": "",
+    "origin": "来る",
+    "context": "等待的人遲遲未現身 → 推測對方可能不會來了❗他人",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0240"
+  },
+  {
+    "kanji": "無理に来なくてもいいです",
+    "hiragana": "無理にこなくてもいいです",
+    "cn": "不勉強來也沒關係",
+    "grammar": "動詞ない形（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "来る",
+    "context": "對方行程很趕卻想抽空過來 → 體貼對方說不勉強來也行❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0241"
+  },
+  {
+    "kanji": "近くにありますか",
+    "hiragana": "近くにありますか",
+    "cn": "附近有嗎？",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "詢問超商或廁所位置 → 問附近有沒有這個設施❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0242"
+  },
+  {
+    "kanji": "ほかに何がありますか",
+    "hiragana": "ほかになにがありますか",
+    "cn": "還有其他什麼嗎？",
+    "grammar": "疑問詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "挑選商品或菜單時 → 問店員還有沒有其他種類❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0243"
+  },
+  {
+    "kanji": "右側にあります",
+    "hiragana": "右側にあります",
+    "cn": "在右邊",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被問路或物品位置 → 指示方向在右邊",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0244"
+  },
+  {
+    "kanji": "地下にあります",
+    "hiragana": "地下にあります",
+    "cn": "在地下室",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被問設施在哪 → 告知在地下室",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0245"
+  },
+  {
+    "kanji": "調べてみます",
+    "hiragana": "調べてみます",
+    "cn": "我查看看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "調べる、みる",
+    "context": "被問到不知道的事情 → 表示自己去查查看✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0246"
+  },
+  {
+    "kanji": "一度も飲んだことがありません",
+    "hiragana": "一度も飲んだことがありません",
+    "cn": "一次也沒喝過",
+    "grammar": "動詞た形＋ことがありません",
+    "contraction": "",
+    "origin": "飲む、ある",
+    "context": "被問有沒有喝過某種酒或飲料 → 回答一次也沒喝過✅自己經驗",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0247"
+  },
+  {
+    "kanji": "確認してから行く",
+    "hiragana": "確認してからいく",
+    "cn": "確認之後再去",
+    "grammar": "動詞て形＋から",
+    "contraction": "",
+    "origin": "確認する、行く",
+    "context": "討論行程是否直接出發 → 表示要先確認好再去✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0248"
+  },
+  {
+    "kanji": "飲みすぎた",
+    "hiragana": "飲みすぎた",
+    "cn": "喝太多了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "飲む、すぎる",
+    "context": "宿醉頭痛或肚子太撐 → 懊悔自己喝太多了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0249"
+  },
+  {
+    "kanji": "高すぎる",
+    "hiragana": "高すぎる",
+    "cn": "太貴了",
+    "grammar": "形容詞（去い）＋すぎる",
+    "contraction": "",
+    "origin": "すぎる",
+    "context": "看到商品標價嚇一跳 → 抱怨價格太貴了✅自己評論",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0250"
+  },
+  {
+    "kanji": "早すぎる",
+    "hiragana": "早すぎる",
+    "cn": "太早了 / 太快了",
+    "grammar": "形容詞（去い）＋すぎる",
+    "contraction": "",
+    "origin": "すぎる",
+    "context": "對方提早太多到或事情進展太快 → 驚呼太早/太快了",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0251"
+  },
+  {
+    "kanji": "来なくてもいいです",
+    "hiragana": "こなくてもいいです",
+    "cn": "不來也可以",
+    "grammar": "動詞ない形（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "来る",
+    "context": "活動取消或不需要對方幫忙 → 告知對方不用來也沒關係❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0252"
+  },
+  {
+    "kanji": "急がなくてもいいです",
+    "hiragana": "急がなくてもいいです",
+    "cn": "不用急也沒關係",
+    "grammar": "動詞ない形（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "急ぐ",
+    "context": "看到對方很慌張趕路 → 安撫對方不用急慢慢來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0253"
+  },
+  {
+    "kanji": "予約しなくても大丈夫です",
+    "hiragana": "予約しなくても大丈夫です",
+    "cn": "不預約也沒關係",
+    "grammar": "動詞ない形（去い）＋くても大丈夫です",
+    "contraction": "",
+    "origin": "予約する",
+    "context": "朋友擔心沒訂位沒位子 → 告知這家店不預約也可以去",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0254"
+  },
+  {
+    "kanji": "来なくても大丈夫です",
+    "hiragana": "こなくても大丈夫です",
+    "cn": "不來也沒關係",
+    "grammar": "動詞ない形（去い）＋くても大丈夫です",
+    "contraction": "",
+    "origin": "来る",
+    "context": "再次確認對方是否必須出席 → 表示不出席也無妨❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0255"
+  },
+  {
+    "kanji": "バスが来なくて、遅刻しました",
+    "hiragana": "バスがこなくて、遅刻しました",
+    "cn": "公車沒來，所以遲到了",
+    "grammar": "動詞ない形（去い）＋くて",
+    "contraction": "",
+    "origin": "来る、遅刻する",
+    "context": "向老師或主管解釋遲到原因 → 因為公車沒來✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0256"
+  },
+  {
+    "kanji": "時間がなくて、朝ごはんを食べられません",
+    "hiragana": "時間がなくて、朝ごはんを食べられません",
+    "cn": "沒時間，所以沒辦法吃早餐",
+    "grammar": "名詞＋がなくて / 動詞可能形否定",
+    "contraction": "",
+    "origin": "ある、食べる",
+    "context": "被問怎麼沒吃早餐 → 解釋因為沒時間所以無法吃✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0257"
+  },
+  {
+    "kanji": "お酒を飲まなくても大丈夫です",
+    "hiragana": "お酒を飲まなくても大丈夫です",
+    "cn": "不喝酒也沒關係",
+    "grammar": "動詞ない形（去い）＋くても大丈夫です",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "被勸酒或參加酒會 → 表示自己不喝酒也沒關係✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0258"
+  },
+  {
+    "kanji": "コーヒーを飲まなくて、眠くなりました",
+    "hiragana": "コーヒーを飲まなくて、眠くなりました",
+    "cn": "沒喝咖啡，變得想睡了",
+    "grammar": "動詞ない形（去い）＋くて / 形容詞（去い）＋くなる",
+    "contraction": "",
+    "origin": "飲む、なる",
+    "context": "上班打哈欠被關心 → 解釋因為沒喝咖啡變得想睡✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0259"
+  },
+  {
+    "kanji": "こちらへ来てください",
+    "hiragana": "こちらへきてください",
+    "cn": "請往這邊來",
+    "grammar": "名詞＋へ＋動詞て形＋ください",
+    "contraction": "",
+    "origin": "来る",
+    "context": "帶位或指引方向時 → 請對方往這邊走❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0260"
+  },
+  {
+    "kanji": "だれが来ますか",
+    "hiragana": "だれがきますか",
+    "cn": "有誰會來？",
+    "grammar": "疑問詞＋が＋動詞ます形",
+    "contraction": "",
+    "origin": "来る",
+    "context": "舉辦派對或會議前 → 詢問有誰會出席",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0261"
+  },
+  {
+    "kanji": "いつ来ますか",
+    "hiragana": "いつきますか",
+    "cn": "什麼時候來？",
+    "grammar": "疑問詞＋動詞ます形",
+    "contraction": "",
+    "origin": "来る",
+    "context": "等待包裹或朋友 → 詢問什麼時候會到",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0262"
+  },
+  {
+    "kanji": "免税はありますか",
+    "hiragana": "めんぜいはありますか",
+    "cn": "有免稅嗎？",
+    "grammar": "名詞＋はありますか",
+    "contraction": "",
+    "origin": "ある",
+    "context": "結帳時想退稅 → 詢問店家有沒有免稅服務❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0263"
+  },
+  {
+    "kanji": "あちらにあります",
+    "hiragana": "あちらにあります",
+    "cn": "在那邊",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "店員為客人指路 → 告知目標物在那邊",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0264"
+  },
+  {
+    "kanji": "全部飲んじゃった",
+    "hiragana": "全部飲んじゃった",
+    "cn": "全部喝光了",
+    "grammar": "動詞て形＋ちゃう",
+    "contraction": "",
+    "origin": "飲む、しまう",
+    "context": "朋友問飲料去哪了 → 自首不小心全部喝光了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0265"
+  },
+  {
+    "kanji": "明日、また来てみます",
+    "hiragana": "あした、またきてみます",
+    "cn": "明天我再來看看",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "来る、みる",
+    "context": "今天沒買到想要的東西或店休 → 表示明天會再來看看✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0266"
+  },
+  {
+    "kanji": "昨日は飲みすぎました。",
+    "hiragana": "昨日は飲みすぎました。",
+    "cn": "昨天喝太多了",
+    "grammar": "動詞ます形＋すぎる",
+    "contraction": "",
+    "origin": "飲む、すぎる",
+    "context": "隔天宿醉被同事問怎麼了 → 解釋昨天喝太多了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0267"
+  },
+  {
+    "kanji": "後でまた来ます",
+    "hiragana": "あとでまたきます",
+    "cn": "稍後再來 (重新過來)",
+    "grammar": "動詞ます形＋なおす",
+    "contraction": "",
+    "origin": "来る、直す",
+    "context": "拜訪時對方不在或排隊太長 → 表示稍後再重新過來一趟✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0268"
+  },
+  {
+    "kanji": "友達が来るから、ここで待ちます",
+    "hiragana": "友達がくるから、ここで待ちます",
+    "cn": "因為朋友會來，所以在這裡等",
+    "grammar": "普通形＋から",
+    "contraction": "",
+    "origin": "来る、待つ",
+    "context": "店員問要不要入座或點餐 → 解釋因為朋友要來，先在這裡等✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0269"
+  },
+  {
+    "kanji": "あっちにあるから、大丈夫",
+    "hiragana": "あっちにあるから、大丈夫",
+    "cn": "因為那邊有，所以沒問題",
+    "grammar": "普通形＋から",
+    "contraction": "",
+    "origin": "ある",
+    "context": "朋友擔心東西不夠 → 告知那邊還有所以沒問題",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0270"
+  },
+  {
+    "kanji": "いつ来たらいいですか",
+    "hiragana": "いつ、きたらいいですか",
+    "cn": "什麼時候來比較好呢？",
+    "grammar": "疑問詞＋動詞た形＋らいいですか",
+    "contraction": "",
+    "origin": "来る",
+    "context": "預約回診或下次見面 → 詢問什麼時候來比較好❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0271"
+  },
+  {
+    "kanji": "電車が来そうです",
+    "hiragana": "電車がきそうです",
+    "cn": "電車好像快來了",
+    "grammar": "動詞ます形＋そう",
+    "contraction": "",
+    "origin": "来る",
+    "context": "聽到廣播或看到指示燈 → 提醒同行者電車好像要來了",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0272"
+  },
+  {
+    "kanji": "あそこの店にありそう",
+    "hiragana": "あそこの店にありそう",
+    "cn": "那家店好像有",
+    "grammar": "動詞ます形＋そう",
+    "contraction": "",
+    "origin": "ある",
+    "context": "找尋某個商品找不到 → 推測那家店好像會有",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0273"
+  },
+  {
+    "kanji": "明日も絶対来なきゃ！",
+    "hiragana": "あしたも絶対こなきゃ！",
+    "cn": "明天也一定要來！",
+    "grammar": "動詞ない形（去ない）＋なきゃ",
+    "contraction": "",
+    "origin": "来る",
+    "context": "覺得某個活動或餐廳太棒了 → 激動表示明天也一定要來✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0274"
+  },
+  {
+    "kanji": "やばい、薬飲まなきゃ",
+    "hiragana": "やばい、薬飲まなきゃ",
+    "cn": "糟了，必須吃藥了",
+    "grammar": "動詞ない形（去ない）＋なきゃ",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "突然想起忘記吃藥 → 驚覺必須趕快吃藥✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0275"
+  },
+  {
+    "kanji": "ここで飲んじゃダメ",
+    "hiragana": "ここで飲んじゃダメ",
+    "cn": "不能在這裡喝",
+    "grammar": "動詞て形＋はダメ（じゃダメ）",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "朋友想在禁止飲食的地方喝飲料 → 制止對方不能在這裡喝❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0276"
+  },
+  {
+    "kanji": "さっきまで、ここにあったのに",
+    "hiragana": "さっきまで、ここにあったのに",
+    "cn": "剛才明明還在這裡的...",
+    "grammar": "普通形＋のに",
+    "contraction": "",
+    "origin": "ある",
+    "context": "突然找不到剛才還在的東西 → 疑惑剛才明明還在這裡的✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0277"
+  },
+  {
+    "kanji": "あっ、さっき飲んじゃった",
+    "hiragana": "あっ、さっき飲んじゃった",
+    "cn": "啊，剛才喝掉了",
+    "grammar": "動詞て形＋ちゃう",
+    "contraction": "",
+    "origin": "飲む、しまう",
+    "context": "朋友問某罐飲料去哪了 → 驚覺自己剛才已經喝掉了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0278"
+  },
+  {
+    "kanji": "来たばかりです",
+    "hiragana": "きたばかりです",
+    "cn": "剛剛才來",
+    "grammar": "動詞た形＋ばかり",
+    "contraction": "",
+    "origin": "来る",
+    "context": "剛抵達赴約地點朋友就出現了 → 表示自己也才剛到✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0279"
+  },
+  {
+    "kanji": "トイレは、あの店の隣にあります",
+    "hiragana": "トイレは、あの店の隣にあります",
+    "cn": "廁所在那家店的旁邊",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被路人詢問廁所位置 → 清楚指出廁所在某家店旁邊",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0280"
+  },
+  {
+    "kanji": "たぶん、飲まないほうがいい",
+    "hiragana": "たぶん、飲まないほうがいい",
+    "cn": "可能不要喝比較好",
+    "grammar": "動詞ない形＋ほうがいい",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "朋友生病還想喝冰飲料 → 勸阻對方可能不要喝比較好❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0281"
+  },
+  {
+    "kanji": "たぶん、あそこにあるかも",
+    "hiragana": "たぶん、あそこにあるかも",
+    "cn": "可能在那裡喔",
+    "grammar": "普通形＋かも",
+    "contraction": "",
+    "origin": "ある",
+    "context": "幫忙找東西時 → 推測可能放在那裡",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0282"
+  },
+  {
+    "kanji": "あのバス、たぶん来ないよ",
+    "hiragana": "あのバス、たぶんこないよ",
+    "cn": "那班公車，可能不會來喔",
+    "grammar": "動詞ない形＋よ",
+    "contraction": "",
+    "origin": "来る",
+    "context": "看到時刻表或改道通知 → 提醒等車的人那班公車可能不來了❗他人",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0283"
+  },
+  {
+    "kanji": "レジの右にあります",
+    "hiragana": "レジの右にあります",
+    "cn": "在收銀台的右邊",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "店員告知客人商品位置 → 在收銀台的右邊",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0284"
+  },
+  {
+    "kanji": "棚の下にあります",
+    "hiragana": "棚の下にあります",
+    "cn": "在架子下方",
+    "grammar": "名詞＋にある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "尋找庫存或物品 → 告知在架子下方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0285"
+  },
+  {
+    "kanji": "氷なしで飲みたいです",
+    "hiragana": "氷なしで飲みたいです",
+    "cn": "想喝去冰的",
+    "grammar": "名詞＋なしで / 動詞ます形＋たい",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "天氣冷或感冒但想喝飲料 → 表達想喝去冰的✅自己願望",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0286"
+  },
+  {
+    "kanji": "飲み物を買ってきます",
+    "hiragana": "飲み物を買ってきます",
+    "cn": "我去買個飲料就來",
+    "grammar": "動詞て形＋くる",
+    "contraction": "",
+    "origin": "買う、来る",
+    "context": "聚會中途或休息時間 → 告知大家自己去買個飲料就回來✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0287"
+  },
+  {
+    "kanji": "もうありません",
+    "hiragana": "もうありません",
+    "cn": "已經沒有了",
+    "grammar": "もう＋否定",
+    "contraction": "",
+    "origin": "ある",
+    "context": "店員告知熱門商品已售完 → 抱歉地表示已經沒有了",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0288"
+  },
+  {
+    "kanji": "ぜひ来てください",
+    "hiragana": "ぜひきてください",
+    "cn": "請務必過來",
+    "grammar": "動詞て形＋ください",
+    "contraction": "",
+    "origin": "来る",
+    "context": "邀請朋友參加活動或來家裡玩 → 強烈希望對方務必過來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0289"
+  },
+  {
+    "kanji": "やっと飲めた",
+    "hiragana": "やっと飲めた",
+    "cn": "終於喝到了",
+    "grammar": "動詞可能形",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "排了很久的隊終於買到手搖飲 → 感嘆終於喝到了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0290"
+  },
+  {
+    "kanji": "やっと飲んだ",
+    "hiragana": "やっと飲んだ",
+    "cn": "終於喝了",
+    "grammar": "動詞た形",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "拖延很久終於把苦澀的藥喝下去 → 鬆了一口氣終於喝了✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0291"
+  },
+  {
+    "kanji": "ほかのほうがいいです",
+    "hiragana": "ほかのほうがいいです",
+    "cn": "其他的比較好",
+    "grammar": "名詞＋のほうがいい",
+    "contraction": "",
+    "origin": "-",
+    "context": "對目前的選項不滿意 → 提出希望換其他的比較好✅自己意見",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0292"
+  },
+  {
+    "kanji": "窓側のほうがいいです",
+    "hiragana": "窓側のほうがいいです",
+    "cn": "靠窗的比較好",
+    "grammar": "名詞＋のほうがいい",
+    "contraction": "",
+    "origin": "-",
+    "context": "餐廳帶位時 → 表達希望能坐靠窗的位子比較好✅自己意見",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0293"
+  },
+  {
+    "kanji": "ほかの席はありますか？",
+    "hiragana": "ほかの席はありますか？",
+    "cn": "有其他的位子嗎？",
+    "grammar": "名詞＋はある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被安排的座位太擠或太吵 → 詢問有沒有其他位子❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0294"
+  },
+  {
+    "kanji": "カウンター席でもよろしいですか？",
+    "hiragana": "カウンター席でもよろしいですか？",
+    "cn": "吧台座位也可以嗎？",
+    "grammar": "名詞＋でもよろしいですか",
+    "contraction": "",
+    "origin": "-",
+    "context": "餐廳客滿只剩吧台 → 店員詢問客人坐吧台可以嗎❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0295"
+  },
+  {
+    "kanji": "テーブル席のほうがいいです。",
+    "hiragana": "テーブル席のほうがいいです。",
+    "cn": "桌位比較好。",
+    "grammar": "名詞＋のほうがいい",
+    "contraction": "",
+    "origin": "-",
+    "context": "回應店員的吧台提議 → 表達還是想坐一般桌位比較好✅自己意見",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0296"
+  },
+  {
+    "kanji": "カウンター席だけですか？",
+    "hiragana": "カウンター席だけですか？",
+    "cn": "只有吧台座位嗎？",
+    "grammar": "名詞＋だけですか",
+    "contraction": "",
+    "origin": "-",
+    "context": "看到桌位滿了 → 確認是否只剩下吧台座位",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0297"
+  },
+  {
+    "kanji": "カウンター席だけでも大丈夫です。",
+    "hiragana": "カウンター席だけでも大丈夫です。",
+    "cn": "只有吧台座位也沒關係。",
+    "grammar": "名詞＋だけでも大丈夫です",
+    "contraction": "",
+    "origin": "-",
+    "context": "為了不用等太久 → 表示只有吧台座位也沒關係✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0298"
+  },
+  {
+    "kanji": "一人でもいいです",
+    "hiragana": "ひとりでもいいです",
+    "cn": "一個人也可以",
+    "grammar": "名詞＋でもいいです",
+    "contraction": "",
+    "origin": "-",
+    "context": "參加活動或去餐廳 → 確認一個人去也沒有問題",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0299"
+  },
+  {
+    "kanji": "少し辛くてもいいです",
+    "hiragana": "少しからくてもいいです",
+    "cn": "稍微辣一點也可以",
+    "grammar": "形容詞（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "-",
+    "context": "點餐被問辣度接受度 → 表示稍微辣一點也可以接受✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0300"
+  },
+  {
+    "kanji": "聞いても分からない",
+    "hiragana": "聞いてもわからない",
+    "cn": "問了也不知道 / 聽了也不懂",
+    "grammar": "動詞て形＋も",
+    "contraction": "",
+    "origin": "聞く、分かる",
+    "context": "覺得某個專業知識太難 → 抱怨就算問了聽了也不懂✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0301"
+  },
+  {
+    "kanji": "ここで飲んでもいいですか",
+    "hiragana": "ここで飲んでもいいですか",
+    "cn": "可以在這裡喝嗎？",
+    "grammar": "動詞て形＋もいいですか",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "在超商或公共場所買了飲料 → 詢問能不能直接在這裡喝❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0302"
+  },
+  {
+    "kanji": "お酒を飲んではいけません",
+    "hiragana": "お酒を飲んではいけません",
+    "cn": "不可以喝酒",
+    "grammar": "動詞て形＋はいけません",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "醫生叮嚀病人或看到未成年 → 嚴格禁止喝酒❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0303"
+  },
+  {
+    "kanji": "全部飲まなくてもいいです",
+    "hiragana": "全部飲まなくてもいいです",
+    "cn": "不用全部喝完也可以",
+    "grammar": "動詞ない形（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "看到對方喝不下湯或飲料 → 體貼表示不用全部喝完也沒關係❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0304"
+  },
+  {
+    "kanji": "薬を飲まなきゃ",
+    "hiragana": "薬を飲まなきゃ",
+    "cn": "得吃藥了",
+    "grammar": "動詞ない形（去ない）＋なきゃ",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "感覺到感冒症狀或時間到了 → 意識到必須趕快吃藥✅自己義務",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0305"
+  },
+  {
+    "kanji": "よかったら、一緒に飲みませんか？",
+    "hiragana": "よかったら、一緒に飲みませんか？",
+    "cn": "如果方便的話，要不要一起喝一杯？",
+    "grammar": "よかったら / 動詞ます形＋ませんか",
+    "contraction": "-",
+    "origin": "飲む",
+    "context": "邀請朋友下班後去喝酒時 → 禮貌且溫暖的邀約（不會給對方太大壓力）❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0306"
+  },
+  {
+    "kanji": "何か飲み物がありますか",
+    "hiragana": "なにか飲み物がありますか",
+    "cn": "有什麼飲料嗎？",
+    "grammar": "疑問詞＋か＋名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "拜訪朋友家口渴 → 詢問有什麼飲料可以喝❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0307"
+  },
+  {
+    "kanji": "ほかにありますか",
+    "hiragana": "ほかにありますか",
+    "cn": "還有其他的嗎？",
+    "grammar": "名詞＋がある",
+    "contraction": "",
+    "origin": "ある",
+    "context": "看完展示的商品覺得不滿意 → 詢問還有沒有其他的選項❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0308"
+  },
+  {
+    "kanji": "冷たくなくてもいいです",
+    "hiragana": "冷たくなくてもいいです",
+    "cn": "不冷也沒關係",
+    "grammar": "形容詞（去い）＋くなくてもいいです",
+    "contraction": "",
+    "origin": "-",
+    "context": "店員說飲料不冰了 → 表示常溫或不冷也沒關係✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0309"
+  },
+  {
+    "kanji": "甘すぎないものはありますか",
+    "hiragana": "甘すぎないものはありますか",
+    "cn": "有不會太甜的嗎？",
+    "grammar": "形容詞（去い）＋すぎる（否定）",
+    "contraction": "",
+    "origin": "すぎる、ある",
+    "context": "挑選甜點或飲料不想吃太甜 → 詢問有沒有不會太甜的選項❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0310"
+  },
+  {
+    "kanji": "おすすめを飲んでみます",
+    "hiragana": "おすすめを飲んでみます",
+    "cn": "我喝看看推薦的",
+    "grammar": "動詞て形＋みる",
+    "contraction": "",
+    "origin": "飲む、みる",
+    "context": "不知道要點什麼 → 決定喝看看店員推薦的飲料✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0311"
+  },
+  {
+    "kanji": "飲みすぎないほうがいいです",
+    "hiragana": "飲みすぎないほうがいいです",
+    "cn": "不要喝太多比較好",
+    "grammar": "動詞ます形＋すぎる（否定）＋ほうがいい",
+    "contraction": "",
+    "origin": "飲む、すぎる",
+    "context": "關心朋友的身體健康 → 勸告對方不要喝太多酒比較好❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0312"
+  },
+  {
+    "kanji": "明日来てもいいですか",
+    "hiragana": "あした、きてもいいですか",
+    "cn": "明天來也可以嗎？",
+    "grammar": "動詞て形＋もいいですか",
+    "contraction": "",
+    "origin": "来る",
+    "context": "今天事情沒處理完或想再訪 → 詢問對方明天可不可以再來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0313"
+  },
+  {
+    "kanji": "無理に来なくてもいいです",
+    "hiragana": "無理にこなくてもいいです",
+    "cn": "不勉強來也沒關係",
+    "grammar": "動詞ない形（去い）＋くてもいいです",
+    "contraction": "",
+    "origin": "来る",
+    "context": "朋友說有事可能會遲到很久 → 體貼表示不勉強來也沒關係❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0314"
+  },
+  {
+    "kanji": "予約がある人だけ来られます",
+    "hiragana": "予約がある人だけこられます",
+    "cn": "只有預約的人能來",
+    "grammar": "名詞＋だけ / 動詞可能形",
+    "contraction": "",
+    "origin": "ある、来る",
+    "context": "解釋活動的入場規定 → 只有事前預約的人才能進來",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0315"
+  },
+  {
+    "kanji": "何時までに来る必要がありますか",
+    "hiragana": "なんじまでにくる必要がありますか",
+    "cn": "必須在幾點前來？",
+    "grammar": "動詞普通形＋必要がある",
+    "contraction": "",
+    "origin": "来る、ある",
+    "context": "確認報到時間或門禁 → 詢問必須在幾點之前抵達❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0316"
+  },
+  {
+    "kanji": "一人で来ても大丈夫ですか",
+    "hiragana": "ひとりできても大丈夫ですか",
+    "cn": "一個人來也沒關係嗎？",
+    "grammar": "動詞て形＋も大丈夫ですか",
+    "contraction": "",
+    "origin": "来る",
+    "context": "報名課程或預約餐廳 → 確認單獨前往是否也沒問題",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0317"
+  },
+  {
+    "kanji": "予約してあるんですが",
+    "hiragana": "予約してあるんですが",
+    "cn": "我有預約了... / 請問我有訂位...",
+    "grammar": "動詞て形＋ある＋んですが",
+    "contraction": "-",
+    "origin": "予約する、ある",
+    "context": "到餐廳或飯店櫃檯報到時 → 柔和的開場白，告知預約後等待櫃檯接話確認✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0318"
+  },
+  {
+    "kanji": "予約が必要ですか",
+    "hiragana": "予約が必要ですか",
+    "cn": "需要預約嗎？",
+    "grammar": "名詞＋が必要ですか",
+    "contraction": "",
+    "origin": "-",
+    "context": "打算去某家人氣餐廳或辦事 → 詢問是否需要事先預約❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0319"
+  },
+  {
+    "kanji": "何か持ってくる必要がありますか",
+    "hiragana": "なにか持ってくる必要がありますか",
+    "cn": "有必須帶來的東西嗎？",
+    "grammar": "動詞て形＋くる / 動詞普通形＋必要がある",
+    "contraction": "",
+    "origin": "持つ、来る、ある",
+    "context": "準備參加活動或面試 → 詢問有沒有必須攜帶的物品❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0320"
+  },
+  {
+    "kanji": "まだ空いている席がありますか",
+    "hiragana": "まだあいている席がありますか",
+    "cn": "還有空位嗎？",
+    "grammar": "動詞て形＋いる",
+    "contraction": "",
+    "origin": "空く、いる、ある",
+    "context": "走進看起來很滿的餐廳 → 詢問店員是否還有空位❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0321"
+  },
+  {
+    "kanji": "予約がなくても大丈夫ですか",
+    "hiragana": "予約がなくても大丈夫ですか",
+    "cn": "沒有預約也沒關係嗎？",
+    "grammar": "名詞＋がなくても大丈夫ですか",
+    "contraction": "",
+    "origin": "ある",
+    "context": "臨時經過一家餐廳想進去 → 詢問沒預約是不是也能用餐❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0322"
+  },
+  {
+    "kanji": "ほかにない",
+    "hiragana": "ほかにない",
+    "cn": "沒有其他的了",
+    "grammar": "名詞＋がない",
+    "contraction": "",
+    "origin": "ある",
+    "context": "翻找完包包或庫存 → 發現已經沒有其他的了",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0323"
+  },
+  {
+    "kanji": "何もない",
+    "hiragana": "なにもない",
+    "cn": "什麼都沒有",
+    "grammar": "疑問詞＋も＋ない",
+    "contraction": "",
+    "origin": "ある",
+    "context": "被問在想什麼或有什麼計畫 → 回答什麼想法或計畫都沒有✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0324"
+  },
+  {
+    "kanji": "時間がなくても行きます",
+    "hiragana": "時間がなくてもいきます",
+    "cn": "就算沒時間也要去",
+    "grammar": "名詞＋がなくても / 動詞ます形",
+    "contraction": "",
+    "origin": "ある、行く",
+    "context": "某個演唱會或活動非去不可 → 表達就算沒時間也一定要去的決心✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0325"
+  },
+  {
+    "kanji": "予約がないと入れません",
+    "hiragana": "予約がないと、はいれません",
+    "cn": "沒有預約進不去",
+    "grammar": "名詞＋がないと / 動詞可能形否定",
+    "contraction": "",
+    "origin": "ある、入る",
+    "context": "店員拒絕沒有預約的客人 → 說明沒有預約無法入場",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0326"
+  },
+  {
+    "kanji": "予約しないと来られません",
+    "hiragana": "予約しないと、こられません",
+    "cn": "不預約不能來",
+    "grammar": "動詞ない形＋と / 動詞可能形否定",
+    "contraction": "",
+    "origin": "予約する、来る",
+    "context": "解釋某個完全預約制的設施 → 說明不預約就無法前來",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0327"
+  },
+  {
+    "kanji": "予約がないと大変です",
+    "hiragana": "予約がないと大変です",
+    "cn": "沒有預約會很麻煩",
+    "grammar": "名詞＋がないと",
+    "contraction": "",
+    "origin": "ある",
+    "context": "朋友打算連假去熱門景點 → 提醒對方不預約的話會很慘/很麻煩",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0328"
+  },
+  {
+    "kanji": "予約がないと入れない",
+    "hiragana": "予約がないと、はいれない",
+    "cn": "沒有預約進不去",
+    "grammar": "名詞＋がないと / 動詞可能形否定",
+    "contraction": "",
+    "origin": "ある、入る",
+    "context": "朋友提議去某家高級餐廳 → 提醒這家沒預約是進不去的",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0329"
+  },
+  {
+    "kanji": "やってみないと分からない",
+    "hiragana": "やってみないとわからない",
+    "cn": "不做做看不知道",
+    "grammar": "動詞て形＋みる＋ない形＋と",
+    "contraction": "",
+    "origin": "やる、みる、分かる",
+    "context": "被問某件事會不會成功 → 表示沒實際做做看是不會知道結果的",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0330"
+  },
+  {
+    "kanji": "やってみなきゃ",
+    "hiragana": "やってみなきゃ",
+    "cn": "必須試試看",
+    "grammar": "動詞て形＋みる＋ない形（去ない）＋なきゃ",
+    "contraction": "",
+    "origin": "やる、みる",
+    "context": "面對困難的挑戰猶豫不決 → 鼓勵自己必須試試看才知道✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0331"
+  },
+  {
+    "kanji": "行ってみないと分からない",
+    "hiragana": "いってみないと、わからない",
+    "cn": "不去去看不知道",
+    "grammar": "動詞て形＋みる＋ない形＋と",
+    "contraction": "",
+    "origin": "行く、みる、分かる",
+    "context": "被問某家新餐廳好不好吃 → 表示沒實際去吃過不知道",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0332"
+  },
+  {
+    "kanji": "来てみないと分かりません",
+    "hiragana": "きてみないと、わかりません",
+    "cn": "不來來看看不知道",
+    "grammar": "動詞て形＋みる＋ない形＋と",
+    "contraction": "",
+    "origin": "来る、みる、分かる",
+    "context": "朋友問某個地方好不好玩 → 回答要親自來看看才會知道",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0333"
+  },
+  {
+    "kanji": "やらないと始まらない",
+    "hiragana": "やらないと、始まらない",
+    "cn": "不去做就不會開始",
+    "grammar": "動詞ない形＋と",
+    "contraction": "",
+    "origin": "やる、始まる",
+    "context": "看到朋友光說不練 → 鼓勵對方不採取行動是不會有進展的",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0334"
+  },
+  {
+    "kanji": "飲まないと元気が出ない",
+    "hiragana": "飲まないと、元気が出ない",
+    "cn": "不喝就沒有精神",
+    "grammar": "動詞ない形＋と",
+    "contraction": "",
+    "origin": "飲む、出る",
+    "context": "早上精神不濟 → 抱怨不喝咖啡就提不起勁✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0335"
+  },
+  {
+    "kanji": "水を飲まないと体に悪い",
+    "hiragana": "水を飲まないと、体に悪い",
+    "cn": "不喝水對身體不好",
+    "grammar": "動詞ない形＋と",
+    "contraction": "",
+    "origin": "飲む",
+    "context": "看到朋友都不喝水 → 叮嚀不喝水對身體不好❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0336"
+  },
+  {
+    "kanji": "カウンター席だけなら、大丈夫です",
+    "hiragana": "カウンター席だけなら、大丈夫です",
+    "cn": "如果只有吧台座位的話，沒關係 / 只有吧台座位的話也可以",
+    "grammar": "名詞＋なら",
+    "contraction": "-",
+    "origin": "-",
+    "context": "餐廳客滿，店員告知只剩下吧台座位 → 回覆表示只有吧台也沒關係✅自己",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0337"
+  },
+  {
+    "kanji": "時間があったら、来てください",
+    "hiragana": "時間があったら、きてください",
+    "cn": "如果有時間的話，請過來 / 有空的話請來",
+    "grammar": "動詞た形＋ら / 動詞て形＋ください",
+    "contraction": "-",
+    "origin": "ある、来る",
+    "context": "邀請朋友參加活動或聚會 → 體貼地表示有時間的話再過來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0338"
+  },
+  {
+    "kanji": "雪が降らなかったら、飲みに行きましょう",
+    "hiragana": "雪が降らなかったら、飲みにいきましょう",
+    "cn": "如果沒下雪的話，我們去喝一杯吧",
+    "grammar": "動詞ない形＋かったら / 動詞ます形＋に行く / 動詞ます形＋ましょう",
+    "contraction": "-",
+    "origin": "降る、飲む、行く",
+    "context": "討論晚上的計畫，但天氣不好 → 提議如果沒下雪就去喝酒（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0339"
+  },
+  {
+    "kanji": "来るなら、連絡してください",
+    "hiragana": "くるなら、連絡してください",
+    "cn": "如果要來的話，請聯絡我",
+    "grammar": "動詞普通形＋なら / 動詞て形＋ください",
+    "contraction": "-",
+    "origin": "来る、連絡する",
+    "context": "對方還不確定會不會出席 → 叮嚀對方如果要來記得先聯絡❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0340"
+  },
+  {
+    "kanji": "予約がないなら、入れないかも",
+    "hiragana": "予約がないなら、はいれないかも",
+    "cn": "如果沒有預約的話，可能進不去",
+    "grammar": "名詞＋がないなら / 動詞可能形否定 / 普通形＋かも",
+    "contraction": "-",
+    "origin": "ある、入る",
+    "context": "朋友提議去某家人氣餐廳但沒訂位 → 推測沒有預約的話可能無法進去❗他人",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0341"
+  },
+  {
+    "kanji": "どうして来ないんですか？",
+    "hiragana": "どうしてこないんですか？",
+    "cn": "為什麼沒來呢？ / 怎麼不來呢？",
+    "grammar": "どうして＋動詞ない形＋んですか",
+    "contraction": "-",
+    "origin": "来る",
+    "context": "朋友缺席聚會或活動 → 帶有微抱怨或關心的語氣詢問原因❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0342"
+  },
+  {
+    "kanji": "お酒を飲みながら話しましょう",
+    "hiragana": "お酒を飲みながら話しましょう",
+    "cn": "我們邊喝邊聊吧",
+    "grammar": "動詞連用形（去ます）＋ながら / 動詞ます形＋ましょう",
+    "contraction": "-",
+    "origin": "飲む、話す",
+    "context": "聚餐或去居酒屋入座後 → 提議大家放鬆邊喝酒邊聊天（自己+邀對方）",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0343"
+  },
+  {
+    "kanji": "今飲んでいるところです",
+    "hiragana": "今飲んでいるところです",
+    "cn": "現在正在喝 / 現在正在喝酒",
+    "grammar": "動詞て形＋いるところです",
+    "contraction": "-",
+    "origin": "飲む",
+    "context": "朋友打電話來問你在幹嘛 → 回答自己當下正在喝酒或喝飲料✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0344"
+  },
+  {
+    "kanji": "明日来たらどうですか？",
+    "hiragana": "あしたきたらどうですか？",
+    "cn": "明天再來怎麼樣？ / 明天來如何？",
+    "grammar": "動詞た形＋らどうですか",
+    "contraction": "-",
+    "origin": "来る",
+    "context": "對方今天沒空或店快關門了 → 給予具體且貼心的建議，提議明天再來❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0345"
+  },
+  {
+    "kanji": "今日は来てほしいです",
+    "hiragana": "きょうはきてほしいです",
+    "cn": "希望你今天能來",
+    "grammar": "動詞て形＋ほしいです",
+    "contraction": "-",
+    "origin": "来る",
+    "context": "舉辦重要活動或派對 → 誠懇地向對方表達希望他務必出席的願望❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0346"
+  },
+  {
+    "kanji": "あまり飲みすぎないでほしい",
+    "hiragana": "あまり飲みすぎないでほしい",
+    "cn": "希望你不要喝太多",
+    "grammar": "動詞ます形＋すぎる（否定ないで）＋ほしい",
+    "contraction": "-",
+    "origin": "飲む、すぎる",
+    "context": "伴侶或朋友去應酬喝酒 → 體貼且真實地表達關心，希望對方控制酒量❗對方",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0347"
+  },
+  {
+    "kanji": "氷なしでお願いします",
+    "hiragana": "氷なしでお願いします",
+    "cn": "麻煩去冰。",
+    "grammar": "名詞＋なしで＋お願いします",
+    "contraction": "-",
+    "origin": "お願いする",
+    "context": "買飲料去冰",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0348"
+  },
+  {
+    "kanji": "予約なしでも入れますか？",
+    "hiragana": "予約なしでもはいれますか？",
+    "cn": "沒有預約也能進去嗎？ / 沒訂位可以進去嗎？",
+    "grammar": "名詞＋なし＋でも / 動詞可能形",
+    "contraction": "-",
+    "origin": "入る",
+    "context": "經過人氣餐廳想直接進去用餐時 → 詢問店員沒訂位是否能入座❗對方",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0349"
+  },
+  {
+    "kanji": "休みなし",
+    "hiragana": "休みなし",
+    "cn": "無休 / 沒有休息",
+    "grammar": "名詞＋なし",
+    "contraction": "-",
+    "origin": "-",
+    "context": "查詢店家營業時間或朋友問這家店哪天公休時 → 回答沒有公休日 / 全年無休 (客觀事實)",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0350"
+  },
+  {
+    "kanji": "問題なし",
+    "hiragana": "問題なし",
+    "cn": "沒問題",
+    "grammar": "名詞＋なし",
+    "contraction": "-",
+    "origin": "-",
+    "context": "朋友確認行程安排或詢問狀況時 → 俐落且爽快地回覆對方一切順利、沒問題✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0351"
+  },
+  {
+    "kanji": "いつか富士山に行こうと思っています",
+    "hiragana": "いつか富士山に行こうと思っています",
+    "cn": "我打算總有一天要去爬富士山。",
+    "grammar": "動詞意向形＋と思っています",
+    "contraction": "",
+    "origin": "行く、思う",
+    "context": "聊到未來的旅遊夢想時✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0352"
+  },
+  {
+    "kanji": "食事の後でコーヒーを飲もうと思います",
+    "hiragana": "食事の後でコーヒーを飲もうと思います",
+    "cn": "我打算飯後喝杯咖啡。",
+    "grammar": "動詞意向形＋と思います",
+    "contraction": "",
+    "origin": "飲む、思う",
+    "context": "點餐時，或是跟朋友聊接下來的打算✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0353"
+  },
+  {
+    "kanji": "今度は友達と一緒に来ようと思っています",
+    "hiragana": "今度は友達と一緒にこようと思っています",
+    "cn": "下次我打算跟朋友一起來。",
+    "grammar": "動詞意向形＋と思っています",
+    "contraction": "",
+    "origin": "来る、思う",
+    "context": "結帳離開前，稱讚店家或景點很棒時✅自己",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0354"
+  },
+  {
+    "kanji": "そろそろ何を食べるか決める？",
+    "hiragana": "そろそろなにをたべるかきめる？",
+    "cn": "差不多該決定要吃什麼了吧？",
+    "grammar": "疑問詞＋か（間接疑問句）",
+    "contraction": "",
+    "origin": "食べる、決める",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0355"
+  },
+  {
+    "kanji": "行くか考える",
+    "hiragana": "いくかかんがえる",
+    "cn": "考慮一下要不要去。",
+    "grammar": "動普通形＋か（間接疑問句）",
+    "contraction": "",
+    "origin": "行く、考える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0356"
+  },
+  {
+    "kanji": "いいお店を見つけたから、行ってみたい。",
+    "hiragana": "いいお店を見つけたから、行ってみたい",
+    "cn": "因為找到了好店，所以想去看看。",
+    "grammar": "動詞た形＋から＋動詞て形＋みたい（試著）",
+    "contraction": "",
+    "origin": "見つける、行く、見る",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0357"
+  },
+  {
+    "kanji": "鍵が見つからなくて、どこにも行けない。",
+    "hiragana": "鍵が見つからなくて、どこにも行けない",
+    "cn": "因為找不到鑰匙，哪裡都不能去。",
+    "grammar": "動詞ない形＋くて＋疑問詞＋にも＋動詞可能形否定",
+    "contraction": "",
+    "origin": "見つかる、行く",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0358"
+  },
+  {
+    "kanji": "暑くなってきたので、冷たい飲み物が要る。",
+    "hiragana": "暑くなってきたので、冷たい飲み物が要る",
+    "cn": "因為開始變熱了，所以需要冷飲。",
+    "grammar": "形容詞＋くなる＋動詞て形＋くる＋ので＋動詞原型",
+    "contraction": "",
+    "origin": "なる、くる、要る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0359"
+  },
+  {
+    "kanji": "誰もいなかったから、全部食べてしまった。",
+    "hiragana": "誰もいなかったから、全部食べてしまった",
+    "cn": "因為當時沒人在，所以就全部吃掉了。",
+    "grammar": "疑問詞＋も＋動詞ない形(過去)＋から＋動詞て形＋しまう",
+    "contraction": "",
+    "origin": "いる、食べる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0360"
+  },
+  {
+    "kanji": "行きたくなかったけど、行ってみたら面白かった。",
+    "hiragana": "行きたくなかったけど、行ってみたら面白かった",
+    "cn": "本來不想去的，但試著去了之後覺得很有趣。",
+    "grammar": "動詞たい形(過去否定)＋けど＋動詞て形＋みたら（動作後的發現）",
+    "contraction": "",
+    "origin": "行く、見る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0361"
+  },
+  {
+    "kanji": "予約しておいたので、すぐに入れると思います。",
+    "hiragana": "予約しておいたので、すぐにはいれると思います。",
+    "cn": "因為已經先預約好了，我想應該馬上就能進去。",
+    "grammar": "動詞て形＋おく＋ので＋動詞可能形＋と思います",
+    "contraction": "",
+    "origin": "予約する、おく、入る、思う",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0362"
+  },
+  {
+    "kanji": "まだ見ていないから、言わないでほしい。",
+    "hiragana": "まだ見ていないから、言わないでほしい",
+    "cn": "因為我還沒看，希望你先不要說（不要暴雷）。",
+    "grammar": "動詞ていない＋から＋動詞ない形＋でほしい（希望對方不要做）",
+    "contraction": "",
+    "origin": "見る、いる、言う、ほしい",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0363"
+  },
+  {
+    "kanji": "使わなくなったから、要るならあげるよ。",
+    "hiragana": "使わなくなったから、要るならあげるよ",
+    "cn": "因為沒在用了，如果你需要的話就送你喔。",
+    "grammar": "動ない形(去い)＋くなった＋から＋動原型＋なら＋あげる",
+    "contraction": "",
+    "origin": "使う、なる、要る、あげる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0364"
+  },
+  {
+    "kanji": "いいお店を見つけたよ。",
+    "hiragana": "いいお店を見つけたよ",
+    "cn": "我找到一家好店喔。",
+    "grammar": "動詞た形＋終助詞よ",
+    "contraction": "",
+    "origin": "見つける",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0365"
+  },
+  {
+    "kanji": "探したけど、見つけられなかった。",
+    "hiragana": "探したけど、見つけられなかった",
+    "cn": "我找了，但是找不到。",
+    "grammar": "動詞た形＋けど＋動詞可能形（過去否定）",
+    "contraction": "",
+    "origin": "探す、見つける",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0366"
+  },
+  {
+    "kanji": "スマホ、見つかった？",
+    "hiragana": "スマホ、見つかった",
+    "cn": "手機找到了嗎？",
+    "grammar": "動詞た形（口語上揚表疑問）",
+    "contraction": "",
+    "origin": "見つかる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0367"
+  },
+  {
+    "kanji": "ずっと探していた本が見つかった！",
+    "hiragana": "ずっと探していた本が見つかった",
+    "cn": "一直在找的書找到了！",
+    "grammar": "動詞ていた（過去持續）＋名詞＋動詞た形",
+    "contraction": "",
+    "origin": "探す、見つかる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0368"
+  },
+  {
+    "kanji": "来月、日本へ行くことになりました。",
+    "hiragana": "来月、日本へ行くことになりました",
+    "cn": "決定下個月要去日本了。",
+    "grammar": "動詞る形＋ことになりました（客觀決定）",
+    "contraction": "",
+    "origin": "行く、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0369"
+  },
+  {
+    "kanji": "ずっと気になっている。",
+    "hiragana": "ずっと気になっている",
+    "cn": "我一直很在意。",
+    "grammar": "動詞ている（狀態持續）",
+    "contraction": "",
+    "origin": "気になる、いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0370"
+  },
+  {
+    "kanji": "暗くて、よく見えない。",
+    "hiragana": "暗くて、よく見えない",
+    "cn": "因為很暗，所以看不清楚。",
+    "grammar": "形容詞くて（原因）＋動詞ない形",
+    "contraction": "",
+    "origin": "見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0371"
+  },
+  {
+    "kanji": "鍵が見つからなくて、困っている。",
+    "hiragana": "鍵が見つからなくて、困っている",
+    "cn": "因為找不到鑰匙，覺得很困擾。",
+    "grammar": "動詞なくて（原因）＋動詞ている",
+    "contraction": "",
+    "origin": "見つかる、困る、いる",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0372"
+  },
+  {
+    "kanji": "予定がなくなって、暇になった。",
+    "hiragana": "予定がなくなって、暇になった",
+    "cn": "因為行程取消了，變得有空了。",
+    "grammar": "動詞て形（原因）＋形容動詞＋になった",
+    "contraction": "",
+    "origin": "なくなる、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0373"
+  },
+  {
+    "kanji": "今、家にいるので、いつでも大丈夫です。",
+    "hiragana": "今、家にいるので、いつでも大丈夫です",
+    "cn": "我現在在家，所以隨時都可以喔。",
+    "grammar": "動詞る形＋ので（客觀原因）",
+    "contraction": "",
+    "origin": "いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0374"
+  },
+  {
+    "kanji": "もう見えなくなったので、帰りましょう。",
+    "hiragana": "もう見えなくなったので、帰りましょう",
+    "cn": "已經看不到了，我們回去吧。",
+    "grammar": "動詞なくなった＋ので＋動詞ましょう（提議）",
+    "contraction": "",
+    "origin": "見える、なくなる、帰る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0375"
+  },
+  {
+    "kanji": "レジ袋は要らないので、そのままでいいです。",
+    "hiragana": "レジ袋は要らないので、そのままでいいです",
+    "cn": "因為我不需要塑膠袋，就這樣直接拿可以了。",
+    "grammar": "動詞ない形＋ので",
+    "contraction": "",
+    "origin": "要る",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0376"
+  },
+  {
+    "kanji": "先生のおかげで、日本語が分かるようになりました。",
+    "hiragana": "先生のおかげで、日本語が分かるようになりました",
+    "cn": "多虧了老師，我變得懂日文了。",
+    "grammar": "名詞＋のおかげで（好的因果）＋ようになる（變化）",
+    "contraction": "",
+    "origin": "分かる、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0377"
+  },
+  {
+    "kanji": "眼鏡を変えたおかげで、よく見える。",
+    "hiragana": "眼鏡を変えたおかげで、よく見える",
+    "cn": "多虧換了眼鏡，看得很清楚。",
+    "grammar": "動詞た形＋おかげで（好的因果）",
+    "contraction": "",
+    "origin": "変える、見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0378"
+  },
+  {
+    "kanji": "映画を見たせいで、寝るのが遅くなった。",
+    "hiragana": "映画を見たせいで、寝るのが遅くなった",
+    "cn": "都是因為看了電影，變得晚睡了。",
+    "grammar": "動詞た形＋せいで（壞的因果）＋形容詞＋くなった",
+    "contraction": "",
+    "origin": "見る、寝る、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0379"
+  },
+  {
+    "kanji": "雨のせいで、星が見えなかった。",
+    "hiragana": "雨のせいで、星が見えなかった",
+    "cn": "因為下雨的關係，看不到星星。",
+    "grammar": "名詞＋のせいで（壞的因果）＋動詞ない形（過去）",
+    "contraction": "",
+    "origin": "見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0380"
+  },
+  {
+    "kanji": "ちょっと見て。",
+    "hiragana": "ちょっと見て",
+    "cn": "你過來看一下。(常體)",
+    "grammar": "動詞て形（口語省略ください）",
+    "contraction": "",
+    "origin": "見る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0381"
+  },
+  {
+    "kanji": "後でもう一度見ます。",
+    "hiragana": "後でもう一度見ます",
+    "cn": "等等我會再看一次。(ます體)",
+    "grammar": "動詞ます形",
+    "contraction": "",
+    "origin": "見る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0382"
+  },
+  {
+    "kanji": "見たけど、よく分からなかった。",
+    "hiragana": "見たけど、よく分からなかった",
+    "cn": "看了但不太懂。(常體)",
+    "grammar": "動詞た形＋けど＋動詞ない形(過去)",
+    "contraction": "",
+    "origin": "見る、分かる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0383"
+  },
+  {
+    "kanji": "パスポートを見せてください。",
+    "hiragana": "パスポートを見せてください",
+    "cn": "請出示護照。(ます體)",
+    "grammar": "動詞て形＋ください（請求）",
+    "contraction": "",
+    "origin": "見せる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0384"
+  },
+  {
+    "kanji": "写真、見せて。",
+    "hiragana": "写真、見せて",
+    "cn": "照片給我看。(常體)",
+    "grammar": "動詞て形（口語省略ください）",
+    "contraction": "",
+    "origin": "見せる",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0385"
+  },
+  {
+    "kanji": "明日、見せますね。",
+    "hiragana": "明日、見せますね",
+    "cn": "明天給你看喔。(ます體)",
+    "grammar": "動詞ます形＋終助詞ね",
+    "contraction": "",
+    "origin": "見せる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0386"
+  },
+  {
+    "kanji": "後ろからよく見えません。",
+    "hiragana": "後ろからよく見えません",
+    "cn": "從後面看不清楚。(ます體)",
+    "grammar": "動詞ません（否定）",
+    "contraction": "",
+    "origin": "見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0387"
+  },
+  {
+    "kanji": "星が見えるよ。",
+    "hiragana": "星が見えるよ",
+    "cn": "看得到星星喔。(常體)",
+    "grammar": "動詞る形＋終助詞よ",
+    "contraction": "",
+    "origin": "見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0388"
+  },
+  {
+    "kanji": "遠くて見えないから、もっと前に行こう。",
+    "hiragana": "遠くて見えないから、もっと前に行こう",
+    "cn": "因為太遠看不到，我們往前走吧。(常體)",
+    "grammar": "形容詞くて＋動ない形＋から（因果）＋意向形",
+    "contraction": "",
+    "origin": "見える、行く",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0389"
+  },
+  {
+    "kanji": "ネットで面白い記事を見つけました。",
+    "hiragana": "ネットで面白い記事を見つけました",
+    "cn": "在網路上找到了有趣的文章。(ます體)",
+    "grammar": "動詞ました（過去）",
+    "contraction": "",
+    "origin": "見つける",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0390"
+  },
+  {
+    "kanji": "やっと見つけた！",
+    "hiragana": "やっと見つけた",
+    "cn": "終於找到了！(常體)",
+    "grammar": "動詞た形",
+    "contraction": "",
+    "origin": "見つける",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0391"
+  },
+  {
+    "kanji": "なかなか見つけられません。",
+    "hiragana": "なかなか見つけられません",
+    "cn": "一直找不到。(ます體)",
+    "grammar": "動詞可能形＋ません",
+    "contraction": "",
+    "origin": "見つける",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0392"
+  },
+  {
+    "kanji": "なくした財布が見つかりました。",
+    "hiragana": "なくした財布が見つかりました",
+    "cn": "弄丟的錢包找到了。(ます體)",
+    "grammar": "動詞た形（修飾名詞）＋動詞ました",
+    "contraction": "",
+    "origin": "なくす、見つかる",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0393"
+  },
+  {
+    "kanji": "いい仕事が見つかるといいね。",
+    "hiragana": "いい仕事が見つかるといいね",
+    "cn": "希望能找到好工作。(常體)",
+    "grammar": "動詞る形＋といいね（希望能...）",
+    "contraction": "",
+    "origin": "見つかる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0394"
+  },
+  {
+    "kanji": "見つからなかったら、また今度買おう。",
+    "hiragana": "見つからなかったら、また今度買おう",
+    "cn": "如果找不到，下次再買吧。(常體)",
+    "grammar": "動詞なかったら（假設）＋意向形",
+    "contraction": "",
+    "origin": "見つかる、買う",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0395"
+  },
+  {
+    "kanji": "今、ロビーにいます。",
+    "hiragana": "今、ロビーにいます",
+    "cn": "現在在飯店大廳。(ます體)",
+    "grammar": "助詞に（存在地點）＋ます形",
+    "contraction": "",
+    "origin": "いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0396"
+  },
+  {
+    "kanji": "明日はずっと家にいるよ。",
+    "hiragana": "明日はずっと家にいるよ",
+    "cn": "明天會一直待在家喔。(常體)",
+    "grammar": "助詞に＋る形＋終助詞よ",
+    "contraction": "",
+    "origin": "いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0397"
+  },
+  {
+    "kanji": "誰かいますか。",
+    "hiragana": "誰かいますか",
+    "cn": "有人在嗎？(ます體)",
+    "grammar": "疑問詞か＋ます形＋か",
+    "contraction": "",
+    "origin": "いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0398"
+  },
+  {
+    "kanji": "疲れているから、今日は休む。",
+    "hiragana": "疲れているから、今日は休む",
+    "cn": "因為累了，今天休息。(常體)",
+    "grammar": "動詞ている＋から（因果）＋る形",
+    "contraction": "",
+    "origin": "疲れる、いる、休む",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0399"
+  },
+  {
+    "kanji": "レシートは要りますか。",
+    "hiragana": "レシートは要りますか",
+    "cn": "需要收據嗎？(ます體)",
+    "grammar": "動詞ます形＋か",
+    "contraction": "",
+    "origin": "要る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0400"
+  },
+  {
+    "kanji": "これ、要る？",
+    "hiragana": "これ、要る",
+    "cn": "這個需要嗎？(常體)",
+    "grammar": "動詞る形（語尾上揚表疑問）",
+    "contraction": "",
+    "origin": "要る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0401"
+  },
+  {
+    "kanji": "今は要りません。",
+    "hiragana": "今は要りません",
+    "cn": "現在不需要。(ます體)",
+    "grammar": "動詞ません（否定）",
+    "contraction": "",
+    "origin": "要る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0402"
+  },
+  {
+    "kanji": "お会計は1000円になります。",
+    "hiragana": "お会計は1000円になります",
+    "cn": "結帳一共是1000日圓。(ます體)",
+    "grammar": "名詞＋になります（服務業客氣宣告）",
+    "contraction": "",
+    "origin": "なる",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0403"
+  },
+  {
+    "kanji": "暗くなってきたから、帰ろう。",
+    "hiragana": "日本語がじょうずになりましたね。",
+    "cn": "因為變暗了，回家吧。(常體)",
+    "grammar": "形容詞くなる＋てきた＋から（因果）＋意向形",
+    "contraction": "",
+    "origin": "なる、くる、帰る",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0404"
+  },
+  {
+    "kanji": "日本語が上手になりましたね。",
+    "hiragana": "日本語が上手になりましたね",
+    "cn": "日文變好了呢。(ます體)",
+    "grammar": "形容動詞＋になりました",
+    "contraction": "",
+    "origin": "なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0405"
+  },
+  {
+    "kanji": "来年、社会人になる。",
+    "hiragana": "来年、社会人になる",
+    "cn": "明年就要出社會了。(常體)",
+    "grammar": "名詞＋になる",
+    "contraction": "",
+    "origin": "なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0406"
+  },
+  {
+    "kanji": "慣れると、簡単になりますよ。",
+    "hiragana": "慣れると、簡単になりますよ",
+    "cn": "習慣之後，就會變簡單喔。(ます體)",
+    "grammar": "動詞る形＋と（一...就會...）＋ます形",
+    "contraction": "",
+    "origin": "慣れる、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0407"
+  },
+  {
+    "kanji": "駅はここから遠くにあります",
+    "hiragana": "駅はここから遠くにあります",
+    "cn": "車站離這裡很遠。(ます體)",
+    "grammar": "名詞(遠く)+に+動詞ます形(あります)",
+    "contraction": "",
+    "origin": "ある",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0408"
+  },
+  {
+    "kanji": "音が遠く聞こえています",
+    "hiragana": "音が遠く聞こえています",
+    "cn": "聲音聽起來很遠。(ます體)",
+    "grammar": "い形容詞く形(遠く)+動詞て形(聞こえて)+います",
+    "contraction": "",
+    "origin": "聞こえる、いる",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0409"
+  },
+  {
+    "kanji": "山が遠く見えます",
+    "hiragana": "山が遠く見えます",
+    "cn": "可以看到遠處的山。(ます體)",
+    "grammar": "い形容詞く形(遠く)+動詞ます形(見えます)",
+    "contraction": "",
+    "origin": "見える",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0410"
+  },
+  {
+    "kanji": "近くに住んでいます",
+    "hiragana": "近くに住んでいます",
+    "cn": "住在附近。(ます體)",
+    "grammar": "名詞(近く)+に+動詞て形(住んで)+います",
+    "contraction": "",
+    "origin": "住む、いる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0411"
+  },
+  {
+    "kanji": "遠くへ行く",
+    "hiragana": "遠くへ行く",
+    "cn": "去遠方。(常體)",
+    "grammar": "名詞(遠く)+へ+動詞辞書形(行く)",
+    "contraction": "",
+    "origin": "行く",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0412"
+  },
+  {
+    "kanji": "子どもが大きくなりました",
+    "hiragana": "子どもが大きくなりました",
+    "cn": "孩子長大了。(ます體)",
+    "grammar": "い形容詞く形(大きく)+動詞た形(なりました)",
+    "contraction": "",
+    "origin": "大きい、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0413"
+  },
+  {
+    "kanji": "外が暗くなってきました",
+    "hiragana": "外が暗くなってきました",
+    "cn": "外面變暗了。(ます體)",
+    "grammar": "い形容詞く形(暗く)+動詞て形(なって)+きました(てくる)",
+    "contraction": "",
+    "origin": "暗い、なる、くる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0414"
+  },
+  {
+    "kanji": "日本語が少し上手になりました",
+    "hiragana": "日本語が少し上手になりました",
+    "cn": "日文變得稍微好一點了。(ます體)",
+    "grammar": "な形容詞に形(上手に)+動詞た形(なりました)",
+    "contraction": "",
+    "origin": "上手、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0415"
+  },
+  {
+    "kanji": "この店は最近有名になりました",
+    "hiragana": "この店は最近有名になりました",
+    "cn": "這家店最近變有名了。(ます體)",
+    "grammar": "な形容詞に形(有名に)+動詞た形(なりました)",
+    "contraction": "",
+    "origin": "有名、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0416"
+  },
+  {
+    "kanji": "薬を飲んで、少し元気になりました",
+    "hiragana": "薬を飲んで、少し元気になりました",
+    "cn": "吃了藥，變得有點精神了。(ます體)",
+    "grammar": "動詞て形(飲んで)+な形容詞に形(元気に)+動詞た形(なりました)",
+    "contraction": "",
+    "origin": "飲む、元気、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0417"
+  },
+  {
+    "kanji": "早く元気になってください",
+    "hiragana": "早く元気になってください",
+    "cn": "請早日康復。(ます體)",
+    "grammar": "い形容詞く形(早く)+な形容詞に形(元気に)+動詞て形(なって)+ください",
+    "contraction": "",
+    "origin": "早い、元気、なる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0418"
+  },
+  {
+    "kanji": "近くにあったら、歩いて行けます",
+    "hiragana": "近くにあったら、歩いて行けます",
+    "cn": "如果在附近的話，可以走路去。(ます體)",
+    "grammar": "名詞(近く)+に+動詞た形(あった)+ら(条件)+動詞て形(歩いて)+動詞可能形ます形(行けます)",
+    "contraction": "",
+    "origin": "ある、歩く、行ける",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0419"
+  },
+  {
+    "kanji": "声を小さくします",
+    "hiragana": "声を小さくします",
+    "cn": "把聲音弄小。(ます體)",
+    "grammar": "い形容詞く形(小さく)+動詞ます形(します)",
+    "contraction": "",
+    "origin": "小さい、する",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0420"
+  },
+  {
+    "kanji": "声を小さくしてください",
+    "hiragana": "声を小さくしてください",
+    "cn": "請把聲音關小。(ます體)",
+    "grammar": "い形容詞く形(小さく)+動詞て形(して)+ください",
+    "contraction": "",
+    "origin": "小さい、する",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0421"
+  },
+  {
+    "kanji": "野菜は体にいいです",
+    "hiragana": "野菜は体にいいです",
+    "cn": "蔬菜對身體很好。(ます體)",
+    "grammar": "名詞(体)+に+い形容詞(いい)+です",
+    "contraction": "",
+    "origin": "いい (よい)",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0422"
+  },
+  {
+    "kanji": "スマホの見すぎは目に悪いです",
+    "hiragana": "スマホの見すぎは目に悪いです",
+    "cn": "手機看太多對眼睛不好。(ます體)",
+    "grammar": "動詞ます形去ます(見)+すぎ(過度)+は+名詞(目)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "見る、悪い",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0423"
+  },
+  {
+    "kanji": "この薬は体に合わない",
+    "hiragana": "この薬は体に合わない",
+    "cn": "這個藥不適合我的體質。(常體)",
+    "grammar": "名詞(体)+に+動詞ない形(合わない)",
+    "contraction": "",
+    "origin": "合う",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0424"
+  },
+  {
+    "kanji": "この店は外国人に優しいです",
+    "hiragana": "この店は外国人に優しいです",
+    "cn": "這家店對外國人很友善。(ます體)",
+    "grammar": "名詞(外国人)+に+い形容詞(優しい)+です",
+    "contraction": "",
+    "origin": "優しい",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0425"
+  },
+  {
+    "kanji": "新しい仕事に慣れました",
+    "hiragana": "新しい仕事に慣れました",
+    "cn": "習慣新工作了。(ます體)",
+    "grammar": "名詞(仕事)+に+動詞た形(慣れました)",
+    "contraction": "",
+    "origin": "新しい、慣れる",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0426"
+  },
+  {
+    "kanji": "私はエビにアレルギーがあります",
+    "hiragana": "私はエビにアレルギーがあります",
+    "cn": "我對蝦子過敏。(ます體)",
+    "grammar": "名詞(エビ)+に+名詞(アレルギー)+が+動詞ます形(あります)",
+    "contraction": "",
+    "origin": "ある",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0427"
+  },
+  {
+    "kanji": "日本で生活するにはお金が必要です",
+    "hiragana": "日本で生活するにはお金が必要です",
+    "cn": "在日本生活需要錢。(ます體)",
+    "grammar": "動詞辞書形(生活する)+には(目的)+名詞(お金)+が+な形容詞(必要)+です",
+    "contraction": "",
+    "origin": "生活する、必要",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0428"
+  },
+  {
+    "kanji": "子どもには危ないです",
+    "hiragana": "子どもには危ないです",
+    "cn": "對小孩子來說很危險。(ます體)",
+    "grammar": "名詞(子ども)+には(對象)+い形容詞(危ない)+です",
+    "contraction": "",
+    "origin": "危ない",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0429"
+  },
+  {
+    "kanji": "このバスは空港まで行きますか。",
+    "hiragana": "このバスは空港まで行きますか。",
+    "cn": "抽菸對身體不好。(ます體)",
+    "grammar": "名詞(タバコ)+は+名詞(体)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "悪い",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0430"
+  },
+  {
+    "kanji": "次の駅で乗り換えればいいですか。",
+    "hiragana": "次の駅で乗り換えればいいですか。",
+    "cn": "酒喝太多對身體不好。(ます體)",
+    "grammar": "名詞(お酒)+の+動詞ます形去ます(飲み)+すぎ(過度)+は+名詞(体)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "飲む、悪い",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0431"
+  },
+  {
+    "kanji": "道に迷ってしまいました。",
+    "hiragana": "道に迷ってしまいました。",
+    "cn": "熬夜對身體不好。(ます體)",
+    "grammar": "名詞(夜更かし)+は+名詞(体)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "悪い",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0432"
+  },
+  {
+    "kanji": "この店、予約なしでも入れますか？",
+    "hiragana": "この店、予約なしでもはいれますか？",
+    "cn": "甜食吃太多對身體不好。(ます體)",
+    "grammar": "い形容詞(甘い)+名詞(もの)+の+動詞ます形去ます(食べ)+すぎ(過度)+は+名詞(体)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "甘い、食べる、悪い",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0433"
+  },
+  {
+    "kanji": "袋は要りません。",
+    "hiragana": "袋はいりません。",
+    "cn": "壓力對身體不好。(ます體)",
+    "grammar": "名詞(ストレス)+は+名詞(体)+に+い形容詞(悪い)+です",
+    "contraction": "",
+    "origin": "悪い",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0434"
+  },
+  {
+    "kanji": "エアコン、強すぎるんじゃない？",
+    "hiragana": "エアコン、強すぎるんじゃない？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0435"
+  },
+  {
+    "kanji": "もう少し弱くしてもらえますか。",
+    "hiragana": "もう少し弱くしてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0436"
+  },
+  {
+    "kanji": "この音、ちょっと大きすぎない？",
+    "hiragana": "この音、ちょっと大きすぎない？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0437"
+  },
+  {
+    "kanji": "アナウンスが聞き取りにくいです。",
+    "hiragana": "アナウンスが聞き取りにくいです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0438"
+  },
+  {
+    "kanji": "もう一回言ってもらえますか。",
+    "hiragana": "もう一回言ってもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0439"
+  },
+  {
+    "kanji": "すみません、聞き取れませんでした。",
+    "hiragana": "すみません、聞き取れませんでした。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0440"
+  },
+  {
+    "kanji": "テレビをつけてもらえますか。",
+    "hiragana": "テレビをつけてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0441"
+  },
+  {
+    "kanji": "テレビがつかないんですが。",
+    "hiragana": "テレビがつかないんですが。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0442"
+  },
+  {
+    "kanji": "電気をつけたのに、明るくなりません。",
+    "hiragana": "電気をつけたのに、明るくなりません。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0443"
+  },
+  {
+    "kanji": "財布が見つからないんですが。",
+    "hiragana": "財布がみつからないんですが。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0444"
+  },
+  {
+    "kanji": "財布を探しているんですが。",
+    "hiragana": "財布を探しているんですが。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0445"
+  },
+  {
+    "kanji": "荷物を預けてもいいですか。",
+    "hiragana": "荷物を預けてもいいですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0446"
+  },
+  {
+    "kanji": "この席、空いていますか？",
+    "hiragana": "この席、あいていますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0447"
+  },
+  {
+    "kanji": "混んでいたら、別の店に行きましょう。",
+    "hiragana": "混んでいたら、別の店に行きましょう。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0448"
+  },
+  {
+    "kanji": "もう少しで乗り過ごすところでした。",
+    "hiragana": "もう少しで乗り過ごすところでした。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0449"
+  },
+  {
+    "kanji": "鍵が見つからなくて、困っています。",
+    "hiragana": "鍵がみつからなくて、困っています。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0450"
+  },
+  {
+    "kanji": "おすすめは何ですか？",
+    "hiragana": "おすすめはなんですか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0451"
+  },
+  {
+    "kanji": "これ、袋に入れてもらえますか？",
+    "hiragana": "これ、袋にいれてもらえますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0452"
+  },
+  {
+    "kanji": "写真を撮ってもらえますか？",
+    "hiragana": "写真を撮ってもらえますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0453"
+  },
+  {
+    "kanji": "もう一度見せてもらえますか？",
+    "hiragana": "もう一度見せてもらえますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0454"
+  },
+  {
+    "kanji": "ちょっと見てきます。",
+    "hiragana": "ちょっと見てきます。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0455"
+  },
+  {
+    "kanji": "この近くにATMはありますか？",
+    "hiragana": "この近くにATMはありますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0456"
+  },
+  {
+    "kanji": "ここから駅まで歩いて行けますか？",
+    "hiragana": "ここから駅まで歩いて行けますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0457"
+  },
+  {
+    "kanji": "混んでいたので、予約しておいてよかったです。",
+    "hiragana": "混んでいたので、予約しておいてよかったです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0458"
+  },
+  {
+    "kanji": "声が小さくて、よく聞こえません。",
+    "hiragana": "声が小さくて、よく聞こえません。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0459"
+  },
+  {
+    "kanji": "このアナウンスは聞き取りやすいです。",
+    "hiragana": "このアナウンスは聞き取りやすいです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0460"
+  },
+  {
+    "kanji": "このマイクは小さい音も拾いやすいです。",
+    "hiragana": "このマイクは小さい音も拾いやすいです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0461"
+  },
+  {
+    "kanji": "待ち合わせ場所は駅の改札前です。",
+    "hiragana": "待ち合わせ場所は駅の改札前です。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0462"
+  },
+  {
+    "kanji": "電車に乗り遅れてしまいました。",
+    "hiragana": "電車に乗り遅れてしまいました。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0463"
+  },
+  {
+    "kanji": "すみません、もう一度聞き返してもいいですか。",
+    "hiragana": "すみません、もう一度聞き返してもいいですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0464"
+  },
+  {
+    "kanji": "サイズを取り替えてもらえますか。",
+    "hiragana": "サイズを取り替えてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0465"
+  },
+  {
+    "kanji": "帰る前に、コンビニに立ち寄ります。",
+    "hiragana": "帰る前に、コンビニに立ち寄ります。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0466"
+  },
+  {
+    "kanji": "そろそろ出かけましょう。",
+    "hiragana": "そろそろ出かけましょう。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0467"
+  },
+  {
+    "kanji": "先に切符を買っておきます。",
+    "hiragana": "先に切符を買っておきます。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0468"
+  },
+  {
+    "kanji": "このアプリから予約できますか。",
+    "hiragana": "このアプリから予約できますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0469"
+  },
+  {
+    "kanji": "窓側の席をお願いします。",
+    "hiragana": "窓側の席をお願いします。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0470"
+  },
+  {
+    "kanji": "通路側の席をお願いします。",
+    "hiragana": "通路側の席をお願いします。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0471"
+  },
+  {
+    "kanji": "できれば、窓側の席がいいです。",
+    "hiragana": "できれば、窓側の席がいいです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0472"
+  },
+  {
+    "kanji": "この席、通路側に替えてもらえますか。",
+    "hiragana": "この席、通路側に替えてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0473"
+  },
+  {
+    "kanji": "禁煙席はありますか。",
+    "hiragana": "禁煙席はありますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0474"
+  },
+  {
+    "kanji": "窓側と通路側、どちらが空いていますか。",
+    "hiragana": "窓側と通路側、どちらが空いていますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0475"
+  },
+  {
+    "kanji": "チェックインをお願いします。予約しています。",
+    "hiragana": "チェックインをお願いします。予約しています。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0476"
+  },
+  {
+    "kanji": "チェックアウトは何時ですか。",
+    "hiragana": "チェックアウトはなんじですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0477"
+  },
+  {
+    "kanji": "朝食は何時からですか。",
+    "hiragana": "朝食はなんじからですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0478"
+  },
+  {
+    "kanji": "Wi-Fiのパスワードを教えてもらえますか。",
+    "hiragana": "Wi-Fiのパスワードを教えてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0479"
+  },
+  {
+    "kanji": "交通系ICカードにチャージできますか。",
+    "hiragana": "交通系ICカードにチャージできますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0480"
+  },
+  {
+    "kanji": "この切符で乗れますか。",
+    "hiragana": "この切符で乗れますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0481"
+  },
+  {
+    "kanji": "何番ホームから出ますか。",
+    "hiragana": "なんばんホームから出ますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0482"
+  },
+  {
+    "kanji": "ここで乗り換えですか。",
+    "hiragana": "ここで乗り換えですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0483"
+  },
+  {
+    "kanji": "近くに薬局はありますか。",
+    "hiragana": "近くに薬局はありますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0484"
+  },
+  {
+    "kanji": "すみません、気分が悪いです。",
+    "hiragana": "すみません、気分が悪いです。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0485"
+  },
+  {
+    "kanji": "近くに病院はありますか。",
+    "hiragana": "近くに病院はありますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0486"
+  },
+  {
+    "kanji": "これ、何が入っていますか？",
+    "hiragana": "これ、なにがはいっていますか？",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0487"
+  },
+  {
+    "kanji": "甲殻類アレルギーがあります。",
+    "hiragana": "甲殻類アレルギーがあります。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0488"
+  },
+  {
+    "kanji": "財布をなくしてしまいました。",
+    "hiragana": "財布をなくしてしまいました。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0489"
+  },
+  {
+    "kanji": "交番はどこですか。",
+    "hiragana": "交番はどこですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0490"
+  },
+  {
+    "kanji": "この荷物を預かってもらえますか。",
+    "hiragana": "この荷物を預かってもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0491"
+  },
+  {
+    "kanji": "空港までお願いします。",
+    "hiragana": "空港までお願いします。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0492"
+  },
+  {
+    "kanji": "クレジットカードは使えますか。",
+    "hiragana": "クレジットカードは使えますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0493"
+  },
+  {
+    "kanji": "免税手続きはできますか。",
+    "hiragana": "免税手続きはできますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0494"
+  },
+  {
+    "kanji": "搭乗口は何番ですか。",
+    "hiragana": "搭乗口はなんばんですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "生活"
+    ],
+    "audioKey": "clip0495"
+  },
+  {
+    "kanji": "すみません、駅へはどう行けばいいですか。",
+    "hiragana": "すみません、えきへはどういけばいいですか。",
+    "cn": "不好意思，請問去車站該怎麼走呢？",
+    "grammar": "動詞ば形＋いいですか",
+    "contraction": "",
+    "origin": "行く",
+    "context": "找不到車站/在路上迷路 → 向路人詢問去車站的走法❗對方(向路人問路)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0496"
+  },
+  {
+    "kanji": "この道をまっすぐ行ってください。",
+    "hiragana": "このみちをまっすぐいってください。",
+    "cn": "請沿著這條路一直往前走。",
+    "grammar": "名詞＋を＋動詞て形＋ください",
+    "contraction": "",
+    "origin": "行く",
+    "context": "被問路時指引方向 → 告訴對方沿著這條路直走✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0497"
+  },
+  {
+    "kanji": "次の交差点を右に曲がってください。",
+    "hiragana": "つぎのこうさてんをみぎにまがってください。",
+    "cn": "請在下一個十字路口向右轉。",
+    "grammar": "名詞＋を＋名詞＋に＋動詞て形＋ください",
+    "contraction": "",
+    "origin": "曲がる",
+    "context": "指引路口轉向 → 告知在下個十字路口右轉✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0498"
+  },
+  {
+    "kanji": "ここから歩いてどのくらいかかりますか。",
+    "hiragana": "ここからあるいてどのくらいかかりますか。",
+    "cn": "從這裡走路大約需要花多久時間？",
+    "grammar": "動詞て形＋どのくらい＋かかる",
+    "contraction": "",
+    "origin": "歩く、かかる",
+    "context": "想知道步行距離與時間 → 詢問到目的地要走多久❗對方(向路人詢問)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0499"
+  },
+  {
+    "kanji": "歩いて十分くらいで着きますよ。",
+    "hiragana": "あるいてじゅっぷんくらいでつきますよ。",
+    "cn": "走路大約十分鐘就會到了喔。",
+    "grammar": "動詞て形＋數量詞＋で＋動詞",
+    "contraction": "",
+    "origin": "歩く、着く",
+    "context": "回答對方所需時間 → 告知步行約十分鐘可抵達✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0500"
+  },
+  {
+    "kanji": "この近くに地下鉄の駅はありますか。",
+    "hiragana": "このちかくにちかてつのえきはありますか。",
+    "cn": "這附近有地鐵站嗎？",
+    "grammar": "名詞＋に＋名詞＋が＋ありますか",
+    "contraction": "",
+    "origin": "ある",
+    "context": "想搭乘地下鐵 → 詢問周邊是否有地鐵站❗對方(向路人詢問)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0501"
+  },
+  {
+    "kanji": "あの角を左に曲がると、すぐ見えますよ。",
+    "hiragana": "あのかどをひだりにまがると、すぐみえますよ。",
+    "cn": "在那個轉角向左轉的話，馬上就能看到了喔。",
+    "grammar": "動詞辞書形＋と（發現/必然結果）",
+    "contraction": "",
+    "origin": "曲がる、見える",
+    "context": "指引標的物位置 → 告知在轉角左轉後就能看見目標✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0502"
+  },
+  {
+    "kanji": "すみません、道に迷ってしまったんですが。",
+    "hiragana": "すみません、みちにまよってしまったんですが。",
+    "cn": "不好意思，我不小心迷路了……",
+    "grammar": "動詞て形＋しまう＋んですが",
+    "contraction": "てしまう／ちゃう",
+    "origin": "迷う、しまう",
+    "context": "不知道自身方位 → 向路人求助並說明自己迷路了❗對方(向路人求助)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0503"
+  },
+  {
+    "kanji": "地図で現在地を教えてもらえますか。",
+    "hiragana": "ちずでげんざいちをおしえてもらえますか。",
+    "cn": "可以請您在地圖上告訴我現在的位置嗎？",
+    "grammar": "動詞て形＋もらえますか",
+    "contraction": "",
+    "origin": "教える、もらう",
+    "context": "拿著地圖確認位置 → 拜託對方指出目前所在地❗對方(請求指認位置)",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0504"
+  },
+  {
+    "kanji": "信号を渡って、反対側にあります。",
+    "hiragana": "しんごうをわたって、はんたいがわにあります。",
+    "cn": "過了紅綠燈，就在對面。",
+    "grammar": "動詞て形＋名詞＋に＋ある",
+    "contraction": "",
+    "origin": "渡る、ある",
+    "context": "告知地點在馬路對面 → 指引過紅綠燈後即可看到✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0505"
+  },
+  {
+    "kanji": "コンビニの隣に銀行がありますよ。",
+    "hiragana": "コンビニのとなりにぎんこうがありますよ。",
+    "cn": "便利商店的隔壁有一家銀行喔。",
+    "grammar": "名詞＋の隣に＋名詞＋が＋あります",
+    "contraction": "",
+    "origin": "ある",
+    "context": "以地標說明周邊方位 → 告知目標就在超商隔壁✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0506"
+  },
+  {
+    "kanji": "あそこに見える白いビルの前です。",
+    "hiragana": "あそこにみえるしろいビルのまえです。",
+    "cn": "就在那邊看得到的那棟白色大樓前面。",
+    "grammar": "連体修飾語＋名詞＋の前",
+    "contraction": "",
+    "origin": "見える",
+    "context": "遠眺明顯建築指引 → 告知在白色大樓正前方✅指路",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0507"
+  },
+  {
+    "kanji": "ここから歩いてどのくらいかかりますか。",
+    "hiragana": "ここから歩いてどのくらいかかりますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0508"
+  },
+  {
+    "kanji": "すみません、駅へはどう行けばいいですか。",
+    "hiragana": "すみません、駅へはどう行けばいいですか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0509"
+  },
+  {
+    "kanji": "この近くに地下鉄の駅はありますか。",
+    "hiragana": "この近くに地下鉄の駅はありますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0510"
+  },
+  {
+    "kanji": "すみません、道に迷ってしまったんですが。",
+    "hiragana": "すみません、道に迷ってしまったんですが。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0511"
+  },
+  {
+    "kanji": "地図で現在地を教えてもらえますか。",
+    "hiragana": "地図で現在地を教えてもらえますか。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0512"
+  },
+  {
+    "kanji": "この道をまっすぐ行ってください",
+    "hiragana": "この道をまっすぐ行ってください",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0513"
+  },
+  {
+    "kanji": "次の交差点を右に曲がってください。",
+    "hiragana": "次の交差点を右に曲がってください。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0514"
+  },
+  {
+    "kanji": "あの角を左に曲がると、すぐ見えますよ。",
+    "hiragana": "あの角を左に曲がると、すぐ見えますよ。",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0515"
+  },
+  {
+    "kanji": "歩いて十分くらいで着きますよ",
+    "hiragana": "歩いて十分くらいで着きますよ",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0516"
+  },
+  {
+    "kanji": "このみちを みちなりに いってください",
+    "hiragana": "このみちを みちなりに いってください",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0517"
+  },
+  {
+    "kanji": "道なりに進むと、右側にあります",
+    "hiragana": "道なりに進むと、右側にあります",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0518"
+  },
+  {
+    "kanji": "分かれ道を右側のほうに進んでください",
+    "hiragana": "分かれ道を右側のほうに進んでください",
+    "cn": "",
+    "grammar": "",
+    "contraction": "",
+    "origin": "",
+    "context": "",
+    "tags": [
+      "旅遊"
+    ],
+    "audioKey": "clip0519"
+  }
+];
