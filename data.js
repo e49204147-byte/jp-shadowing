@@ -195,8 +195,8 @@ const rawData = [
     "audioKey": "clip0015"
   },
   {
-    "kanji": "一緒に行ってくれませんか",
-    "hiragana": "一緒に行ってくれませんか",
+    "kanji": "一緒に行ってくれませんか？",
+    "hiragana": "一緒に行ってくれませんか？",
     "cn": "可以陪我一起去嗎？",
     "grammar": "動詞て形＋くれる",
     "contraction": "",
@@ -299,8 +299,8 @@ const rawData = [
     "audioKey": "clip0023"
   },
   {
-    "kanji": "あの店に行ったことがありますか",
-    "hiragana": "あの店に行ったことがありますか",
+    "kanji": "あの店に行ったことがありますか？",
+    "hiragana": "あの店に行ったことがありますか？",
     "cn": "去過那家店嗎",
     "grammar": "動詞た形＋ことがある",
     "contraction": "",
@@ -845,8 +845,8 @@ const rawData = [
     "audioKey": "clip0065"
   },
   {
-    "kanji": "これ、どうしますか",
-    "hiragana": "これ、どうしますか",
+    "kanji": "これ、どうしますか？",
+    "hiragana": "これ、どうしますか？",
     "cn": "這個要怎麼辦呢？",
     "grammar": "疑問詞＋動詞ます形＋か",
     "contraction": "",
@@ -884,8 +884,8 @@ const rawData = [
     "audioKey": "clip0068"
   },
   {
-    "kanji": "ほかに何かありますか",
-    "hiragana": "ほかに何かありますか",
+    "kanji": "ほかに何かありますか？",
+    "hiragana": "ほかに何かありますか？",
     "cn": "還有其他什麼嗎？ / 還有其他的嗎？",
     "grammar": "疑問詞＋か＋ありますか",
     "contraction": "",
@@ -1287,8 +1287,8 @@ const rawData = [
     "audioKey": "clip0099"
   },
   {
-    "kanji": "今勉強しているんですが、もう少し小さい声で話してもらえますか。",
-    "hiragana": "今勉強しているんですが、もう少し小さい声で話してもらえますか。",
+    "kanji": "今勉強しているんですが、もう少し小さい声で話してもらえますか？",
+    "hiragana": "今勉強しているんですが、もう少し小さい声で話してもらえますか？",
     "cn": "現在正在讀書，可以請你說話小聲一點嗎？",
     "grammar": "んですが說明理由+てもらえますか拜託",
     "contraction": "",
@@ -1469,8 +1469,8 @@ const rawData = [
     "audioKey": "clip0113"
   },
   {
-    "kanji": "どちらのほうが好きですか",
-    "hiragana": "どちらのほうが好きですか",
+    "kanji": "どちらのほうが好きですか？",
+    "hiragana": "どちらのほうが好きですか？",
     "cn": "你比較喜歡哪一個？",
     "grammar": "疑問詞＋のほうが＋形容詞",
     "contraction": "",
@@ -2353,8 +2353,8 @@ const rawData = [
     "audioKey": "clip0181"
   },
   {
-    "kanji": "何を食べたの",
-    "hiragana": "何を食べたの",
+    "kanji": "何を食べたの？",
+    "hiragana": "何を食べたの？",
     "cn": "吃了什麼？",
     "grammar": "疑問詞＋を ＋ 動詞た形＋の",
     "contraction": "",
@@ -2405,8 +2405,8 @@ const rawData = [
     "audioKey": "clip0185"
   },
   {
-    "kanji": "何をしているの",
-    "hiragana": "何をしているの",
+    "kanji": "何をしているの？",
+    "hiragana": "何をしているの？",
     "cn": "在做什麼呢？",
     "grammar": "疑問詞＋を ＋ 動詞て形＋いる ＋ の",
     "contraction": "",
@@ -2431,8 +2431,8 @@ const rawData = [
     "audioKey": "clip0187"
   },
   {
-    "kanji": "どうする",
-    "hiragana": "どうする",
+    "kanji": "どうする？",
+    "hiragana": "どうする？",
     "cn": "要怎麼辦？ / 要做什麼？",
     "grammar": "疑問詞 ＋ 動詞普通形",
     "contraction": "",
@@ -2457,8 +2457,8 @@ const rawData = [
     "audioKey": "clip0189"
   },
   {
-    "kanji": "何にする",
-    "hiragana": "何にする",
+    "kanji": "何にする？",
+    "hiragana": "何にする？",
     "cn": "要選哪一個？ / 要決定什麼？",
     "grammar": "疑問詞＋に ＋ する",
     "contraction": "",
@@ -2847,8 +2847,8 @@ const rawData = [
     "audioKey": "clip0219"
   },
   {
-    "kanji": "歯ブラシ、もう一本もらえますか",
-    "hiragana": "歯ブラシ、もう一本もらえますか",
+    "kanji": "歯ブラシ、もう一本もらえますか？",
+    "hiragana": "歯ブラシ、もう一本もらえますか？",
     "cn": "可以再給我一支牙刷嗎？",
     "grammar": "名詞＋をもらえますか",
     "contraction": "",
@@ -2860,8 +2860,8 @@ const rawData = [
     "audioKey": "clip0220"
   },
   {
-    "kanji": "ストロー、ありますか",
-    "hiragana": "ストロー、ありますか",
+    "kanji": "ストロー、ありますか？",
+    "hiragana": "ストロー、ありますか？",
     "cn": "請問有吸管嗎？",
     "grammar": "名詞＋がある",
     "contraction": "",
@@ -2873,28 +2873,28 @@ const rawData = [
     "audioKey": "clip0221"
   },
   {
-    "kanji": "二人ですが、席はありますか",
-    "hiragana": "ふたりですが、席はありますか",
+    "kanji": "二人ですが、席はありますか？",
+    "hiragana": "ふたりですが、席はありますか？",
     "cn": "我們兩位，請問有位子嗎？",
     "grammar": "名詞＋ですが / 名詞＋がある",
     "contraction": "",
     "origin": "ある",
     "context": "進入餐廳時 → 告知人數並詢問是否有空位❗對方",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0222"
   },
   {
-    "kanji": "メニューをもらえますか",
-    "hiragana": "メニューをもらえますか",
+    "kanji": "メニューをもらえますか？",
+    "hiragana": "メニューをもらえますか？",
     "cn": "可以給我菜單嗎？",
     "grammar": "名詞＋をもらえますか",
     "contraction": "",
     "origin": "もらう",
     "context": "入座後沒有菜單 → 請服務生給菜單❗對方",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0223"
   },
@@ -2925,8 +2925,8 @@ const rawData = [
     "audioKey": "clip0225"
   },
   {
-    "kanji": "いつ来ますか",
-    "hiragana": "いつ、きますか",
+    "kanji": "いつ来ますか？",
+    "hiragana": "いつ、きますか？",
     "cn": "什麼時候會來？",
     "grammar": "疑問詞＋動詞ます形",
     "contraction": "",
@@ -2938,8 +2938,8 @@ const rawData = [
     "audioKey": "clip0226"
   },
   {
-    "kanji": "こちらに来てもらえますか",
-    "hiragana": "こちらにきてもらえますか",
+    "kanji": "こちらに来てもらえますか？",
+    "hiragana": "こちらにきてもらえますか？",
     "cn": "可以請你過來這裡嗎？",
     "grammar": "動詞て形＋もらえる",
     "contraction": "",
@@ -2990,8 +2990,8 @@ const rawData = [
     "audioKey": "clip0230"
   },
   {
-    "kanji": "ほかに何がありますか",
-    "hiragana": "ほかになにがありますか",
+    "kanji": "ほかに何がありますか？",
+    "hiragana": "ほかになにがありますか？",
     "cn": "還有其他什麼嗎？",
     "grammar": "疑問詞＋がある",
     "contraction": "",
@@ -3016,8 +3016,8 @@ const rawData = [
     "audioKey": "clip0232"
   },
   {
-    "kanji": "何か飲む",
-    "hiragana": "なにか飲む",
+    "kanji": "何か飲む？",
+    "hiragana": "なにか飲む？",
     "cn": "要喝點什麼嗎？",
     "grammar": "疑問詞＋か＋動詞普通形",
     "contraction": "",
@@ -3081,8 +3081,8 @@ const rawData = [
     "audioKey": "clip0237"
   },
   {
-    "kanji": "何か飲み物がありますか",
-    "hiragana": "なにか飲み物がありますか",
+    "kanji": "何か飲み物がありますか？",
+    "hiragana": "なにか飲み物がありますか？",
     "cn": "有什麼飲料嗎？",
     "grammar": "疑問詞＋か＋名詞＋がある",
     "contraction": "",
@@ -3094,8 +3094,8 @@ const rawData = [
     "audioKey": "clip0238"
   },
   {
-    "kanji": "どうやって来たの",
-    "hiragana": "どうやってきたの",
+    "kanji": "どうやって来たの？",
+    "hiragana": "どうやってきたの？",
     "cn": "你是怎麼來的？",
     "grammar": "疑問詞＋動詞た形＋の",
     "contraction": "",
@@ -3133,8 +3133,8 @@ const rawData = [
     "audioKey": "clip0241"
   },
   {
-    "kanji": "近くにありますか",
-    "hiragana": "近くにありますか",
+    "kanji": "近くにありますか？",
+    "hiragana": "近くにありますか？",
     "cn": "附近有嗎？",
     "grammar": "名詞＋にある",
     "contraction": "",
@@ -3146,8 +3146,8 @@ const rawData = [
     "audioKey": "clip0242"
   },
   {
-    "kanji": "ほかに何がありますか",
-    "hiragana": "ほかになにがありますか",
+    "kanji": "ほかに何がありますか？",
+    "hiragana": "ほかになにがありますか？",
     "cn": "還有其他什麼嗎？",
     "grammar": "疑問詞＋がある",
     "contraction": "",
@@ -3380,8 +3380,8 @@ const rawData = [
     "audioKey": "clip0260"
   },
   {
-    "kanji": "だれが来ますか",
-    "hiragana": "だれがきますか",
+    "kanji": "だれが来ますか？",
+    "hiragana": "だれがきますか？",
     "cn": "有誰會來？",
     "grammar": "疑問詞＋が＋動詞ます形",
     "contraction": "",
@@ -3393,8 +3393,8 @@ const rawData = [
     "audioKey": "clip0261"
   },
   {
-    "kanji": "いつ来ますか",
-    "hiragana": "いつきますか",
+    "kanji": "いつ来ますか？",
+    "hiragana": "いつきますか？",
     "cn": "什麼時候來？",
     "grammar": "疑問詞＋動詞ます形",
     "contraction": "",
@@ -3406,8 +3406,8 @@ const rawData = [
     "audioKey": "clip0262"
   },
   {
-    "kanji": "免税はありますか",
-    "hiragana": "めんぜいはありますか",
+    "kanji": "免税はありますか？",
+    "hiragana": "めんぜいはありますか？",
     "cn": "有免稅嗎？",
     "grammar": "名詞＋はありますか",
     "contraction": "",
@@ -3510,8 +3510,8 @@ const rawData = [
     "audioKey": "clip0270"
   },
   {
-    "kanji": "いつ来たらいいですか",
-    "hiragana": "いつ、きたらいいですか",
+    "kanji": "いつ来たらいいですか？",
+    "hiragana": "いつ、きたらいいですか？",
     "cn": "什麼時候來比較好呢？",
     "grammar": "疑問詞＋動詞た形＋らいいですか",
     "contraction": "",
@@ -3913,8 +3913,8 @@ const rawData = [
     "audioKey": "clip0301"
   },
   {
-    "kanji": "ここで飲んでもいいですか",
-    "hiragana": "ここで飲んでもいいですか",
+    "kanji": "ここで飲んでもいいですか？",
+    "hiragana": "ここで飲んでもいいですか？",
     "cn": "可以在這裡喝嗎？",
     "grammar": "動詞て形＋もいいですか",
     "contraction": "",
@@ -3978,8 +3978,8 @@ const rawData = [
     "audioKey": "clip0306"
   },
   {
-    "kanji": "何か飲み物がありますか",
-    "hiragana": "なにか飲み物がありますか",
+    "kanji": "何か飲み物がありますか？",
+    "hiragana": "なにか飲み物がありますか？",
     "cn": "有什麼飲料嗎？",
     "grammar": "疑問詞＋か＋名詞＋がある",
     "contraction": "",
@@ -3991,8 +3991,8 @@ const rawData = [
     "audioKey": "clip0307"
   },
   {
-    "kanji": "ほかにありますか",
-    "hiragana": "ほかにありますか",
+    "kanji": "ほかにありますか？",
+    "hiragana": "ほかにありますか？",
     "cn": "還有其他的嗎？",
     "grammar": "名詞＋がある",
     "contraction": "",
@@ -4017,8 +4017,8 @@ const rawData = [
     "audioKey": "clip0309"
   },
   {
-    "kanji": "甘すぎないものはありますか",
-    "hiragana": "甘すぎないものはありますか",
+    "kanji": "甘すぎないものはありますか？",
+    "hiragana": "甘すぎないものはありますか？",
     "cn": "有不會太甜的嗎？",
     "grammar": "形容詞（去い）＋すぎる（否定）",
     "contraction": "",
@@ -4056,8 +4056,8 @@ const rawData = [
     "audioKey": "clip0312"
   },
   {
-    "kanji": "明日来てもいいですか",
-    "hiragana": "あした、きてもいいですか",
+    "kanji": "明日来てもいいですか？",
+    "hiragana": "あした、きてもいいですか？",
     "cn": "明天來也可以嗎？",
     "grammar": "動詞て形＋もいいですか",
     "contraction": "",
@@ -4095,8 +4095,8 @@ const rawData = [
     "audioKey": "clip0315"
   },
   {
-    "kanji": "何時までに来る必要がありますか",
-    "hiragana": "なんじまでにくる必要がありますか",
+    "kanji": "何時までに来る必要がありますか？",
+    "hiragana": "なんじまでにくる必要がありますか？",
     "cn": "必須在幾點前來？",
     "grammar": "動詞普通形＋必要がある",
     "contraction": "",
@@ -4108,8 +4108,8 @@ const rawData = [
     "audioKey": "clip0316"
   },
   {
-    "kanji": "一人で来ても大丈夫ですか",
-    "hiragana": "ひとりできても大丈夫ですか",
+    "kanji": "一人で来ても大丈夫ですか？",
+    "hiragana": "ひとりできても大丈夫ですか？",
     "cn": "一個人來也沒關係嗎？",
     "grammar": "動詞て形＋も大丈夫ですか",
     "contraction": "",
@@ -4134,21 +4134,21 @@ const rawData = [
     "audioKey": "clip0318"
   },
   {
-    "kanji": "予約が必要ですか",
-    "hiragana": "予約が必要ですか",
+    "kanji": "予約が必要ですか？",
+    "hiragana": "予約が必要ですか？",
     "cn": "需要預約嗎？",
     "grammar": "名詞＋が必要ですか",
     "contraction": "",
     "origin": "-",
     "context": "打算去某家人氣餐廳或辦事 → 詢問是否需要事先預約❗對方",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0319"
   },
   {
-    "kanji": "何か持ってくる必要がありますか",
-    "hiragana": "なにか持ってくる必要がありますか",
+    "kanji": "何か持ってくる必要がありますか？",
+    "hiragana": "なにか持ってくる必要がありますか？",
     "cn": "有必須帶來的東西嗎？",
     "grammar": "動詞て形＋くる / 動詞普通形＋必要がある",
     "contraction": "",
@@ -4160,28 +4160,28 @@ const rawData = [
     "audioKey": "clip0320"
   },
   {
-    "kanji": "まだ空いている席がありますか",
-    "hiragana": "まだあいている席がありますか",
+    "kanji": "まだ空いている席がありますか？",
+    "hiragana": "まだあいている席がありますか？",
     "cn": "還有空位嗎？",
     "grammar": "動詞て形＋いる",
     "contraction": "",
     "origin": "空く、いる、ある",
     "context": "走進看起來很滿的餐廳 → 詢問店員是否還有空位❗對方",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0321"
   },
   {
-    "kanji": "予約がなくても大丈夫ですか",
-    "hiragana": "予約がなくても大丈夫ですか",
+    "kanji": "予約がなくても大丈夫ですか？",
+    "hiragana": "予約がなくても大丈夫ですか？",
     "cn": "沒有預約也沒關係嗎？",
     "grammar": "名詞＋がなくても大丈夫ですか",
     "contraction": "",
     "origin": "ある",
     "context": "臨時經過一家餐廳想進去 → 詢問沒預約是不是也能用餐❗對方",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0322"
   },
@@ -5161,8 +5161,8 @@ const rawData = [
     "audioKey": "clip0397"
   },
   {
-    "kanji": "誰かいますか。",
-    "hiragana": "誰かいますか",
+    "kanji": "誰かいますか？",
+    "hiragana": "誰かいますか？",
     "cn": "有人在嗎？(ます體)",
     "grammar": "疑問詞か＋ます形＋か",
     "contraction": "",
@@ -5187,8 +5187,8 @@ const rawData = [
     "audioKey": "clip0399"
   },
   {
-    "kanji": "レシートは要りますか。",
-    "hiragana": "レシートは要りますか",
+    "kanji": "レシートは要りますか？",
+    "hiragana": "レシートは要りますか？",
     "cn": "需要收據嗎？(ます體)",
     "grammar": "動詞ます形＋か",
     "contraction": "",
@@ -5577,28 +5577,28 @@ const rawData = [
     "audioKey": "clip0429"
   },
   {
-    "kanji": "このバスは空港まで行きますか。",
-    "hiragana": "このバスは空港まで行きますか。",
+    "kanji": "このバスは空港まで行きますか？",
+    "hiragana": "このバスは空港まで行きますか？",
     "cn": "抽菸對身體不好。(ます體)",
     "grammar": "名詞(タバコ)+は+名詞(体)+に+い形容詞(悪い)+です",
     "contraction": "",
     "origin": "悪い",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0430"
   },
   {
-    "kanji": "次の駅で乗り換えればいいですか。",
-    "hiragana": "次の駅で乗り換えればいいですか。",
+    "kanji": "次の駅で乗り換えればいいですか？",
+    "hiragana": "次の駅で乗り換えればいいですか？",
     "cn": "酒喝太多對身體不好。(ます體)",
     "grammar": "名詞(お酒)+の+動詞ます形去ます(飲み)+すぎ(過度)+は+名詞(体)+に+い形容詞(悪い)+です",
     "contraction": "",
     "origin": "飲む、悪い",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0431"
   },
@@ -5655,15 +5655,15 @@ const rawData = [
     "audioKey": "clip0435"
   },
   {
-    "kanji": "もう少し弱くしてもらえますか。",
-    "hiragana": "もう少し弱くしてもらえますか。",
+    "kanji": "もう少し弱くしてもらえますか？",
+    "hiragana": "もう少し弱くしてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0436"
   },
@@ -5694,8 +5694,8 @@ const rawData = [
     "audioKey": "clip0438"
   },
   {
-    "kanji": "もう一回言ってもらえますか。",
-    "hiragana": "もう一回言ってもらえますか。",
+    "kanji": "もう一回言ってもらえますか？",
+    "hiragana": "もう一回言ってもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -5720,15 +5720,15 @@ const rawData = [
     "audioKey": "clip0440"
   },
   {
-    "kanji": "テレビをつけてもらえますか。",
-    "hiragana": "テレビをつけてもらえますか。",
+    "kanji": "テレビをつけてもらえますか？",
+    "hiragana": "テレビをつけてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0441"
   },
@@ -5785,15 +5785,15 @@ const rawData = [
     "audioKey": "clip0445"
   },
   {
-    "kanji": "荷物を預けてもいいですか。",
-    "hiragana": "荷物を預けてもいいですか。",
+    "kanji": "荷物を預けてもいいですか？",
+    "hiragana": "荷物を預けてもいいですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0446"
   },
@@ -6019,28 +6019,28 @@ const rawData = [
     "audioKey": "clip0463"
   },
   {
-    "kanji": "すみません、もう一度聞き返してもいいですか。",
-    "hiragana": "すみません、もう一度聞き返してもいいですか。",
+    "kanji": "すみません、もう一度聞き返してもいいですか？",
+    "hiragana": "すみません、もう一度聞き返してもいいですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0464"
   },
   {
-    "kanji": "サイズを取り替えてもらえますか。",
-    "hiragana": "サイズを取り替えてもらえますか。",
+    "kanji": "サイズを取り替えてもらえますか？",
+    "hiragana": "サイズを取り替えてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0465"
   },
@@ -6084,15 +6084,15 @@ const rawData = [
     "audioKey": "clip0468"
   },
   {
-    "kanji": "このアプリから予約できますか。",
-    "hiragana": "このアプリから予約できますか。",
+    "kanji": "このアプリから予約できますか？",
+    "hiragana": "このアプリから予約できますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0469"
   },
@@ -6136,41 +6136,41 @@ const rawData = [
     "audioKey": "clip0472"
   },
   {
-    "kanji": "この席、通路側に替えてもらえますか。",
-    "hiragana": "この席、通路側に替えてもらえますか。",
+    "kanji": "この席、通路側に替えてもらえますか？",
+    "hiragana": "この席、通路側に替えてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0473"
   },
   {
-    "kanji": "禁煙席はありますか。",
-    "hiragana": "禁煙席はありますか。",
+    "kanji": "禁煙席はありますか？",
+    "hiragana": "禁煙席はありますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0474"
   },
   {
-    "kanji": "窓側と通路側、どちらが空いていますか。",
-    "hiragana": "窓側と通路側、どちらが空いていますか。",
+    "kanji": "窓側と通路側、どちらが空いていますか？",
+    "hiragana": "窓側と通路側、どちらが空いていますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0475"
   },
@@ -6188,106 +6188,106 @@ const rawData = [
     "audioKey": "clip0476"
   },
   {
-    "kanji": "チェックアウトは何時ですか。",
-    "hiragana": "チェックアウトはなんじですか。",
+    "kanji": "チェックアウトは何時ですか？",
+    "hiragana": "チェックアウトはなんじですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0477"
   },
   {
-    "kanji": "朝食は何時からですか。",
-    "hiragana": "朝食はなんじからですか。",
+    "kanji": "朝食は何時からですか？",
+    "hiragana": "朝食はなんじからですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0478"
   },
   {
-    "kanji": "Wi-Fiのパスワードを教えてもらえますか。",
-    "hiragana": "Wi-Fiのパスワードを教えてもらえますか。",
+    "kanji": "Wi-Fiのパスワードを教えてもらえますか？",
+    "hiragana": "Wi-Fiのパスワードを教えてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0479"
   },
   {
-    "kanji": "交通系ICカードにチャージできますか。",
-    "hiragana": "交通系ICカードにチャージできますか。",
+    "kanji": "交通系ICカードにチャージできますか？",
+    "hiragana": "交通系ICカードにチャージできますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0480"
   },
   {
-    "kanji": "この切符で乗れますか。",
-    "hiragana": "この切符で乗れますか。",
+    "kanji": "この切符で乗れますか？",
+    "hiragana": "この切符で乗れますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0481"
   },
   {
-    "kanji": "何番ホームから出ますか。",
-    "hiragana": "なんばんホームから出ますか。",
+    "kanji": "何番ホームから出ますか？",
+    "hiragana": "なんばんホームから出ますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0482"
   },
   {
-    "kanji": "ここで乗り換えですか。",
-    "hiragana": "ここで乗り換えですか。",
+    "kanji": "ここで乗り換えですか？",
+    "hiragana": "ここで乗り換えですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0483"
   },
   {
-    "kanji": "近くに薬局はありますか。",
-    "hiragana": "近くに薬局はありますか。",
+    "kanji": "近くに薬局はありますか？",
+    "hiragana": "近くに薬局はありますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0484"
   },
@@ -6305,15 +6305,15 @@ const rawData = [
     "audioKey": "clip0485"
   },
   {
-    "kanji": "近くに病院はありますか。",
-    "hiragana": "近くに病院はありますか。",
+    "kanji": "近くに病院はありますか？",
+    "hiragana": "近くに病院はありますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0486"
   },
@@ -6357,28 +6357,28 @@ const rawData = [
     "audioKey": "clip0489"
   },
   {
-    "kanji": "交番はどこですか。",
-    "hiragana": "交番はどこですか。",
+    "kanji": "交番はどこですか？",
+    "hiragana": "交番はどこですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0490"
   },
   {
-    "kanji": "この荷物を預かってもらえますか。",
-    "hiragana": "この荷物を預かってもらえますか。",
+    "kanji": "この荷物を預かってもらえますか？",
+    "hiragana": "この荷物を預かってもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
     "origin": "",
     "context": "",
     "tags": [
-      "旅遊"
+      "生活"
     ],
     "audioKey": "clip0491"
   },
@@ -6396,8 +6396,8 @@ const rawData = [
     "audioKey": "clip0492"
   },
   {
-    "kanji": "クレジットカードは使えますか。",
-    "hiragana": "クレジットカードは使えますか。",
+    "kanji": "クレジットカードは使えますか？",
+    "hiragana": "クレジットカードは使えますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6409,8 +6409,8 @@ const rawData = [
     "audioKey": "clip0493"
   },
   {
-    "kanji": "免税手続きはできますか。",
-    "hiragana": "免税手続きはできますか。",
+    "kanji": "免税手続きはできますか？",
+    "hiragana": "免税手続きはできますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6422,8 +6422,8 @@ const rawData = [
     "audioKey": "clip0494"
   },
   {
-    "kanji": "搭乗口は何番ですか。",
-    "hiragana": "搭乗口はなんばんですか。",
+    "kanji": "搭乗口は何番ですか？",
+    "hiragana": "搭乗口はなんばんですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6435,8 +6435,8 @@ const rawData = [
     "audioKey": "clip0495"
   },
   {
-    "kanji": "すみません、駅へはどう行けばいいですか。",
-    "hiragana": "すみません、えきへはどういけばいいですか。",
+    "kanji": "すみません、駅へはどう行けばいいですか？",
+    "hiragana": "すみません、えきへはどういけばいいですか？",
     "cn": "不好意思，請問去車站該怎麼走呢？",
     "grammar": "動詞ば形＋いいですか",
     "contraction": "",
@@ -6474,8 +6474,8 @@ const rawData = [
     "audioKey": "clip0498"
   },
   {
-    "kanji": "ここから歩いてどのくらいかかりますか。",
-    "hiragana": "ここからあるいてどのくらいかかりますか。",
+    "kanji": "ここから歩いてどのくらいかかりますか？",
+    "hiragana": "ここからあるいてどのくらいかかりますか？",
     "cn": "從這裡走路大約需要花多久時間？",
     "grammar": "動詞て形＋どのくらい＋かかる",
     "contraction": "",
@@ -6500,8 +6500,8 @@ const rawData = [
     "audioKey": "clip0500"
   },
   {
-    "kanji": "この近くに地下鉄の駅はありますか。",
-    "hiragana": "このちかくにちかてつのえきはありますか。",
+    "kanji": "この近くに地下鉄の駅はありますか？",
+    "hiragana": "このちかくにちかてつのえきはありますか？",
     "cn": "這附近有地鐵站嗎？",
     "grammar": "名詞＋に＋名詞＋が＋ありますか",
     "contraction": "",
@@ -6539,8 +6539,8 @@ const rawData = [
     "audioKey": "clip0503"
   },
   {
-    "kanji": "地図で現在地を教えてもらえますか。",
-    "hiragana": "ちずでげんざいちをおしえてもらえますか。",
+    "kanji": "地図で現在地を教えてもらえますか？",
+    "hiragana": "ちずでげんざいちをおしえてもらえますか？",
     "cn": "可以請您在地圖上告訴我現在的位置嗎？",
     "grammar": "動詞て形＋もらえますか",
     "contraction": "",
@@ -6591,8 +6591,8 @@ const rawData = [
     "audioKey": "clip0507"
   },
   {
-    "kanji": "ここから歩いてどのくらいかかりますか。",
-    "hiragana": "ここから歩いてどのくらいかかりますか。",
+    "kanji": "ここから歩いてどのくらいかかりますか？",
+    "hiragana": "ここから歩いてどのくらいかかりますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6604,8 +6604,8 @@ const rawData = [
     "audioKey": "clip0508"
   },
   {
-    "kanji": "すみません、駅へはどう行けばいいですか。",
-    "hiragana": "すみません、駅へはどう行けばいいですか。",
+    "kanji": "すみません、駅へはどう行けばいいですか？",
+    "hiragana": "すみません、駅へはどう行けばいいですか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6617,8 +6617,8 @@ const rawData = [
     "audioKey": "clip0509"
   },
   {
-    "kanji": "この近くに地下鉄の駅はありますか。",
-    "hiragana": "この近くに地下鉄の駅はありますか。",
+    "kanji": "この近くに地下鉄の駅はありますか？",
+    "hiragana": "この近くに地下鉄の駅はありますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
@@ -6643,8 +6643,8 @@ const rawData = [
     "audioKey": "clip0511"
   },
   {
-    "kanji": "地図で現在地を教えてもらえますか。",
-    "hiragana": "地図で現在地を教えてもらえますか。",
+    "kanji": "地図で現在地を教えてもらえますか？",
+    "hiragana": "地図で現在地を教えてもらえますか？",
     "cn": "",
     "grammar": "",
     "contraction": "",
